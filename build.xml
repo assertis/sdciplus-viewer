@@ -76,7 +76,7 @@
 
   <!-- Build application JAR files. -->
   <target name="jar" depends="compile" description="Create the application JAR files.">
-      <jar destfile="${build.dir}/sdciplusreader.jar">
+      <jar destfile="${build.dir}/sdciplusviewer.jar">
         <fileset dir="${classes.dir}/main"/>
         <manifest>
           <attribute name="Class-Path" value="antlr-runtime-3.1.3.jar"/>

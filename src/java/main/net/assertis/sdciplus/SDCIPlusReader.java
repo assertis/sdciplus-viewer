@@ -110,14 +110,17 @@ public class SDCIPlusReader
         for (int i = 0; i < records.size(); i++)
         {
             SDCIPlusRecord record = records.get(i);
-            if (record instanceof TransactionHeaderRecord)
+            if (record instanceof TransactionHeaderRecord || i == records.size() -1)
             {
                 if (transactionRecords != null)
                 {
                     transactions.add(new Transaction(headerRecord, transactionRecords));
                 }
-                headerRecord = (TransactionHeaderRecord) record;
-                transactionRecords = new ArrayList<SDCIPlusRecord>();
+                if (i < records.size() - 1)
+                {
+                    headerRecord = (TransactionHeaderRecord) record;
+                    transactionRecords = new ArrayList<SDCIPlusRecord>();
+                }
             }
             else
             {
