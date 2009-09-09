@@ -14,6 +14,7 @@ import java.text.DecimalFormat;
 public abstract class SDCIPlusRecord
 {
     protected static final DateFormat DATE_TIME_FORMAT = new SimpleDateFormat("ddMMyyyyHHmm");
+    protected static final DateFormat EXTENDED_DATE_TIME_FORMAT = new SimpleDateFormat("yyyyMMddHHmmss");
     protected static final DateFormat DATE_FORMAT = new SimpleDateFormat("ddMMyyyy");
     protected static final DecimalFormat CURRENCY_FORMAT = new DecimalFormat("£#########0.00");
 

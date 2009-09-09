@@ -16,6 +16,8 @@ import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTree;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.MutableTreeNode;
@@ -131,8 +133,14 @@ public class ShiftViewer extends JFrame
     }
 
 
-    public static void main(String[] args) throws IOException
+    public static void main(String[] args) throws IOException,
+                                                  IllegalAccessException,
+                                                  UnsupportedLookAndFeelException,
+                                                  InstantiationException,
+                                                  ClassNotFoundException
     {
+        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+
         List<Shift> shifts = args.length > 0
                              ? SDCIPlusReader.parseFile(new File(args[0]))
                              : Collections.<Shift>emptyList();
