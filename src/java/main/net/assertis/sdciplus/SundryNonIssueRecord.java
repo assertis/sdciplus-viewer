@@ -13,6 +13,6 @@ public class SundryNonIssueRecord extends SDCIPlusRecord
     @Override
     public String toString()
     {
-        return "Sundry Non-Issue";
+        return "Non-Issued Sundry (No. " + getFields().get("Transaction Number") + "- " + getFields().get("Fare Amount") + ')';
     }
 }

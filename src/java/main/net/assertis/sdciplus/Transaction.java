@@ -36,6 +36,6 @@ public class Transaction
     @Override
     public String toString()
     {
-        return "Transaction (#" + headerRecord.getFields().get("Transaction Header Number") + ")";
+        return "Transaction #" + headerRecord.getFields().get("Transaction Header Number");
     }
 }

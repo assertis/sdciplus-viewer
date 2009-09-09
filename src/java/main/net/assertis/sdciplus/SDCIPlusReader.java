@@ -1,6 +1,7 @@
 package net.assertis.sdciplus;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
@@ -32,9 +33,9 @@ public class SDCIPlusReader
     }
 
 
-    public static List<Shift> parseFile(String filePath) throws IOException
+    public static List<Shift> parseFile(File file) throws IOException
     {
-        BufferedReader reader = new BufferedReader(new FileReader(filePath));
+        BufferedReader reader = new BufferedReader(new FileReader(file));
         StringBuilder data = new StringBuilder();
         for (String line = reader.readLine(); line != null; line = reader.readLine())
         {

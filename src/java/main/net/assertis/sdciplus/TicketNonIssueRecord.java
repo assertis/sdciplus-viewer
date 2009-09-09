@@ -1,11 +1,13 @@
 package net.assertis.sdciplus;
 
+import java.text.ParseException;
+
 /**
  * @author Daniel Dyer
  */
 public class TicketNonIssueRecord extends TicketIssueRecord
 {
-    public TicketNonIssueRecord(String rawRecord)
+    public TicketNonIssueRecord(String rawRecord) throws ParseException
     {
         super(rawRecord);
     }
@@ -13,6 +15,6 @@ public class TicketNonIssueRecord extends TicketIssueRecord
     @Override
     public String toString()
     {
-        return "Ticket Non-Issue";
+        return "Non-Issued Ticket (No. " + getFields().get("Transaction Number") + "- " + getFields().get("Fare Amount") + ')';
     }
 }

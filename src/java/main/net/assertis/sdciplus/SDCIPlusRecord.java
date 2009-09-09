@@ -22,7 +22,19 @@ public abstract class SDCIPlusRecord
 
     protected void addField(String name, Object value)
     {
-        fields.put(name, value);
+        if (value instanceof String)
+        {
+            // Omit blank strings.
+            String trimmedValue = ((String) value).trim();
+            if (trimmedValue.length() > 0)
+            {
+                fields.put(name, value);
+            }
+        }
+        else
+        {
+            fields.put(name, value);
+        }
     }
 
 

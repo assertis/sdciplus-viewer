@@ -1,4 +1,4 @@
-<project name="sdciplusreader"
+<project name="sdciplusviewer"
          default="dist"
          basedir=".">
   <description>Application for reading SDCI+ files.</description>
