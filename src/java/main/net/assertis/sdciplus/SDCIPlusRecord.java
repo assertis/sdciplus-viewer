@@ -56,4 +56,18 @@ public abstract class SDCIPlusRecord
     {
         return CURRENCY_FORMAT.format(Long.parseLong(currencyField) / 100.0d);        
     }
+
+
+    /**
+     * Converts a class indicator into a descriptive string.
+     */
+    protected String classIndicatorToString(char indicator)
+    {
+        switch (indicator)
+        {
+            case '1' : return "FIRST";
+            case '2' : return "STANDARD";
+            default  : return "N/A";
+        }
+    }
 }

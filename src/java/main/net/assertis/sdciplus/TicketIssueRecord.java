@@ -32,17 +32,6 @@ public class TicketIssueRecord extends SDCIPlusRecord
     }
 
 
-    private String classIndicatorToString(char indicator)
-    {
-        switch (indicator)
-        {
-            case '1' : return "FIRST";
-            case '2' : return "STANDARD";
-            default  : return "N/A";
-        }
-    }
-
-
     @Override
     public String toString()
     {
