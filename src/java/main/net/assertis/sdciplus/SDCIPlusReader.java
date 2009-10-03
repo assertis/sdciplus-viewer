@@ -110,21 +110,22 @@ public class SDCIPlusReader
         for (int i = 0; i < records.size(); i++)
         {
             SDCIPlusRecord record = records.get(i);
-            if (record instanceof TransactionHeaderRecord || i == records.size() -1)
+            if (record instanceof TransactionHeaderRecord)
             {
-                if (transactionRecords != null)
+                if (transactionRecords != null) // Finish any previous transaction.
                 {
                     transactions.add(new Transaction(headerRecord, transactionRecords));
                 }
-                if (i < records.size() - 1)
-                {
-                    headerRecord = (TransactionHeaderRecord) record;
-                    transactionRecords = new ArrayList<SDCIPlusRecord>();
-                }
+                headerRecord = (TransactionHeaderRecord) record;
+                transactionRecords = new ArrayList<SDCIPlusRecord>();
             }
             else
             {
-                transactionRecords.add(record);
+                transactionRecords.add(record);               
+                if (i == records.size() - 1) // If this is the last record, it must be the end of the transaction.
+                {
+                    transactions.add(new Transaction(headerRecord, transactionRecords));
+                }
             }
         }
         return transactions;
