@@ -23,6 +23,8 @@ public class SDCIPlusReader
         RECORD_CLASSES.put("2C", SoftwareVersionRecord.class);
         RECORD_CLASSES.put("BE", TicketIssueRecord.class);
         RECORD_CLASSES.put("BF", TicketNonIssueRecord.class);
+        RECORD_CLASSES.put("BM", SeasonTicketIssueRecord.class);
+        RECORD_CLASSES.put("BN", SeasonTicketNonIssueRecord.class);
         RECORD_CLASSES.put("BP", SundryIssueRecord.class);
         RECORD_CLASSES.put("BR", SundryNonIssueRecord.class);
         RECORD_CLASSES.put("BS", RefundRecord.class);

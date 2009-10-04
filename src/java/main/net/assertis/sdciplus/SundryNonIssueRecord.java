@@ -3,10 +3,11 @@ package net.assertis.sdciplus;
 /**
  * @author Daniel Dyer
  */
-public class SundryNonIssueRecord extends SDCIPlusRecord
+public class SundryNonIssueRecord extends SundryIssueRecord
 {
     public SundryNonIssueRecord(String rawRecord)
     {
+        super(rawRecord);
     }
 
 
