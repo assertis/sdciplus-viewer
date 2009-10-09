@@ -5,7 +5,7 @@ import java.text.ParseException;
 /**
  * @author Daniel Dyer
  */
-public class SeasonTicketNonIssueRecord extends TicketIssueRecord
+public class SeasonTicketNonIssueRecord extends SeasonTicketIssueRecord
 {
     public SeasonTicketNonIssueRecord(String rawRecord) throws ParseException
     {
