@@ -17,8 +17,8 @@ public class SeasonTicketIssueRecord extends SDCIPlusRecord
         addField("Owning Transaction Header Number", rawRecord.substring(23, 28));
         addField("Status Code", rawRecord.substring(28, 31));
         addField("Class Indicator", classIndicatorToString(rawRecord.charAt(31)));
-        addField("Origin NLC", rawRecord.substring(32, 36));
-        addField("Destination NLC", rawRecord.substring(36, 40));
+        addField("Origin NLC", expandNLC(rawRecord.substring(32, 36)));
+        addField("Destination NLC", expandNLC(rawRecord.substring(36, 40)));
         addField("Route Code", rawRecord.substring(40, 45));
         addField("Promotion Code", rawRecord.substring(45, 47));
         addField("Discount Code", rawRecord.substring(47, 51));

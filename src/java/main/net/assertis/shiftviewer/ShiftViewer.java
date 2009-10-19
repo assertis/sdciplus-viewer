@@ -42,6 +42,7 @@ public class ShiftViewer extends JFrame
         tree.setModel(new DefaultTreeModel(createTreeStructure(shifts)));
         tree.setRootVisible(false);
         tree.setShowsRootHandles(true);
+        tree.setCellRenderer(new ShiftTreeRenderer());
         setJMenuBar(createMenuBar());
         add(new JScrollPane(tree), BorderLayout.CENTER);
         setDefaultCloseOperation(EXIT_ON_CLOSE);

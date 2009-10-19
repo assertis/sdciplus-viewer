@@ -21,8 +21,8 @@ public class TicketIssueRecord extends SDCIPlusRecord
         addField("Number of Adults", Integer.parseInt(rawRecord.substring(41, 43)));
         addField("Number of Children", Integer.parseInt(rawRecord.substring(43, 45)));
         addField("Class Indicator", classIndicatorToString(rawRecord.charAt(45)));
-        addField("Origin NLC", rawRecord.substring(46, 50));
-        addField("Destination NLC", rawRecord.substring(50, 54));
+        addField("Origin NLC", expandNLC(rawRecord.substring(46, 50)));
+        addField("Destination NLC", expandNLC(rawRecord.substring(50, 54)));
         addField("Route Code", rawRecord.substring(54, 59));
         addField("Promotion Code", rawRecord.substring(59, 61));
         addField("Discount Code", rawRecord.substring(61, 65));

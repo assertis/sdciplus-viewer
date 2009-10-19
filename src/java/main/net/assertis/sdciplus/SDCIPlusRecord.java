@@ -16,7 +16,7 @@ public abstract class SDCIPlusRecord
     protected static final DateFormat DATE_TIME_FORMAT = new SimpleDateFormat("ddMMyyyyHHmm");
     protected static final DateFormat EXTENDED_DATE_TIME_FORMAT = new SimpleDateFormat("yyyyMMddHHmmss");
     protected static final DateFormat DATE_FORMAT = new SimpleDateFormat("ddMMyyyy");
-    protected static final DecimalFormat CURRENCY_FORMAT = new DecimalFormat("£#########0.00");
+    protected static final DecimalFormat CURRENCY_FORMAT = new DecimalFormat("\u00a3#########0.00");
 
     private final Map<String, Object> fields = new LinkedHashMap<String, Object>();
 
@@ -69,5 +69,15 @@ public abstract class SDCIPlusRecord
             case '2' : return "STANDARD";
             default  : return "N/A";
         }
+    }
+
+
+    /**
+     * Look up the station name for a given NLC, append it and return the combined string.
+     */
+    protected String expandNLC(String nlc)
+    {
+        String name = Stations.getStationName(nlc);
+        return name == null ? nlc : nlc + " - " + name;
     }
 }

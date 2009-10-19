@@ -9,8 +9,8 @@ public class RefundRecord extends SDCIPlusRecord
 {
     public RefundRecord(String rawRecord) throws ParseException
     {
-        addField("Origin NLC", rawRecord.substring(0, 4));
-        addField("Destination NLC", rawRecord.substring(4, 8));
+        addField("Origin NLC", expandNLC(rawRecord.substring(0, 4)));
+        addField("Destination NLC", expandNLC(rawRecord.substring(4, 8)));
         addField("Route Code", rawRecord.substring(8, 13));
         addField("Refund Type", rawRecord.substring(13, 16));
         addField("Status Code", rawRecord.substring(16, 19));
@@ -26,7 +26,7 @@ public class RefundRecord extends SDCIPlusRecord
         addField("Refund Reference", rawRecord.substring(91, 99));
         addField("Original Transaction Number", rawRecord.substring(99, 104));
         addField("Issuing Machine", rawRecord.substring(104, 108));
-        addField("Issuing Retailer NLC", rawRecord.substring(108, 112));
+        addField("Issuing Retailer NLC", expandNLC(rawRecord.substring(108, 112)));
         addField("Issuing Window", rawRecord.substring(112, 114));
         addField("Issue Date", DATE_FORMAT.parse(rawRecord.substring(114, 122)));
         addField("Refund Transaction Number", rawRecord.substring(122, 127));
