@@ -1,0 +1,5330 @@
+0027	Trvcard 1
+0028	Trvcard 2
+0029	Trvcard 3
+0030	Trvcard 4
+0031	Trvcard 5
+0032	Zone R12*  Zones
+0033	Zone R123* Zones
+0034	Zone R1234*zones
+0035	London All Zones Travelcard
+0036	Zone R23*  Zones
+0037	Zone R234* Zones
+0038	Zone R2356 Zones
+0039	Zone R34*  Zones
+0040	Zone R3456 Zones
+0041	Boundary Zone 2
+0042	Boundary Zone 3
+0043	Boundary Zone 4
+0044	Boundary Zone 5
+0051	Zone R1*   Zone
+0052	Zone R2*   Zone
+0053	Zone R3*   Zone
+0054	Zone R4*   Zone
+0055	Zone R56*  Zones
+0056	Southwark (Underground)
+0057	Zone R456* Zones
+0059	Zone R6*   Zone
+0060	Zone R5*   Zone
+0061	Zone R45*  Zones
+0062	Zone R345* Zones
+0063	Zone R2345 Zones
+0064	Zone R1245 Zones
+0065	London Underground Zone U1245
+0066	Zone U2345 Londn
+0067	Zone U345* Londn
+0068	Zone U45*  Londn
+0069	Zone U5*   Londn
+0070	Zone U6*   Londn
+0071	Trvcard 6
+0072	Boundary Zone 6
+0073	Zone L1 Zone
+0074	Zone L12 Zones
+0075	Zone L1234 Zones
+0076	Zone L1256 Zones
+0078	Zone 2 Two   (sc
+0079	Zone 3 Three (sc
+0080	Zone 4 Four  (sc
+0081	Zone 5 Five  (sc
+0082	Zone 6 Six   (sc
+0083	Zone 7 Seven (sc
+0084	Zone 8 Eight (sc
+0085	Zone All (sc
+0087	Zone 2 Two Juv
+0088	Zone 3 Three Juv
+0089	Zone 4 Four Juv
+0090	Zone 5 Five Juv
+0094	Zone   All Juv
+0095	Zone 9 Nine  (sc
+0096	Zone 10 Ten  (sc
+0097	Zone 11 Elev (sc
+0098	Zone 12 Twlv (sc
+0148	Rotterdam Cs
+0149	Den Haag Hs
+0254	Colchester Stns
+0258	Catford Stations
+0259	Edenbridge Stations
+0260	Farnborough Stns
+0262	Penge Stations
+0263	Enfield Stations
+0265	West Hampstead Stations
+0268	Pontefract Stations
+0271	Thorne Stations
+0274	Aberaeron
+0275	Aboyne
+0276	Alston
+0277	Ballater
+0279	Charmouth
+0280	Braemar
+0281	Brecon
+0282	Bridport
+0283	Broadway
+0284	Cardigan
+0285	Chard
+0286	Cirencester
+0288	Gateshead (Tyne & Wear Metro)
+0289	Gosport
+0290	Grantown-on-spey
+0291	Jarrow (Tyne & Wear Metro)
+0292	Kelso
+0295	Lampeter
+0296	Maerdy
+0298	Newcastle Emlyn
+0301	Penywaun
+0311	Enfield     (cie
+0339	Haworth
+0340	Hull Bus Stn
+0345	Newport (iow)
+0346	Ottery St Mary
+0355	Scrabster
+0356	Seaton Sea Front
+0357	Shaftesbury T H
+0359	South Shields (Tyne & Wear Metro)
+0360	Soton East Docks
+0361	Soton West Docks
+0362	Southsea Hoverpt
+0364	Tetbury
+0366	Tynemouth (Tyne & Wear Metro)
+0367	Tynewydd
+0368	Ventnor Iow
+0370	Wallsend (Tyne & Wear Metro)
+0372	Whitley Bay (Tyne & Wear Metro)
+0387	New Quay (card)
+0388	Dover East Docks
+0403	Reading Stations
+0404	Helensburgh Stns
+0410	Bedford Stations
+0411	Southend Stations
+0413	Hertford Stations
+0415	Gainsborough
+0416	Dorking Stations
+0418	Birmingham Stations
+0424	Bradford Stations (West Yorkshire)
+0428	Canterbury Stns
+0429	Dorchester Stations
+0431	Falkirk Stations
+0432	Folkestone Stns
+0433	Glasgow Cen/qst
+0435	Liverpool Stns
+0437	Maidstone Stations
+0438	Manchester Stations
+0440	Portsmouth Stations
+0441	Newark Stations
+0443	Tyndrum Stations
+0444	Wakefield Stations
+0445	Warrington Stations
+0446	Wigan Stations
+0447	Worcester Stations
+0449	Croydon Stations
+0451	Manchester Ctlz
+0475	Any Br Station
+0500	Acton Town (Underground)
+0501	Barbican (Underground)
+0502	Aldgate (Underground)
+0503	Aldgate East (Underground)
+0505	Alperton (Underground)
+0506	Amersham (Underground)
+0507	Angel (Underground)
+0508	Archway (Underground)
+0509	Arnos Grove (Underground)
+0510	Arsenal (Underground)
+0511	Baker Street (Underground)
+0512	Balham (Underground)
+0513	Bank (Underground)
+0514	Barking (Underground)
+0515	Barkingside (Underground)
+0516	Barons Court (Underground)
+0517	Bayswater (Underground)
+0518	Becontree (Underground)
+0519	Belsize Park (Underground)
+0520	Bethnal Green (Underground)
+0521	Blackfriars (Underground)
+0522	Blackhorse Road (Underground)
+0524	Bond Street (Underground)
+0525	Borough (Underground)
+0526	Boston Manor (Underground)
+0527	Bounds Green (Underground)
+0528	Bow Road (Underground)
+0529	Brent Cross (Underground)
+0530	Bromley-by-Bow (Underground)
+0531	Buckhurst Hill (Underground)
+0532	Burnt Oak (Underground)
+0533	Bushey (Underground)
+0534	Caledonian Road (Underground)
+0535	Camden Town (Underground)
+0536	Cannon St (Underground)
+0537	Canons Park (Underground)
+0538	Carpenders Park (Underground)
+0539	Chalfont & Latimer (Underground)
+0540	Chalk Farm (Underground)
+0541	Chancery Lane (Underground)
+0542	Embankment (Underground)
+0543	Chesham (Underground)
+0544	Chigwell (Underground)
+0545	Chiswick Park (Underground)
+0546	Chorleywood
+0547	Clapham Common (Underground)
+0548	Clapham North (Underground)
+0549	Clapham South (Underground)
+0550	Cockfosters (Underground)
+0551	Colindale (Underground)
+0552	Colliers Wood (Underground)
+0553	Covent Garden (Underground)
+0554	Croxley (Underground)
+0555	Dagenham East (Underground)
+0556	Dagenham Heathway (Underground)
+0557	Debden (Underground)
+0558	Dollis Hill (Underground)
+0560	Ealing Broadway (Underground)
+0561	Ealing Common (Underground)
+0562	Earls Court (Underground)
+0563	East Acton (Underground)
+0564	Eastcote (Underground)
+0565	East Finchley (Underground)
+0566	East Ham (Underground)
+0567	East Putney (Underground)
+0568	Edgware (Underground)
+0569	Edgware Road (Underground / Circle / District
+0570	Elephant & Castle (Underground)
+0571	Elm Park (Underground)
+0572	Epping (Underground)
+0574	Euston (Underground)
+0575	Euston Square (Underground)
+0576	Fairlop (Underground)
+0577	Farringdon (Underground)
+0578	Finchley Central (Underground)
+0579	Finchley Road (Underground)
+0580	Finsbury Park (Underground)
+0581	Fulham Broadway (Underground)
+0582	Gants Hill (Underground)
+0583	Gloucester Road (Underground)
+0584	Golders Green (Underground)
+0585	Goldhawk Road (Underground)
+0586	Goodge Street (Underground)
+0587	Grange Hill (Underground)
+0588	Great Portland Street (Underground)
+0589	Greenford (Underground)
+0590	Green Park (Underground)
+0591	Gunnersbury (Underground)
+0592	Hainault (Underground)
+0593	Hammersmith (Underground / District Line)
+0594	Hampstead (Underground)
+0595	Hanger Lane (Underground)
+0596	Harlesden (Underground)
+0597	Harrow & Wealdstone (Underground)
+0598	Harrow-on-the-Hill (Underground)
+0599	Hatch End (Underground)
+0600	Kings Cross Nthn
+0601	Hendon Central (Underground)
+0602	High Barnet (Underground)
+0603	Highbury & Islington (Underground)
+0604	Highgate (Underground)
+0605	High Street Kensington (Underground)
+0606	Hillingdon (Underground)
+0607	Holborn (Underground)
+0608	Holland Park (Underground)
+0609	Holloway Rd (Underground)
+0610	Hornchurch (Underground)
+0611	Hounslow Central (Underground)
+0612	Hounslow East (Underground)
+0613	Hounslow West (Underground)
+0614	Hyde Park Corner (Underground)
+0615	Ickenham (Underground)
+0616	Kennington (Underground)
+0617	Kensal Green (Underground)
+0618	Kensington Olympia (Underground)
+0619	Kentish Town (Underground)
+0620	Kenton (Underground)
+0621	Kew Gardens (Underground)
+0622	Kilburn (Underground)
+0623	Kilburn Park (Underground)
+0624	Kingsbury (Underground)
+0625	Kings Cross (Underground)
+0626	Knightsbridge (Underground)
+0627	Ladbroke Grove (Underground)
+0628	Lambeth North (Underground)
+0629	Lancaster Gate (Underground)
+0630	Latimer Road (Underground)
+0631	Leicester Square (Underground)
+0632	Leyton (Underground)
+0633	Leytonstone (Underground)
+0634	Liverpool Street (Underground)
+0635	London Bridge (Underground)
+0636	Loughton (Underground)
+0637	Maida Vale (Underground)
+0638	Manor House (Underground)
+0639	Mansion House (Underground)
+0640	Marble Arch (Underground)
+0641	Marylebone (Underground)
+0642	Mile End (Underground)
+0643	Mill Hill East (Underground)
+0644	Monument (Underground)
+0645	Moorgate (Underground)
+0646	Moor Park (Underground)
+0647	Morden (Underground)
+0648	Mornington Crescent (Underground)
+0649	Neasden (Underground)
+0650	Newbury Park (Underground)
+0651	New Cross (Underground)
+0652	New Cross Gate (Underground)
+0653	North Acton (Underground)
+0654	North Ealing (Underground)
+0655	Northfields (Underground)
+0656	North Harrow (Underground)
+0657	Northolt (Underground)
+0659	North Wembley (Underground)
+0660	Northwick Park (Underground)
+0661	Northwood (Underground)
+0662	Northwood Hills (Underground)
+0663	Notting Hill Gate (Underground)
+0664	Oakwood (Underground)
+0665	Old Street (Underground)
+0667	Osterley (Underground)
+0668	Oval (Underground)
+0669	Oxford Circus (Underground)
+0670	Paddington (Underground)
+0671	Park Royal (Underground)
+0672	Parsons Green (Underground)
+0673	Perivale (Underground)
+0674	Piccadilly Circus (Underground)
+0675	Pinner (Underground)
+0676	Plaistow (Underground)
+0677	Preston Road (Underground)
+0678	Putney Bridge (Underground)
+0679	Queensbury (Underground)
+0680	Queens Park (Underground)
+0681	Queensway (Underground)
+0682	Ravenscourt Park (Underground)
+0683	Rayners Lane (Underground)
+0684	Redbridge (Underground)
+0685	Regents Park (Underground)
+0686	Richmond (Underground)
+0687	Rickmansworth (Underground)
+0688	Roding Valley (Underground)
+0689	Rotherhithe (Underground)
+0690	Royal Oak (Underground)
+0691	Ruislip (Underground)
+0692	Ruislip Gardens (Underground)
+0693	Ruislip Manor (Underground)
+0694	Russell Square (Underground)
+0695	St James Park (Underground)
+0696	St Johns Wood (Underground)
+0697	St Pauls (Underground)
+0698	Seven Sisters (Underground)
+0699	Shadwell (Underground)
+0700	Shepherds Bush (Underground)
+0701	Shoreditch (Underground)
+0702	Sloane Square (Underground)
+0703	Snaresbrook (Underground)
+0704	South Ealing (Underground)
+0705	Southfields (Underground)
+0706	Southgate (Underground)
+0707	South Harrow (Underground)
+0708	South Kensington (Underground)
+0709	South Kenton (Underground)
+0710	South Ruislip (Underground)
+0711	South Wimbledon (Underground)
+0712	South Woodford (Underground)
+0713	Stamford Brook (Underground)
+0714	Stanmore (Underground)
+0715	Stepney Green (Underground)
+0716	Stockwell (Underground)
+0717	Stonebridge Park (Underground)
+0718	Charing Cross (Underground)
+0720	Sudbury Hill (Underground)
+0721	Sudbury Town (Underground)
+0722	Surrey Quays (Underground)
+0723	Swiss Cottage (Underground)
+0724	Temple (Underground)
+0725	Theydon Bois (Underground)
+0726	Tooting Bec (Underground)
+0727	Tooting Broadway (Underground)
+0728	Tottenham Court Road (Underground)
+0729	Tottenham Hale (Underground)
+0730	Totteridge & Whetstone (Underground)
+0731	Tower Hill (Underground)
+0733	Tufnell Park (Underground)
+0734	Turnham Green (Underground)
+0735	Turnpike Lane (Underground)
+0737	Upminster Bridge (Underground)
+0738	Upney (Underground)
+0739	Upton Park (Underground)
+0740	Uxbridge (Underground)
+0741	Victoria (Underground)
+0742	Walthamstow Central (Underground)
+0743	Wanstead (Underground)
+0744	Wapping (Underground)
+0745	Warren Street (Underground)
+0746	Warwick Avenue (Underground)
+0747	Waterloo (Underground)
+0748	Watford (Underground / Metropolitan Line)
+0749	Watford High Street (Underground)
+0750	Watford Junction (Underground)
+0751	Wembley Central (Underground)
+0752	Wembley Park (Underground)
+0753	West Acton (Underground)
+0755	West Brompton (Underground)
+0756	West Finchley (Underground)
+0757	West Ham (Underground)
+0758	West Hampstead (Underground)
+0759	West Harrow (Underground)
+0760	West Kensington (Underground)
+0761	Westminster (Underground)
+0762	West Ruislip (Underground)
+0763	Whitechapel (Underground)
+0764	White City (Underground)
+0765	Willesden Green (Underground)
+0766	Willesden Junction (Underground)
+0767	Wimbledon (Underground)
+0768	Wimbledon Park (Underground)
+0769	Woodford (Underground)
+0770	Wood Green (Underground)
+0771	Woodside Park (Underground)
+0773	Hammersmith (Underground / Hammersmith & City
+0774	Edgware Road (Underground / Bakerloo Line)
+0775	Shepherds Bush Market (Underground)
+0776	Pimlico (Underground)
+0777	Vauxhall (Underground)
+0778	Brixton (Underground)
+0779	Hatton Cross (Underground)
+0782	Heathrow Airport (Underground)
+0785	London Underground Zone U1*
+0786	London Underground Zone U1256
+0787	Bermondsey (Underground)
+0788	Canada Water (Underground)
+0789	North Greenwich for the O2 (Underground)
+0790	London Underground Zone U12*
+0791	London Underground Zone U123*
+0792	London Underground Zone U1234*
+0793	Zone U2*   Londn
+0797	Zone U23*  Londn
+0808	Hoek Van Holland
+0825	Zone U234* Londn
+0829	Zone U2356 Londn
+0830	Zone U3*   Londn
+0835	Zone U34*  Londn
+0839	Zone U3456 Londn
+0841	Zone U4*   Londn
+0844	Zone U456  Londn
+0845	Docklands Zone23
+0846	Docklands Zone34
+0847	Zone U56   Londn
+0859	Pudding Mill Lane (DLR)
+0868	Docklands Zone 2
+0870	Docklands Zone 3
+0871	Docklands Zone 4
+0879	Cutty Sark for Maritime Greenwich (DLR)
+0892	Portsmouth Cft
+0897	Deptford Bridge (DLR)
+0898	Elverson Rd (DLR)
+0942	Alvcrlp
+0943	Leigh Fleurdelis
+0944	London Road D R
+0946	Preston Prk Ldnr
+0947	Winchelsea New I
+1003	Bescot Stadium
+1004	Aston
+1006	Birmingham Snow Hill
+1010	Tame Bridge Parkway
+1011	Witton (West Midlands)
+1016	Cannock
+1017	Landywood
+1018	Bloxwich North
+1030	Coventry
+1033	Hampton-in-Arden
+1034	Marston Green
+1035	Tile Hill
+1036	Adderley Park
+1040	Duddeston
+1041	Erdington
+1042	Four Oaks
+1043	Stechford
+1044	Sutton Coldfield
+1045	Berkswell
+1056	Wilnecote (Staffordshire)
+1058	Euston Nse To
+1067	Long Buckby
+1069	Northampton
+1072	London (Any)
+1072	London Terminals
+1074	Atherstone (Warwickshire)
+1077	Nuneaton
+1078	Polesworth
+1084	Rugeley Trent Valley
+1087	Rugby
+1090	Aylesbury Vale Parkway
+1091	Brighton Vic
+1095	Fcm Travel
+1096	Barnt Green
+1097	Jewellery Quarter (Birmingham)
+1105	Selly Oak
+1109	Kings Norton
+1110	Longbridge
+1111	Northfield
+1112	Bournville
+1114	Smethwick Galton Bridge
+1121	Water Orton
+1127	Birmingham New Street
+1128	Perry Barr
+1129	Canley
+1130	Chester Road
+1132	Gravelly Hill
+1133	Lea Hall
+1135	Rugeley Town
+1138	Wylde Green
+1141	Bloxwich
+1143	Coseley
+1145	Hamstead (Birmingham)
+1148	Hednesford
+1149	Sandwell & Dudley
+1150	Smethwick Rolfe Street
+1159	Tipton
+1165	Bedworth
+1176	Blake Street
+1177	Lichfield City
+1178	Shenstone
+1179	Butlers Lane
+1195	Penkridge
+1198	Alvechurch
+1208	Redditch
+1212	Dudley Port
+1215	Birmingham International
+1216	Walsall
+1218	Wolverhampton
+1220	Goostrey
+1221	Holmes Chapel
+1223	Alsager
+1227	Congleton
+1229	Kidsgrove
+1243	Crewe
+1247	Nantwich
+1261	Sandbach
+1268	Stafford
+1269	Alton Towers
+1279	Barlaston
+1282	Blythe Bridge
+1291	Lichfield Trent Valley
+1305	Longport
+1306	Longton
+1314	Stoke-on-Trent
+1316	Stone (Staffordshire)
+1322	Tamworth
+1342	Uttoxeter
+1346	Prees
+1347	Wem
+1348	Whitchurch (Shropshire)
+1350	Wrenbury
+1351	Yorton
+1356	Norton Bridge
+1357	Wedgwood
+1360	Bletchley
+1364	Wolverton
+1372	Cheddington
+1373	Leighton Buzzard
+1377	Fenny Stratford
+1378	Milton Keynes Central
+1380	Aspley Guise
+1381	Bow Brickhill
+1384	Kempston Hardwick
+1386	Stewartby
+1390	Berkhamsted
+1391	Hemel Hempstead
+1392	Kings Langley
+1393	Tring
+1395	Bushey
+1397	Harrow & Wealdstone
+1398	Hatch End
+1399	Kenton
+1402	Watford Junction
+1403	Watford North
+1404	Acton Central
+1409	Gospel Oak
+1413	Hampstead Heath
+1415	Kilburn High Road
+1419	Queens Park (London)
+1421	West Hampstead
+1422	North Wembley
+1423	Wembley Central
+1429	Dalston Kingsland
+1430	Apsley
+1434	Headstone Lane
+1437	Brondesbury
+1438	Brondesbury Park
+1439	Caledonian Road & Barnsbury
+1440	Camden Road
+1441	Canonbury
+1442	Carpenders Park
+1444	London Euston
+1445	Finchley Road & Frognal
+1447	Kensal Green
+1448	Kensal Rise
+1449	Kentish Town West
+1451	South Hampstead
+1452	South Acton
+1453	South Kenton
+1454	Stonebridge Park
+1455	Watford High Street
+1457	Willesden Junction
+1463	Great Missenden
+1466	Wendover
+1467	Stoke Mandeville
+1475	London Marylebone
+1478	Northolt Park
+1483	Sudbury & Harrow Road
+1484	Sudbury Hill Harrow
+1492	Aylesbury
+1494	Quainton Road
+1509	Wembley Stadium
+1510	Bedford St Johns
+1512	Bedford
+1519	Cricklewood
+1521	Harlesden
+1522	Hendon
+1524	Upper Holloway
+1525	West Hampstead Thameslink
+1527	Mill Hill Broadway
+1532	Flitwick
+1533	Harlington (Bedfordshire)
+1534	Leagrave
+1536	Luton
+1537	Millbrook (Bedfordshire)
+1538	Ridgmont
+1539	Woburn Sands
+1540	London St Pancras International
+1542	Elstree & Borehamwood
+1543	Harpenden
+1544	Ebbsfleet Intciv
+1546	Radlett
+1548	St Albans
+1553	Kentish Town
+1555	London St Pancras
+1559	Garston (Hertfordshire)
+1560	Bricket Wood
+1561	Park Street
+1562	St Albans Abbey
+1563	How Wood (Hertfordshire)
+1570	Luton Airprt Bus
+1579	Lidlington
+1581	Matlock
+1582	Matlock Bath
+1585	Whatstandwell
+1586	Fcm Travel Js
+1595	Shirebrook
+1598	Cdf Ctl Bus Stn
+1620	Manulla Jn  (cie
+1624	Attenborough
+1625	Beeston
+1655	Kelvindale
+1658	Burton-on-Trent
+1671	Inter Buslinks
+1678	Ambergate
+1679	Belper
+1687	Peartree
+1691	Duffield
+1699	Spondon
+1727	Mansfield
+1728	Mansfield Woodhouse
+1734	Howwood (Renfrewshire)
+1738	Hull Tr Telesale
+1749	Virgin Trainline
+1750	Virgin Trainline
+1761	Langley Mill
+1780	Bootle Stations
+1783	Tutbury & Hatton
+1784	London Corporate
+1805	Alfreton
+1822	Cromford
+1823	Derby
+1826	Nottingham
+1829	Long Eaton
+1847	Corby
+1851	Melton Mowbray
+1857	Kettering
+1861	Sutton Parkway
+1862	Hucknall
+1863	Newstead
+1865	Bulwell
+1867	Kirkby in Ashfield
+1870	Hinckley (Leicestershire)
+1871	Langwith-Whaley Thorns
+1874	Creswell
+1881	Narborough
+1897	Loughborough
+1900	Syston
+1901	East Midlands Parkway
+1902	Sileby
+1903	Barrow Upon Soar
+1904	Oakham
+1905	Willington
+1909	Market Harborough
+1940	Wellingborough
+1947	Leicester
+1949	South Wigston
+1953	Askam
+1954	Barrow-in-Furness
+1957	Dalton (Cumbria)
+1959	Kirkby-in-Furness
+1962	Roose
+1963	Arnside
+1964	Cark & Cartmel
+1965	Grange-over-Sands
+1966	Kents Bank
+1968	Silverdale
+1975	Burneside (Cumbria)
+1976	Kendal
+1977	Staveley
+1978	Windermere
+1979	Soton Town Quay
+1984	Worcester Sh Sst
+1988	Maryport
+1993	Bootle (Cumbria)
+1994	Drigg
+1996	Green Road
+1997	Millom
+1998	Southampton Intl
+1999	Ravenglass
+2000	Silecroft
+2002	St Bees
+2003	Seascale
+2004	Sellafield
+2010	Ulverston
+2026	Flimby
+2027	Harrington
+2032	Parton
+2040	Workington
+2045	Braystones
+2046	Foxfield
+2047	Nethertown
+2048	Whitehaven
+2049	Corkickle
+2052	Appleby
+2053	Braintree Freeport
+2054	Armathwaite
+2057	Kirkby Stephen
+2058	Langwathby
+2059	Lazonby & Kirkoswald
+2074	Troon Harbour
+2077	Dalston (Cumbria)
+2080	Euxton Balshaw Lane
+2090	Oxenholme Lake District
+2095	Aspatria
+2098	Wigton
+2102	Penrith
+2103	Dent
+2104	Garsdale
+2105	Horton-in-Ribblesdale
+2106	Ribblehead
+2107	Settle
+2118	Carlisle
+2121	Ellesmere Port
+2122	Ince & Elton
+2123	Blundellsands & Crosby
+2124	Kirkby (Merseyside)
+2125	Aintree
+2126	Fazakerley
+2128	Eastham Rake
+2131	Rice Lane
+2133	Waterloo (Merseyside)
+2136	Bidston
+2138	Heswall
+2139	Neston
+2141	Upton (Merseyside)
+2145	Birkenhead North
+2146	Hawarden Bridge
+2148	Liverpool Lnd Sg
+2149	Helsby
+2151	Moreton (Merseyside)
+2152	New Brighton
+2154	Wallasey Grove Road
+2155	Maghull
+2156	Little Sutton
+2157	Overpool
+2158	Mouldsworth
+2159	Stanlow & Thornton
+2160	Huyton
+2161	Whiston
+2169	Edge Hill
+2171	Mossley Hill
+2186	Capenhurst
+2187	Bache
+2188	Bebington
+2189	Rock Ferry
+2190	Bromborough
+2191	Bromborough Rake
+2193	Hooton
+2194	Hoylake
+2195	Bootle North Strand
+2198	Port Sunlight
+2199	Spital
+2201	West Kirby
+2214	Allerton
+2215	Aughton Park
+2217	Birkenhead Central
+2218	Green Lane
+2219	Birkenhead Hamilton Square
+2220	Birkenhead Park
+2222	Bryn
+2225	Cressington
+2226	Moorfields (Liverpool)
+2227	Eccleston Park
+2228	Garston Mersey
+2229	Hall Road
+2230	Hartford
+2231	Hillside
+2235	Hunts Cross
+2236	Ince (Manchester)
+2237	Leasowe
+2238	Bank Hall
+2239	Bootle Oriel Road
+2240	Broad Green
+2242	Liverpool Central
+2244	James St (Liverpool)
+2245	Kirkdale
+2246	Liverpool Lime Street
+2247	Orrell Park
+2248	St Michaels
+2249	Sandhills
+2250	Seaforth & Litherland
+2251	Walton (Merseyside)
+2253	Manor Road
+2254	Meols
+2255	Aigburth
+2257	Newton-le-Willows
+2258	Old Roan
+2259	Orrell
+2261	Roby
+2262	Southport
+2264	Thatto Heath
+2265	Wallasey Village
+2266	West Allerton
+2269	Winsford
+2270	Liverpool Lime Street Low Level
+2279	Burscough Bridge
+2280	Burscough Junction
+2281	Ormskirk
+2283	Town Green
+2284	Frodsham
+2287	Acton Bridge
+2291	Runcorn
+2292	Earlestown
+2294	Runcorn East
+2295	Halewood
+2296	Rainhill
+2301	Glazebrook
+2303	Hough Green
+2304	Birchwood
+2305	Cuddington
+2306	Delamere
+2307	Lostock Gralam
+2308	Plumley
+2313	Croston
+2315	Rufford
+2325	Greenbank
+2326	Northwich
+2335	Garswood
+2337	Prescot
+2339	Lea Green
+2340	St Helens Junction
+2341	St Helens Central
+2350	Ainsdale
+2351	Bescar Lane
+2352	Birkdale
+2354	Formby
+2355	Freshfield
+2356	Hightown
+2357	Meols Cop
+2358	New Lane
+2363	Wigan North Western
+2364	Upholland
+2384	Warrington Bank Quay
+2387	Padgate
+2388	Sankey for Penketh
+2390	Warrington Central
+2391	Widnes
+2396	Appley Bridge
+2397	Gathurst
+2398	Hindley
+2399	Hoscar
+2402	Parbold
+2403	Pemberton
+2404	Rainford
+2406	Wigan Wallgate
+2412	Chester
+2420	Bearley
+2422	Buckley
+2425	Cefn-y-Bedd
+2428	Hawarden
+2432	Hope (Flintshire)
+2433	Penyffordd
+2435	Bodorgan
+2437	Holyhead
+2439	Ty Croes
+2440	Valley
+2444	Roman Bridge
+2448	Abergele & Pensarn
+2449	Betws-y-Coed
+2450	Blaenau Ffestiniog
+2451	Colwyn Bay
+2452	Dolwyddelan
+2454	Glan Conwy
+2455	North Llanrwst
+2457	Llanrwst
+2459	Pont-y-Pant
+2461	Rhyl
+2463	Tal-y-Cafn
+2467	Llanfairpwll
+2471	Bangor (Gwynedd)
+2480	Deganwy
+2484	Llandudno
+2485	Llandudno Junction
+2486	Conwy
+2488	Llanfairfechan
+2494	Penmaenmawr
+2501	Tan-y-bwlch Fr
+2502	Penrhyn Fr
+2503	Porthmadog Fr
+2505	Pembroke Dock Fy
+2513	Flint
+2521	Prestatyn
+2536	Caergwrle
+2538	Dolgarrog
+2540	Bordon
+2541	Romsey Bus
+2544	Rhosneigr
+2546	Shotton
+2549	Burnley Manchester Road
+2550	Burnley Central
+2552	Accrington
+2554	Brierfield
+2556	Church & Oswaldtwistle
+2557	Hapton
+2558	Huncoat
+2561	Bamber Bridge
+2562	Colne
+2565	Nelson
+2572	Hall i' th' Wood
+2573	Cherry Tree
+2574	Clitheroe
+2576	Darwen
+2580	Rishton
+2584	Atherton (Greater Manchester)
+2585	Hag Fold
+2598	Lostock
+2599	Bolton
+2603	Brinnington
+2604	Hattersley
+2605	Kearsley (Manchester)
+2606	Moses Gate
+2612	Walkden
+2619	Westhoughton
+2640	Carnforth
+2641	Adlington (Lancashire)
+2646	Belfast Don Quay
+2652	Derker
+2653	Clapham (North Yorkshire)
+2654	Gargrave
+2655	Giggleswick
+2656	Hellifield
+2657	Long Preston
+2660	Smithy Bridge
+2661	Littleborough
+2662	Ansdell & Fairhaven
+2665	Walsden
+2666	Squires Gate
+2668	Kirkham & Wesham
+2669	Layton (Lancashire)
+2670	Lytham
+2671	Poulton-le-Fylde
+2672	St Annes-on-the-Sea
+2673	Salwick
+2675	Moss Side
+2676	Bentham
+2677	Todmorden
+2681	Wennington
+2685	Lancaster
+2689	Lostock Hall
+2690	Bare Lane
+2691	Heysham Port
+2695	Morecambe
+2697	Bromley Cross
+2710	Leyland
+2722	Rose Grove
+2728	Skipton
+2732	Blackrod
+2734	Ramsgreave & Wilpshire
+2735	Langho
+2736	Whalley (Lancashire)
+2737	Blackburn
+2738	Blackpool Pleasure Beach
+2739	Blackpool North
+2740	Blackpool South
+2743	Burnley Barracks
+2745	Chorley
+2747	Entwistle
+2750	Mill Hill (Lancashire)
+2752	Pleasington
+2753	Preston
+2760	Alderley Edge
+2762	Chapel-en-le-Frith
+2764	Chelford
+2765	Disley
+2766	Dove Holes
+2767	Handforth
+2768	Hazel Grove
+2769	New Mills Newtown
+2770	Davenport
+2771	Stockport
+2772	Whaley Bridge
+2773	Woodsmoor
+2774	Wilmslow
+2777	Daisy Hill
+2779	Bredbury
+2780	Fairfield
+2785	Belle Vue
+2786	Flowery Field
+2789	Newton for Hyde
+2790	Ashton-under-Lyne
+2794	Salford Crescent
+2795	Clifton
+2798	Salford Central
+2799	Moorside
+2800	Swinton (Manchester)
+2802	Trainline E3.2
+2805	Trainline E3.3
+2806	Altrincham
+2808	Trainline E3.4
+2811	Farnworth
+2815	Trainline H1.4
+2817	Irlam
+2819	Trainline H1.9
+2820	Bamford
+2822	Belfast Stena Aw
+2823	Chinley
+2824	Edale
+2825	Grindleford
+2826	Hathersage
+2828	Hope (Derbyshire)
+2829	Hyde Central
+2830	Marple
+2833	Romiley
+2834	Strines
+2835	Woodley
+2838	Holyhead Stna Aw
+2845	Hale
+2848	Knutsford
+2849	Mobberley
+2850	Ashley
+2855	Denton
+2857	Reddish South
+2860	Heald Green
+2861	Heaton Chapel
+2862	Levenshulme
+2867	Mauldeth Road
+2868	Styal
+2870	Cheadle Hulme
+2871	Macclesfield
+2873	Rose Hill Marple
+2874	Poynton
+2875	Prestbury
+2877	Dean Lane
+2892	Broadbottom
+2893	Dinting
+2895	Glossop
+2896	Hadfield
+2900	Greenfield
+2901	Hollinwood
+2903	Mossley (Manchester)
+2907	Oldham Mumps
+2908	Oldham Werneth
+2916	Patricroft
+2919	Castleton
+2920	Mills Hill (Manchester)
+2922	Milnrow
+2923	New Hey
+2924	Rochdale
+2925	Shaw & Crompton
+2935	Flixton
+2937	Humphrey Park
+2938	Urmston
+2939	Adlington (Cheshire)
+2940	Navigation Road
+2941	Ashburys
+2944	Bramhall
+2945	Burnage
+2946	Buxton
+2947	Chassen Road
+2948	Godley
+2949	East Didsbury
+2950	Eccles (Manchester)
+2951	Failsworth
+2952	Furness Vale
+2953	Gatley
+2955	Guide Bridge
+2959	Hyde North
+2960	Ardwick
+2961	Manchester Airport
+2962	Gorton
+2963	Deansgate G-mex
+2966	Manchester Oxford Road
+2968	Manchester Piccadilly
+2969	Trafford Park
+2970	Manchester Victoria
+2971	Middlewood
+2973	Moston
+2974	New Mills Central
+2977	Ryder Brow
+2979	Reddish North
+2983	Stalybridge
+2985	Timperley
+2996	Manchester United FC Halt
+3000	Acton Main Line
+3003	Ascott-under-Wychwood
+3004	Charlbury
+3005	Combe (Oxfordshire)
+3007	Hanborough
+3008	Kingham
+3009	Shipton
+3012	Finstock
+3016	Mod Abbey Wd Tr
+3018	Bourne End
+3019	Cookham
+3021	Marlow
+3030	Didcot Parkway
+3031	Cholsey
+3033	Goring & Streatley
+3036	Pangbourne
+3043	Ftpl Ibe
+3047	Beaconsfield
+3048	Bicester North
+3051	Gerrards Cross
+3052	Denham
+3053	Haddenham & Thame Parkway
+3054	High Wycombe
+3055	Princes Risborough
+3056	Saunderton
+3057	South Ruislip
+3059	West Ruislip
+3060	Denham Golf Club
+3061	Seer Green
+3062	Pewsey
+3066	Little Kimble
+3067	Monks Risborough
+3070	Bedwyn
+3071	Newbury Racecourse
+3072	Hungerford
+3073	Kintbury
+3074	Newbury
+3087	London Paddington
+3092	Kensington Olympia
+3098	Castle Bar Park
+3099	Drayton Green
+3104	Bicester Town
+3107	Culham
+3109	Appleford
+3110	Islip
+3115	Oxford
+3118	Radley
+3123	Business Direct
+3136	Greenford
+3138	South Greenford
+3144	Furze Platt
+3145	Aldermaston
+3146	Henley-on-Thames
+3147	Maidenhead
+3149	Reading
+3150	Shiplake
+3151	Taplow
+3152	Thatcham
+3153	Theale
+3154	Tilehurst
+3155	Twyford
+3157	Atw Hq Nrs
+3158	Wargrave
+3159	Midgham
+3160	Reading West
+3170	Iver
+3171	Langley (Berkshire)
+3172	Slough
+3174	West Drayton
+3175	Windsor & Eton Central
+3176	Burnham
+3179	Heathrow T2 Bus
+3180	Heathrow T3 Bus
+3181	Heathrow T1 Bus
+3182	Heathrow Airport Terminal 4 (Bus)
+3186	Hayes & Harlington
+3187	Southall
+3188	West Ealing
+3190	Ealing Broadway
+3191	Hanwell
+3194	Heyford
+3195	Tackley
+3200	Avonmouth
+3202	Clifton Down
+3203	Montpelier
+3205	Severn Beach
+3206	Shirehampton
+3213	Patchway
+3214	Pilning
+3219	Oldfield Park
+3225	Lawrence Hill
+3230	Bristol Parkway
+3231	Bristol Temple Meads
+3234	Heathrow Airport Terminal 5 (Bus)
+3235	Filton Abbey Wood
+3236	Newcastle Nth
+3237	Keynsham
+3238	Cam & Dursley
+3239	Reading Rpi
+3245	Bedminster
+3246	Parson Street
+3247	Redland
+3250	Stapleton Road
+3252	St Andrews Road
+3254	Sea Mills
+3258	Paddington Tel
+3265	Avoncliff
+3267	Chippenham
+3271	Bath Spa
+3288	Speedlink Heathr
+3295	Stourb Chilt Ots
+3297	Birm Sh Chil Ots
+3307	Disabled Rc Unit
+3309	Pontypridd Sst
+3311	Aberdare Sst
+3314	Highbridge & Burnham
+3316	Prestatyn Sst
+3317	C W T
+3319	Clyde Travel
+3320	Medway Travel
+3321	Giles Travel Ltd
+3322	Travelstar
+3323	Protravel Int
+3324	Griffin Marine
+3325	Kemble
+3326	Five Ways Gates
+3327	Fraser Eagle
+3333	Swindon (Wiltshire)
+3335	St Panc Sst (se)
+3341	Bradford-on-Avon
+3342	Stratford Sst
+3343	Ebbsfleet Sst
+3344	Freshford
+3346	Melksham
+3348	Trowbridge
+3380	Yate
+3388	Weston Milton
+3389	Nailsea & Backwell
+3390	Worle
+3391	Weston-super-Mare
+3392	Yatton
+3400	Dublinstena
+3408	Dawlish
+3409	Dawlish Warren
+3410	Exeter St Davids
+3413	Starcross
+3414	Exeter St Thomas
+3422	Polsloe Bridge
+3426	Newton Abbot
+3427	Paignton
+3430	Teignmouth
+3432	Torre
+3434	Torquay
+3446	Bishops Lydeard (West Somerset Railway)
+3449	Bridgwater
+3471	Taunton
+3474	Tiverton Parkway
+3498	Lelant Saltings
+3499	Penmere
+3501	Bodmin Parkway
+3502	Bugle
+3504	Camborne
+3508	Falmouth Docks
+3513	Hayle
+3517	Lostwithiel
+3518	Luxulyan
+3523	Newquay
+3524	Par
+3525	Penryn (Cornwall)
+3526	Penzance
+3528	Perranwell
+3530	Redruth
+3531	Quintrell Downs
+3532	Roche
+3534	St Austell
+3536	St Columb Road
+3537	St Erth
+3538	St Ives (Cornwall)
+3539	Lelant
+3540	Truro
+3542	Carbis Bay
+3549	Bere Alston
+3550	Bere Ferrers
+3555	Ivybridge
+3558	Totnes
+3562	Calstock
+3563	Gunnislake
+3568	Causeland
+3570	Coombe Junction Halt (Cornwall)
+3571	Keyham
+3572	St Keyne Wishing Well Halt
+3573	Liskeard
+3574	Looe
+3576	Menheniot
+3579	Devonport
+3580	Plymouth
+3584	Sandplace
+3585	Ilminster
+3586	St Germans
+3587	Saltash
+3588	Dockyard (Devonport)
+3590	St Budeaux Ferry Road
+3591	Falmouth Town
+3592	St Budeaux Victoria Road
+3602	Abergavenny
+3607	Hereford
+3620	Leominster
+3623	Brunswick
+3624	Conway Park
+3628	Ebbw Vale
+3634	Craven Arms
+3635	Ludlow
+3639	Lon Mid Accounts
+3645	Luton Airport Parkway
+3659	Virgin Trainline
+3667	Luton Airport.
+3674	Newport (South Wales)
+3679	Severn Tunnel Junction
+3680	Caldicot
+3717	Stourbridge Jcts
+3726	Exeter St D Sp I
+3732	Doncaster Yc Sst
+3738	Cwmbran
+3744	Pontypool & New Inn
+3774	Chepstow
+3782	Liv St Bus Travl
+3785	Cilmeri
+3793	Belfast Port
+3795	Eastbrook
+3796	Waun-gron Park
+3797	Danes Court
+3801	Abercynon
+3805	Barry
+3806	Barry Docks
+3807	Barry Island
+3809	Bridgend
+3811	Cadoxton
+3812	Caerphilly
+3813	Aber
+3815	Cardiff Bay
+3817	Ty Glas
+3818	Ynyswen
+3820	Cathays
+3828	Cogan
+3830	Dinas Powys
+3835	Rhigos.
+3839	Grangetown (Cardiff)
+3844	Llandaf
+3845	Heath High Level
+3847	Llanishen
+3850	Pontyclun
+3851	Pencoed
+3852	Llwynypia
+3853	Lisvane & Thornhill
+3855	Merthyr Tydfil
+3857	Merthyr Vale
+3859	Mountain Ash
+3861	Dingle Road
+3862	Fernhill
+3863	Penarth
+3870	Porth
+3871	Ystrad Rhondda
+3873	Fairwater
+3874	Radyr
+3876	Rhoose Cardiff International Airport
+3880	Taffs Well
+3882	Tonypandy
+3885	Eurostar I Sales
+3886	Trefforest Estate
+3887	Trefforest
+3888	Trehafod
+3889	Treherbert
+3891	Treorchy
+3895	Ninian Park
+3896	Whitchurch (Cardiff)
+3897	Ton Pentre
+3899	Cardiff Central
+3900	Cardiff Queen Street
+3901	Dinas Rhondda
+3904	Pontypridd
+3905	Coryton
+3906	Rhiwbina
+3907	Birchgrove
+3908	Heath Low Level
+3940	Ampfield
+3941	Hursley
+3942	Lindford
+3943	Whitehill
+3944	Pentre-Bach
+3945	Trainline E4.1
+3950	Trainline H1.5
+3956	Trainline E5.1
+3961	Garth (Bridgend)
+3962	Maesteg (Ewenny Road)
+3963	Maesteg
+3965	Wildmill
+3966	Trainline E1.9
+3967	Trainline G1.9
+3968	Trainline E6.1
+3976	Arriva Tw Bts
+3981	Cwmbach
+3982	Aberdare
+3984	Coop Trvl Mgmt
+3992	Penrhiwceiber
+3994	Quakers Yard
+4011	Bargoed
+4012	Brithdir
+4018	Llanbradach
+4021	Pengam
+4022	Gilfach Fargoed
+4023	Pontlottyn
+4025	Tir-Phil
+4026	Ystrad Mynach
+4027	Rhymney
+4028	Hengoed
+4059	Llandovery
+4060	Llangadog
+4061	Llanwrda
+4066	Ffairfach
+4068	Carmarthen
+4069	Clarbeston Road
+4070	Clunderwen
+4074	Ferryside
+4076	Fishguard Harbour
+4079	Haverfordwest
+4081	Johnston (Pembrokeshire)
+4083	Kilgetty
+4084	Lamphey
+4094	Manorbier
+4095	Milford Haven
+4098	Narberth
+4101	Pembroke
+4102	Pembroke Dock
+4108	Saundersfoot
+4110	Tenby
+4111	Whitland
+4124	Bynea
+4129	Penally
+4131	Gowerton
+4132	Kidwelly
+4133	Llanelli
+4138	Llangennech
+4140	Pembrey & Burry Port
+4147	Cynghordy
+4148	Garth (Powys)
+4157	Sugar Loaf
+4162	Llangammarch
+4163	Llanwrtyd
+4175	Broome
+4181	Port Talbot Parkway
+4182	Bucknell
+4185	Pyle
+4186	Baglan
+4187	Briton Ferry
+4188	Dolau
+4189	Hopton Heath
+4206	Knighton
+4207	Llangynllo
+4213	Wsmr Bts
+4216	Neath
+4217	Skewen
+4219	Wsmr Web Tis
+4221	Swansea Docks
+4222	Swansea
+4223	Llansamlet
+4224	Chiltern Web Tis
+4226	Llanbister Road
+4227	Llandrindod
+4228	Knucklas
+4236	Ammanford
+4240	Capita Travel
+4242	Redfern Tvl Ltd
+4247	Llandybie
+4248	Llandeilo
+4250	Pantyffynnon
+4251	Pontarddulais
+4254	Pen-y-Bont
+4270	Sarn
+4271	Tondu
+4276	Troed-y-rhiw
+4300	Gwersyllt
+4303	Aberystwyth
+4304	Borth
+4312	Criccieth
+4313	Porthmadog
+4314	Pwllheli
+4317	Builth Road
+4327	Llanaber
+4334	Llandecwyn
+4335	Penhelig
+4344	Tpe Rpo Man Picc
+4350	Boxhill Burfd Br
+4355	Talybont
+4356	Llanbedr
+4357	Tygwyn
+4365	Church Stretton
+4387	Shrewsbury
+4392	Beeston Sst
+4395	Belper Sst
+4398	Boston Sst
+4400	Nxec Web Tis 1
+4403	Mansfield Sst
+4404	Newark Csle Sst
+4408	Skegness Sst
+4409	Penychain
+4410	Sleaford Sst
+4412	Caersws
+4413	Spalding Sst
+4416	Fairbourne
+4418	Stamford Sst
+4419	Corby Sst
+4420	Red Funnel Ec
+4421	Llwyngwril
+4422	Machynlleth
+4423	Red Funnel Wc
+4426	Newtown (Powys)
+4432	Tonfanau
+4433	Tywyn
+4434	Welshpool
+4435	Aberdovey
+4436	Dovey Junction
+4440	Abererch
+4443	Red Funnel T2
+4445	Barmouth
+4446	Red Funnel T1
+4447	Red Funnel Hq
+4449	Chirk
+4452	London Thameslnk
+4455	Dyffryn Ardudwy
+4457	Gobowen
+4458	Harlech
+4460	Llandanwg
+4463	Pensarn
+4468	Eurostar
+4469	Minffordd
+4470	Morfa Mawddach
+4472	Ben Lawries Tvl
+4473	Penrhyndeudraeth
+4477	Ruabon
+4479	Talsarnau
+4486	Wrexham Central
+4487	Wrexham General
+4498	Alba Travel
+4499	Hillgate Lehmans
+4502	Banbury
+4503	Five Ways
+4504	University (Birmingham)
+4505	Leicester Rpi Xc
+4506	Cambridge Rpi Xc
+4508	Kings Sutton
+4509	Manc Rpi Xc
+4513	Bordesley
+4515	Birmingham Moor Street
+4518	Tyseley
+4519	Danzey
+4520	Earlswood (West Midlands)
+4521	Hall Green
+4523	The Hawthorns
+4524	Henley-in-Arden
+4525	Dorridge
+4526	Shirley (West Midlands)
+4527	Solihull
+4528	Widney Manor
+4529	Acocks Green
+4530	Small Heath
+4532	Wythall
+4533	Olton
+4535	Spring Road
+4536	Wood End
+4537	Yardley Wood
+4538	The Lakes
+4539	Whitlock's End
+4540	Wootton Wawen
+4541	Reading Rpi Xc
+4543	Tpe Rpo Black N
+4544	Alfreton Sst
+4546	Matlock Sst
+4549	Sudbury Sst
+4551	Shotton Sst
+4553	Travel By Appt
+4554	Bache Sst
+4558	Stratford-upon-Avon
+4559	Den Haag Cs
+4560	Schiedam Rotwest
+4561	Little Suttn Sst
+4563	Overpool Sst
+4565	Ellesmere Pt Sst
+4566	West Kirby Sst
+4568	Wilmcote
+4570	Capenhurst Sst
+4574	Blakedown
+4575	Bham S Hill Sst
+4576	Hatfld Uni Forum
+4577	Hagley
+4578	Ebbsfleet Intots
+4579	Hartlebury
+4581	Kidderminster
+4584	Southeastern Web
+4586	London Mid Web
+4587	Southern Webtis
+4593	Claverdon
+4594	Hatton
+4595	Lapworth
+4597	Leamington Spa
+4600	Warwick
+4606	Rowley Regis
+4607	Langley Green
+4614	Albrighton
+4616	Codsall
+4617	Cosford
+4618	Bilbrook
+4619	Shifnal
+4639	Cradley Heath
+4640	Lye (West Midlands)
+4641	Old Hill
+4643	Stourbridge Town
+4646	Stourbridge Junction
+4689	Oakengates
+4690	Wellington (Shropshire)
+4691	Telford
+4700	Ashchurch
+4715	Bromsgrove
+4731	Cheltenham Spa
+4740	Evesham
+4745	Laurencekirk Sst
+4748	Yate Manual Gate
+4760	Gloucester
+4770	Stonehouse
+4771	Stroud (Gloucestershire)
+4784	Ledbury
+4794	Honeybourne
+4808	Trainline 2.4 Tr
+4814	Moreton-in-Marsh
+4826	Lydney
+4876	Colwall
+4878	Droitwich Spa
+4884	Malvern Link
+4887	Pershore
+4891	Worcester Shrub Hill
+4892	Great Malvern
+4893	Worcester Foregate Street
+5003	Appledore (Kent)
+5004	Ashford International
+5006	Broadstairs
+5007	Canterbury West
+5008	Chartham
+5009	Chilham
+5011	Deal
+5013	Ramsgate Harbour
+5018	Margate
+5019	Minster
+5021	Ore
+5023	Ramsgate
+5024	Rye (East Sussex)
+5025	Sandling
+5026	Sandwich
+5027	Folkestone West
+5028	Three Oaks
+5029	Sturry
+5030	Westenhanger
+5031	Wye
+5033	Dover Priory
+5034	Dumpton Park
+5035	Folkestone Central
+5036	Doleham
+5037	Ham Street
+5038	Kearsney (Kent)
+5039	Dover Hoverport
+5040	Martin Mill
+5041	Walmer
+5042	Winchelsea
+5046	Beckenham Junction
+5047	Catford Bridge
+5048	Clock House
+5049	Elmers End
+5050	Hayes (Kent)
+5051	Lewisham
+5053	Lower Sydenham
+5054	West Wickham
+5056	Eden Park
+5057	Ladywell (London)
+5058	New Beckenham
+5059	St Johns (London)
+5062	Bellingham
+5063	Bickley
+5064	Bromley South
+5065	Eynsford
+5066	Herne Hill
+5068	Nunhead
+5069	Mitcham Eastfields
+5071	Otford
+5072	Penge East
+5073	St Mary Cray
+5074	Shoreham (Kent)
+5075	Swanley
+5076	Beckenham Hill
+5077	Catford
+5078	Crofton Park
+5079	Kemsing
+5080	Kent House
+5081	Brixton
+5082	Loughborough Junction (London)
+5083	Ravensbourne
+5084	Shortlands
+5085	Sydenham Hill
+5086	West Dulwich
+5089	Barnehurst
+5090	Bat & Ball
+5091	Bearsted
+5092	Belvedere
+5093	Bexley
+5094	Bexleyheath
+5095	Blackheath
+5096	Bromley North
+5097	Charing
+5098	Chelsfield
+5099	Chislehurst
+5100	Crayford
+5101	Dartford
+5102	Dunton Green
+5103	Eltham
+5104	Erith
+5105	Farningham Road
+5107	Hither Green
+5108	Kidbrooke
+5109	Knockholt
+5110	Lee (London)
+5111	Lenham
+5112	London Blackfriars
+5114	Longfield
+5115	Maidstone East
+5116	Meopham
+5118	Mottingham
+5119	New Eltham
+5120	Northfleet
+5121	City Thameslink
+5122	Orpington
+5123	Petts Wood
+5124	Sevenoaks
+5125	Sidcup
+5126	Sole Street
+5128	Welling
+5129	West Malling
+5130	Borough Green & Wrotham
+5131	Abbey Wood
+5132	Albany Park
+5133	Barming
+5134	East Malling
+5135	Elmstead Woods
+5137	Falconwood
+5138	Greenhithe for Bluewater
+5139	Grove Park
+5140	Harrietsham
+5141	Hollingbourne
+5142	London Cannon Street
+5143	London Charing Cross
+5144	Charlton
+5145	Deptford
+5146	Greenwich
+5148	London Bridge
+5149	Maze Hill
+5150	New Cross
+5151	Westcombe Park
+5152	Woolwich Arsenal
+5153	Woolwich Dockyard
+5154	Slade Green
+5155	Sundridge Park
+5156	Swanscombe
+5158	London Waterloo East
+5160	Adisham
+5162	Aylesford
+5163	Birchington
+5164	Canterbury East
+5167	Faversham
+5169	Gillingham (Kent)
+5172	Gravesend
+5173	Halling
+5174	Herne Bay
+5175	Newington
+5176	Queenborough
+5177	Rainham (Kent)
+5179	Selling
+5184	Sheerness-on-Sea
+5185	Snowdown
+5186	Shepherds Well
+5187	Sittingbourne
+5189	Snodland
+5191	Strood (Kent)
+5193	Teynham
+5195	Westgate-on-Sea
+5196	Whitstable
+5197	Aylesham
+5198	Bekesbourne
+5199	Chatham
+5200	Chestfield & Swalecliffe
+5201	Cuxton
+5202	Higham (Kent)
+5203	Rochester
+5205	Kemsley
+5208	Plumstead
+5211	Bexhill
+5215	Battle
+5217	Etchingham
+5218	Frant
+5219	Hastings
+5220	Headcorn
+5222	Maidstone West
+5223	Marden (Kent)
+5224	Paddock Wood
+5225	Pluckley
+5226	Robertsbridge
+5227	Beltring
+5228	Staplehurst
+5229	Tonbridge
+5230	Tunbridge Wells
+5231	Wadhurst
+5232	Yalding
+5233	Crowhurst
+5234	East Farleigh
+5235	High Brooms
+5236	Hildenborough
+5237	Maidstone Barracks
+5238	New Hythe
+5239	St Leonards Warrior Square
+5240	Stonegate
+5241	Wateringbury
+5242	West St Leonards
+5246	Elephant & Castle
+5248	Stone Crossing
+5249	Swale
+5250	Amberley
+5251	Arundel
+5252	Barnham
+5253	Bognor Regis
+5254	Bosham
+5255	Chichester
+5257	Emsworth
+5258	Ford
+5260	Littlehampton
+5261	Fishbourne (Sussex)
+5262	Nutbourne
+5263	Southbourne
+5264	Warblington
+5267	Angmering
+5268	Brighton
+5272	Goring-by-Sea
+5273	Hove
+5275	Lancing
+5276	Portslade
+5277	Shoreham-by-Sea
+5278	West Worthing
+5279	Worthing
+5280	Aldrington
+5281	London Road (Brighton)
+5282	Durrington-on-Sea
+5283	East Worthing
+5284	Fishersgate
+5285	Preston Park
+5286	Southwick
+5287	Guildford Tc
+5289	Haydons Road
+5290	St Helier (London)
+5291	Morden South
+5292	South Merton
+5293	West Sutton
+5294	Leigh (Kent)
+5296	Chilworth
+5297	Dorking West
+5298	Gomshall
+5301	Clapham High St
+5308	Holmwood (Surrey)
+5309	Horsham
+5310	Ockley
+5312	Moulsecoomb
+5316	Warnham
+5319	Christs Hospital
+5323	Berwick (Sussex)
+5324	Buxted
+5325	Crowborough
+5329	Lewes
+5330	Newhaven Harbour
+5331	Newhaven Town
+5332	Plumpton
+5333	Seaford (Sussex)
+5334	Uckfield
+5335	Newhaven Marine
+5336	Cooksbridge
+5337	Falmer
+5338	Glynde
+5339	Southease
+5341	Wivelsfield
+5345	New Cross Gate
+5347	Ashtead
+5348	Banstead
+5350	Belmont
+5351	Caterham
+5352	Cheam
+5353	Chipstead
+5355	East Croydon
+5356	Crystal Palace
+5357	Dorking
+5358	East Dulwich
+5359	Edenbridge Town
+5360	Epsom
+5361	Epsom Downs
+5362	Forest Hill
+5363	Gipsy Hill
+5364	Hackbridge
+5365	Horley
+5366	Kingswood
+5368	Leatherhead
+5369	Lingfield
+5372	Wandsworth Road
+5376	Norwood Junction
+5377	Oxted
+5378	Penge West
+5379	Purley
+5380	Salfords (Surrey)
+5382	Smitham
+5383	Streatham
+5384	Streatham Common
+5385	Sutton (London)
+5386	Tadworth
+5387	Tattenham Corner
+5388	Thornton Heath
+5389	Tooting
+5390	Tulse Hill
+5391	Upper Warlingham
+5392	Waddon
+5394	Wallington
+5395	Wandsworth Common
+5396	Whyteleafe
+5397	Anerley
+5398	Ashurst (Kent)
+5399	Balham
+5401	Birkbeck
+5402	Bishopstone
+5403	Boxhill & Westhumble
+5404	Brockley
+5405	Carshalton
+5406	Carshalton Beeches
+5408	Coulsdon South
+5409	Cowden
+5410	South Croydon
+5411	West Croydon
+5412	Dorking Deepdene
+5413	Dormans
+5414	Earlswood (Surrey)
+5415	Ewell East
+5416	Gatwick Airport
+5417	Hever
+5418	Honor Oak Park
+5419	Kenley
+5420	Battersea Park
+5421	Denmark Hill
+5423	Peckham Rye
+5424	Queens Road, Peckham
+5425	South Bermondsey
+5426	London Victoria
+5427	Mitcham Junction
+5428	Norbury
+5429	North Dulwich
+5430	Purley Oaks
+5431	Reedham (London)
+5432	Riddlesdown
+5433	Sanderstead
+5434	Selhurst
+5435	Streatham Hill
+5436	Sutton Common
+5437	Sydenham (London)
+5438	West Norwood
+5439	Whyteleafe South
+5440	Woldingham
+5441	Woodmansterne
+5447	Euro Tc Victoria
+5448	Eastbourne
+5449	Victoria Railair
+5450	Hampden Park (Sussex)
+5455	Polegate
+5457	Collington
+5458	Cooden Beach
+5459	Eridge
+5460	Normans Bay
+5461	Pevensey & Westham
+5462	Pevensey Bay
+5463	Hurst Green
+5464	Billingshurst
+5465	London Wloo Intl
+5466	Ashford International (CIV)
+5468	Pulborough
+5470	London Intl(civ)
+5472	Betchworth
+5473	Edenbridge
+5474	Godstone
+5475	Merstham
+5476	Nutfield
+5477	Penshurst
+5478	Redhill
+5480	Reigate
+5483	Burgess Hill
+5484	Crawley
+5486	East Grinstead
+5489	Hassocks
+5490	Haywards Heath
+5491	Three Bridges
+5492	Balcombe
+5493	Faygate
+5494	Smallbrook Junction
+5495	Ifield
+5498	Littlehaven
+5500	Bramley (Hampshire)
+5501	Mortimer
+5502	Dilton Marsh
+5504	Lake
+5505	Warminster
+5509	Fratton
+5510	Andover
+5514	Grateley
+5520	Basingstoke
+5521	Farnborough Main
+5522	Fleet
+5523	Hook
+5525	Sandown
+5526	Overton
+5527	Whitchurch (Hampshire)
+5528	Winchfield
+5529	Shanklin
+5530	Brading
+5532	Havant
+5537	Portsmouth & Southsea
+5538	Bedhampton
+5539	Hilsea
+5540	Portsmouth Harbour
+5541	Ryde Pier Head
+5542	Ryde Esplanade
+5543	Ryde St Johns Road
+5544	Alton
+5545	Farnham
+5547	Ash Vale
+5550	Addlestone
+5551	Barnes
+5552	Brentford
+5553	Chertsey
+5554	Chessington South
+5555	Clandon
+5556	Claygate
+5557	Cobham & Stoke D'Abernon
+5558	Esher
+5559	Feltham
+5560	Hampton (London)
+5561	Hampton Court
+5562	Horsley
+5563	Hounslow
+5564	Heathrow Bus
+5565	Kingston
+5566	Ebbsfleet Int Se
+5567	New Malden
+5568	Norbiton
+5569	Raynes Park
+5570	Richmond (London)
+5571	Surbiton
+5572	Teddington
+5573	Tolworth
+5574	Twickenham
+5575	Walton-on-Thames
+5576	Wandsworth Town
+5577	Weybridge
+5578	Wimbledon
+5579	Worcester Park
+5580	Barnes Bridge
+5581	Berrylands
+5582	Chessington North
+5583	Chiswick
+5584	Earlsfield
+5586	Ewell West
+5587	Fulwell
+5588	Gunnersbury
+5589	Hampton Wick
+5590	Hersham
+5591	Hinchley Wood
+5592	Isleworth
+5593	Kew Bridge
+5594	Kew Gardens
+5595	Clapham Junction
+5596	Queenstown Road (Battersea)
+5597	Vauxhall
+5598	London Waterloo
+5599	Malden Manor
+5600	Mortlake
+5601	North Sheen
+5602	Oxshott
+5603	Putney
+5604	St Margarets (London)
+5605	Shepperton
+5606	Stoneleigh
+5607	Strawberry Hill
+5608	Sunbury
+5609	Syon Lane
+5610	Thames Ditton
+5611	Whitton (London)
+5612	Wimbledon Chase
+5613	Upper Halliford
+5623	Aldershot
+5624	Bentley (Hampshire)
+5625	Blackwater
+5626	Bookham
+5628	Crowthorne
+5629	Godalming
+5631	Guildford
+5632	London Road (Guildford)
+5633	Haslemere
+5634	Liphook
+5635	Liss
+5636	North Camp
+5638	Shalford (Surrey)
+5639	Wanborough
+5640	Witley
+5641	Ash
+5642	Effingham Junction
+5643	Farncombe
+5644	Milford (Surrey)
+5645	Motspur Park
+5646	Sandhurst (Berkshire)
+5653	Stonehenge
+5657	Petersfield
+5658	Rowlands Castle
+5663	Salisbury
+5666	Ascot (Berkshire)
+5667	Ashford (Surrey)
+5668	Datchet
+5669	Egham
+5670	Staines
+5671	Sunningdale
+5672	Windsor & Eton Riverside
+5673	Wraysbury
+5674	Longcross
+5675	Sunnymeads
+5676	Virginia Water
+5678	Kempton Park Racecourse
+5681	Bagshot
+5682	Camberley
+5683	Frimley
+5684	West Byfleet
+5685	Woking
+5686	Worplesdon
+5687	Brookwood
+5688	Farnborough North
+5689	Byfleet & New Haw
+5692	Martins Heron
+5693	Bracknell
+5694	Earley
+5696	Wokingham
+5697	Winnersh
+5698	Winnersh Trangle
+5702	Bruton
+5703	Castle Cary
+5707	Frome
+5712	Westbury
+5714	Axminster
+5717	Honiton
+5725	Barnstaple
+5751	St James' Park (Exeter)
+5753	Digby & Sowton
+5754	Crediton
+5755	Exeter Central
+5756	Exmouth
+5757	Pinhoe
+5758	Topsham
+5759	Whimple
+5760	Exton
+5761	Lympstone Village
+5762	Lympstone Commando
+5786	Okehampton
+5796	Gillingham (Dorset)
+5798	Tisbury
+5803	Nxec Telesales T
+5808	Feniton
+5820	Chapelton
+5821	Copplestone
+5822	Eggesford
+5823	Kings Nympton
+5824	Lapford
+5825	Morchard Road
+5826	Umberleigh
+5827	Yeoford
+5828	Newton St Cyres
+5829	Portsmouth Arms
+5832	Crewkerne
+5835	Sherborne
+5836	Chandlers Ford
+5837	Templecombe
+5838	Yeovil Junction
+5840	Chetnole
+5849	Thornford
+5853	Maiden Newton
+5856	Yeovil Pen Mill
+5857	Yetminster
+5875	Branksome
+5876	Bournemouth
+5879	Christchurch
+5880	Hinton Admiral
+5881	New Milton
+5882	Parkstone (Dorset)
+5883	Poole
+5884	Sway
+5885	Pokesdown
+5886	Brockenhurst
+5887	Lymington Town
+5890	Beaulieu Road
+5891	Poole Quay
+5892	Lymington Pier
+5893	Hedge End
+5894	Botley
+5896	Cosham
+5899	Eastleigh
+5900	Fareham
+5905	Soton Telesales
+5906	Ashurst New Forest
+5908	Micheldever
+5909	Millbrook (Hampshire)
+5911	Netley
+5912	Redbridge (Hampshire)
+5914	St Denys
+5920	Swanwick
+5921	Totton
+5922	Southampton Airport Parkway
+5924	Winchester
+5925	Woolston
+5927	Bursledon
+5928	Portchester
+5929	Shawford
+5930	Sholing
+5931	Soton Royal Pier
+5932	Southampton Central
+5933	Swaythling
+5940	Hamworthy
+5941	Holton Heath
+5942	Dean (Wiltshire)
+5943	Romsey
+5944	Mottisfont & Dunbridge
+5945	Bitterne
+5947	Hamble
+5957	Moreton (Dorset)
+5958	Swanage
+5959	Wareham (Dorset)
+5960	Wool
+5961	Dorchester South
+5962	Dorchester West
+5965	Weymouth
+5966	Weymouth Quay
+5967	Upwey
+5971	Jersey (c.i.)
+5972	Guernsey (c.i.)
+5979	Southampton Dks
+6000	Drayton Park
+6003	Old Street
+6004	Essex Road
+6005	Moorgate
+6006	Bayford
+6007	Crews Hill
+6008	Cuffley
+6009	Highbury & Islington
+6010	Enfield Chase
+6012	Harringay
+6015	Hornsey
+6018	New Barnet
+6019	New Southgate
+6020	Oakleigh Park
+6021	Palmers Green
+6022	Potters Bar
+6024	Winchmore Hill
+6025	Alexandra Palace
+6027	Bowes Park
+6028	Gordon Hill
+6029	Grange Park
+6031	Sheffield Bto
+6070	Hatfield (Hertfordshire)
+6073	Welham Green
+6074	Brookmans Park
+6075	Hadley Wood
+6083	Ashwell & Morden
+6084	Baldock
+6085	Hertford North
+6086	Hitchin
+6088	Knebworth
+6089	Letchworth Garden City
+6090	Royston (Hertfordshire)
+6092	Stevenage
+6095	Watton-at-Stone
+6096	Welwyn North
+6102	Sheffield Tel
+6108	Huntingdon
+6110	St Neots
+6119	Finsbury Park
+6121	London Kings Cross
+6133	Peterborough
+6140	Stamford (Lincolnshire)
+6170	Biggleswade
+6171	Arlesey
+6172	Sandy
+6183	Welwyn Garden City
+6200	Burton Joyce
+6201	Carlton
+6202	Lowdham
+6203	Thurgarton
+6204	Bleasby
+6206	Goxhill
+6207	Barton-on-Humber
+6209	New Holland
+6210	Thornton Abbey
+6211	Ulceby
+6212	Barrow Haven
+6216	Boston
+6220	Heckington
+6221	Hubberts Bridge
+6228	Swineshead
+6233	Aslockton
+6235	Bingham
+6237	Bottesford
+6238	Elton & Orston
+6241	Netherfield
+6242	Radcliffe (Nottinghamshire)
+6245	Nutfield Village
+6258	Broadford
+6260	Havenhouse
+6265	Skegness
+6267	Thorpe Culvert
+6268	Wainfleet
+6274	Cleethorpes
+6275	Great Coates
+6276	Grimsby Docks
+6280	Grimsby Town
+6281	Habrough
+6283	Healing
+6287	Stallingborough
+6289	New Clee
+6297	Metheringham
+6310	Hykeham
+6317	Robin Hoods Bay
+6318	Market Rasen
+6327	Ruskington
+6328	Saxilby
+6340	Lincoln
+6349	Collingham
+6351	Fiskerton
+6353	Rolleston
+6355	Swinderby
+6358	Ancaster
+6361	Rauceby
+6362	Sleaford
+6388	Spalding
+6401	Kiveton Bridge
+6406	Barnetby
+6417	Doncaster
+6424	Gainsborough Lea Road
+6456	Scunthorpe
+6464	Brigg
+6465	Gainsborough Central
+6466	Kirton Lindsey
+6469	Grantham
+6488	Conisbrough
+6498	Newark Castle
+6499	Newark North Gate
+6511	Retford
+6524	Crowle
+6527	Kirk Sandall
+6528	Hatfield & Stainforth
+6530	Thorne North
+6531	Thorne South
+6532	Althorpe
+6551	Whitwell
+6565	Kiveton Park
+6570	Shireoaks
+6574	Worksop
+6615	Chesterfield
+6616	Dronfield
+6634	Penistone
+6663	Meadowhall
+6664	Chapeltown
+6667	Elsecar
+6676	Rotherham Central
+6686	Swinton (South Yorkshire)
+6688	Wombwell
+6690	Dore & Totley
+6691	Sheffield
+6707	Mexborough
+6729	Darnall
+6732	Woodhouse
+6774	Barnsley
+6781	Dodworth
+6782	Silkstone Common
+6800	Bishops Stortford
+6801	Braintree
+6804	Harlow Mill
+6806	Sawbridgeworth
+6810	Brimsdown
+6812	Broxbourne
+6814	Cheshunt
+6815	Enfield Lock
+6818	Hertford East
+6819	Ponders End
+6820	Rye House
+6821	St Margarets (Hertfordshire)
+6823	Waltham Cross
+6824	Ware (Hertfordshire)
+6827	Harlow Town
+6829	Roydon (Essex)
+6832	Elsenham (Essex)
+6833	Stansted Mountfitchet
+6834	Stansted Airport
+6836	Chelmsford
+6837	Cressing
+6838	Kelvedon
+6844	Witham
+6845	Hatfield Peverel
+6846	White Notley
+6847	Alresford (Essex)
+6850	Clacton-on-Sea
+6851	Hythe (Essex)
+6853	Colchester Town
+6854	Frinton-on-Sea
+6855	Great Bentley
+6856	Manningtree
+6857	Thorpe-le-Soken
+6858	Walton-on-the-Naze
+6859	Weeley
+6860	Wivenhoe
+6861	Colchester
+6862	Kirby Cross
+6863	Marks Tey
+6867	Hackney Downs
+6869	Althorne (Essex)
+6870	Battlesbridge
+6871	Billericay
+6872	Brentwood
+6873	Burnham-on-Crouch
+6874	Chadwell Heath
+6875	North Fambridge
+6876	Forest Gate
+6877	Gidea Park
+6878	Goodmayes
+6879	Harold Wood
+6880	Hockley
+6881	Ilford
+6882	Ingatestone
+6883	Manor Park
+6884	Rayleigh
+6885	Rochford
+6886	Romford
+6888	Shenfield
+6890	Southminster
+6891	Wickford
+6892	South Woodham Ferrers
+6893	Seven Kings
+6901	Dovercourt
+6902	Harwich International
+6905	Harwich Town
+6906	Mistley
+6907	Wrabness
+6909	Angel Road
+6913	Bush Hill Park
+6914	Chingford
+6919	Highams Park
+6926	Clapton
+6931	Seven Sisters
+6934	Stoke Newington
+6941	Edmonton Green
+6947	Southbury
+6949	Theobalds Grove
+6951	Tottenham Hale
+6952	Turkey Street
+6953	Walthamstow Central
+6954	Wood Street
+6956	White Hart Lane
+6958	Bruce Grove
+6959	Enfield Town
+6961	Bethnal Green
+6962	Cambridge Heath
+6965	London Liverpool Street
+6966	London Fields
+6967	Rectory Road
+6968	Stamford Hill
+6969	Stratford (London)
+6970	Maryland
+6971	Northumberland Park
+6972	Silver Street
+6973	St James Street (Walthamstow)
+6977	Hackney Central
+6978	Hackney Wick
+6979	Homerton
+7006	Brundall Gardens
+7008	Bury St Edmunds
+7011	Kennett
+7017	Audley End
+7022	Cambridge
+7027	Dullingham
+7029	Foxton
+7032	Great Chesterford
+7036	Meldreth
+7038	Newmarket
+7039	Newport (Essex)
+7043	Shelford (Cambridgeshire)
+7044	Shepreth
+7047	Whittlesford Parkway
+7051	Chappel & Wakes Colne
+7055	Downham Market
+7057	Watlington
+7068	Ely
+7072	Littleport
+7073	Shippea Hill
+7079	Waterbeach
+7085	Bures
+7090	Heathrow Airport Terminals 1, 2 and 3 (Rail)
+7091	Heathrow Airport Terminal 4 (Rail)
+7092	Nxec Telesalesgx
+7098	Sudbury (Suffolk)
+7104	Banchory
+7105	Bideford
+7106	Dersingham.
+7108	Ambleside
+7109	Denbigh
+7110	Fleetwood
+7115	Kings Lynn
+7118	Leigh (lancs)
+7120	Ruthin
+7121	Skelmersdale
+7124	St Asaph
+7125	Tarporley
+7126	Leek
+7127	Newcastle U Lyme
+7165	Manea
+7166	March
+7187	Whittlesea
+7200	Brandon
+7201	Lakenheath
+7203	Thetford
+7211	Darsham
+7212	Derby Road (Ipswich)
+7214	Felixstowe
+7217	Ipswich
+7221	Melton (Suffolk)
+7222	Stratford Int Se
+7224	Saxmundham
+7225	Trimley
+7226	Westerfield
+7227	Wickham Market
+7228	Woodbridge
+7258	Beccles
+7259	Brampton (Suffolk)
+7266	Halesworth
+7268	Lowestoft
+7273	Oulton Broad North
+7274	Oulton Broad South
+7286	Acle
+7289	Brundall
+7290	Buckenham (Norfolk)
+7292	Cantley
+7295	Cromer
+7297	Roughton Road
+7299	Gunton
+7300	Haddiscoe
+7305	Lingwood
+7308	North Walsham
+7309	Norwich
+7316	Reedham (Norfolk)
+7318	Salhouse
+7319	Sheringham
+7320	Somerleyton
+7326	Worstead
+7327	Hoveton & Wroxham
+7328	Great Yarmouth
+7329	West Runton
+7330	Berney Arms
+7348	Diss
+7349	Elmswell
+7354	Needham Market
+7355	Stowmarket
+7356	Thurston
+7367	Attleborough
+7370	Eccles Road
+7374	Harling Road
+7379	Spooner Row
+7383	Wymondham
+7400	Blackhorse Road
+7401	Harringay Green Lanes
+7402	Leyton Midland Road
+7403	Leytonstone High Road
+7404	South Tottenham
+7406	Crouch Hill
+7407	Walthamstow Queen's Road
+7408	Wanstead Park
+7419	Prittlewell
+7420	Southend Victoria
+7427	Bath Bus Station
+7428	Bristol T M Stn
+7429	Chippenham Ba Rd
+7430	Chippenham Nw Rd
+7431	Plymouth Salt Rd
+7432	Swindon Bus Stn
+7433	Totnes Stn Road
+7434	Taunton Stn Frct
+7435	Par Stn Bus Stop
+7436	Westbury Stn App
+7439	Benfleet
+7440	Dagenham Dock
+7443	Grays
+7445	Laindon
+7446	Leigh-on-Sea
+7447	Chafford Hundred
+7448	Penzance Bus Stn
+7451	Ockendon
+7452	Pitsea
+7453	Purfleet
+7454	Rainham (Essex)
+7455	Shoeburyness
+7456	Southend Central
+7457	Southend East
+7458	Stanford-le-Hope
+7460	Thorpe Bay
+7461	Tilbury Riverside
+7462	Tilbury Town
+7464	Upminster
+7466	West Horndon
+7467	Woodgrange Park
+7468	Tilbury Stations
+7469	Chalkwell
+7471	East Tilbury
+7473	Emerson Park
+7474	West Ham
+7476	Westcliff
+7490	London Fenchurch Street
+7491	Limehouse
+7492	Barking
+7494	Basildon
+7503	Blaydon
+7504	Corbridge
+7506	Hexham
+7509	Prudhoe
+7510	Riding Mill
+7513	Stocksfield
+7514	Wylam
+7515	Commondale
+7516	Kildale
+7520	Allens West
+7521	Teesside Airport
+7563	Bardon Mill
+7565	Brampton (Cumbria)
+7568	Haltwhistle
+7569	Haydon Bridge
+7572	Wetheral
+7579	Cramlington
+7603	Manors
+7632	St Peters (Tyne & Wear Metro)
+7640	Sunderland
+7641	Seaburn (Tyne & Wear Metro)
+7662	Acklington
+7680	Morpeth
+7685	Pegswood
+7695	Widdrington
+7725	MetroCentre
+7728	Newcastle
+7733	Anstruther
+7734	Banff
+7735	Biggar
+7736	Chester-le-Street
+7737	Crail
+7740	Brockley Whins (Tyne & Wear Metro)
+7741	Fraserburgh
+7743	Macduff
+7744	Dunston
+7745	Durham
+7746	East Boldon (Tyne & Wear Metro)
+7750	Peterhead
+7753	Pittenweem
+7763	Thame
+7765	Corfe Castle
+7766	Heworth
+7769	Transfare T&w 3z
+7770	Transfare T&w 2z
+7772	Transfare T&w 1z
+7773	Transfare T&w Cd
+7774	Midhurst
+7775	Ringwood
+7776	Wimborne Minster
+7777	Holt
+7778	Wallingford
+7779	Witney
+7780	Abersoch
+7781	Eastwood
+7782	Heanor
+7783	Ilkeston
+7784	Bishpstn Hilrise
+7786	Stourport
+7787	Alnmouth
+7788	Swadlincote
+7791	Berwick-upon-Tweed
+7792	Chathill
+7814	Seaham
+7816	Eridge A26 Bus S
+7834	Newton Aycliffe
+7835	Bishop Auckland
+7877	Darlington
+7878	Nxec Tel Ncastle
+7881	Alnwick
+7882	Hornsea
+7883	Ossett
+7884	Hever Brocasfarm
+7886	Ripon
+7887	Heighington
+7888	Tadcaster
+7889	Washington
+7893	Shildon
+7895	North Road
+7897	Dinsdale
+7909	Battersby
+7910	Billingham
+7914	Castleton Moor
+7915	Danby
+7916	Eaglescliffe
+7917	Yarm
+7918	Egton
+7921	Glaisdale
+7922	Great Ayton
+7925	Lealholm
+7928	Marske
+7929	Middlesbrough
+7930	Gypsy Lane
+7932	Redcar British Steel
+7946	Nunthorpe
+7947	Marton
+7950	Redcar Central
+7951	Saltburn
+7952	Anglia R Bus Tvl
+7953	South Bank
+7974	Redcar East
+7975	Stockton
+7976	Thornaby
+7977	Ampthill
+7978	Longbeck
+7979	Mousehole
+7980	Mumbles
+7981	Newlyn
+7982	Oystermouth
+7983	St Just
+7994	Southease Church
+7996	Northallerton
+7998	Saffron Walden
+8007	Seaton Carew
+8009	Hartlepool
+8025	Goole
+8031	Rawcliffe
+8033	Saltmarshe
+8036	Snaith
+8045	Arram
+8047	Bempton
+8048	Beverley
+8049	Bridlington
+8050	Broomfleet
+8051	Brough
+8056	Cottingham
+8057	Driffield
+8061	Ferriby
+8062	Filey
+8067	Hessle
+8071	Howden
+8098	Hunmanby
+8099	Hutton Cranswick
+8107	Nafferton
+8114	Eastrington
+8117	Gilberdyke
+8123	Wressle
+8126	Hull
+8129	Hensall
+8130	Whitley Bridge
+8142	South Milford
+8155	Grosmont
+8164	Malton
+8174	Ruswarp
+8178	Seamer
+8179	Sleights
+8180	Cowplain (bus)
+8182	Waterlovile(bus)
+8184	Whitby
+8185	Scarborough
+8191	Thirsk
+8201	Selby
+8212	Hornbeam Park
+8213	Harrogate
+8214	Knaresborough
+8221	Starbeck
+8232	Cattal
+8233	Church Fenton
+8241	Hammerton
+8254	Poppleton
+8257	Sherburn-in-Elmet
+8261	Ulleskelf
+8263	York
+8282	Thurnscoe
+8284	Goldthorpe
+8301	Aberdeen Airport
+8309	Outwood
+8326	Dewsbury
+8345	Bradford Interchange
+8346	Bradford Forster Square
+8347	Shipley (West Yorkshire)
+8352	Bentley (South Yorkshire)
+8353	Adwick
+8355	South Elmsall
+8358	Sandal & Agbrigg
+8359	Castleford
+8360	Glasshoughton
+8411	Halifax
+8420	Darton
+8429	Brockholes
+8431	Berry Brow
+8432	Denby Dale
+8436	Honley
+8437	Huddersfield
+8441	Deighton
+8443	Lockwood
+8445	Marsden (West Yorkshire)
+8448	Shepley
+8450	Slaithwaite
+8451	Stocksmoor
+8468	Keighley
+8469	Steeton & Silsden
+8470	Cononley
+8472	East Garforth
+8473	Cross Gates
+8474	Garforth
+8477	Micklefield
+8479	Pannal
+8484	Batley
+8487	Leeds
+8496	Bramley (West Yorkshire)
+8498	Headingley
+8499	Horsforth
+8500	Burley Park
+8503	Leeds Whitehall
+8504	Morley
+8505	Cottingley
+8506	New Pudsey
+8509	Weeton
+8514	Brighouse
+8518	Mirfield
+8519	Ravensthorpe
+8524	Hebden Bridge
+8526	Mytholmroyd
+8527	Sowerby Bridge
+8528	Normanton
+8530	Warwick Parkway
+8532	Nxec Telesales
+8534	Sheffield Tsales
+8535	Navigant (ew23)
+8536	Bolton-upon-Dearne
+8539	Moorthorpe
+8540	Pontefract Baghill
+8541	Pontefract Tanshelf
+8543	Streethouse
+8544	Featherstone
+8545	Nbc Birmingham
+8546	Knottingley
+8548	Pontefract Monkhill
+8549	Total Journeycom
+8552	Baildon
+8553	Bingley
+8554	Crossflatts
+8556	Frizinghall
+8561	Saltaire
+8564	Ben Rhydding
+8565	Burley-in-Wharfedale
+8566	Southern Web
+8567	Guiseley
+8568	Ilkley
+8574	Menston
+8578	Woodlesford
+8583	Fitzwilliam
+8584	Wakefield Kirkgate
+8585	London Midland
+8589	Wavertree Technology Park
+8591	Wakefield Westgate
+8600	Achanalt
+8601	Achnasheen
+8602	Achnashellach
+8605	Alness
+8606	Altnabreac
+8608	Attadale
+8610	Aviemore
+8613	Ardgay
+8614	Invershin
+8618	Brora
+8621	Carrbridge
+8625	Culrain
+8628	Dalwhinnie
+8632	Dingwall
+8637	Fearn
+8638	Forres
+8639	Forsinard
+8640	Garve
+8641	Georgemas Junction
+8642	Dunrobin Castle
+8643	Golspie
+8647	Helmsdale
+8648	Invergordon
+8649	Inverness
+8652	Kildonan
+8653	Kinbrace
+8655	Kingussie
+8657	Kyle of Lochalsh
+8658	Lairg
+8660	Lochluichart
+8665	Muir of Ord
+8666	Nairn
+8668	Newtonmore
+8670	Plockton
+8671	Rogart
+8672	Scotscalder
+8673	Strathcarron
+8674	Stromeferry
+8676	Tain
+8677	Thurso
+8680	Wick
+8681	Duirinish
+8682	Duncraig
+8683	Fellgate (Tyne & Wear Metro)
+8684	Stadium Of Light (Tyne & Wear Metro)
+8708	Connel Ferry
+8711	Dalmally
+8712	Loch Awe
+8713	Dunblane
+8715	Gleneagles
+8720	Horwich Parkway
+8724	Sampford Courtenay
+8725	Oban
+8726	Falls of Cruachan
+8727	Taynuilt
+8728	Tyndrum Lower
+8750	Blair Atholl
+8763	Dunkeld & Birnam
+8778	Invergowrie
+8801	Pitlochry
+8805	Perth
+8807	Brunstane
+8808	Newcraighall
+8821	Arisaig
+8822	Beasdale
+8823	Bridge of Orchy
+8824	Corpach
+8825	Corrour
+8826	Crianlarich
+8827	Fort William
+8828	Glenfinnan
+8829	Lochailort
+8830	Locheilside
+8831	Mallaig
+8833	Morar
+8834	Rannoch
+8835	Roy Bridge
+8836	Spean Bridge
+8837	Tulloch
+8838	Upper Tyndrum
+8839	Banavie
+8845	Newcastle Airport (Tyne & Wear Metro)
+8846	Loch Eil Outward Bound
+8851	Doncaster Intchn
+8854	Barnsley Intrchg
+8860	Portlethen
+8875	West Brompton
+8877	Beauly
+8881	Cct Dingwall
+8905	Dyce (for Aberdeen Airport)
+8912	Leicester Tr
+8913	Sheffield Tr
+8921	Huntly
+8922	Insch
+8924	Inverurie
+8925	Keith
+8926	Ldn Fenchurch St
+8929	Bromley Sth Sst
+8931	Laurencekirk
+8932	Carmont
+8948	Coventry Tribute
+8949	Great Yarmouthss
+8958	Nxec Telesales
+8964	Stonehaven
+8976	Aberdeen
+8977	Elgin
+9013	Balmossie
+9020	Barry Links
+9023	Broughty Ferry
+9028	Carnoustie
+9031	Boat Of Garten
+9034	Stromness Orkney
+9039	Dundee
+9048	Castlebay(barra)
+9050	Canna (isle Of)
+9051	Coll (isle Of)
+9052	Colonsay(isle Of
+9053	Cumbrae (isle Of
+9055	Eigg (isle Of)
+9057	Tarbert (harris)
+9058	Lismore(isle Of)
+9060	Monifieth
+9061	Muck (isle Of)
+9065	Tobermory (mull)
+9066	Rhum (isle Of)
+9067	Armadale (Skye)
+9069	Kyleakin (skye)
+9073	Tiree (isle Of)
+9074	Lochmaddy (nu)
+9079	Arbroath
+9080	Montrose
+9084	Belfast Central
+9090	Aberdour
+9096	Golf Street
+9107	Burntisland
+9111	Ldn Eus Tribute
+9112	Cardenden
+9121	Cupar
+9128	Tadworth (avenue
+9129	Nx Wembley Bus
+9135	Dalgety Bay
+9136	Inverkeithing
+9140	Heworth (Tyne & Wear Metro)
+9142	Kinghorn
+9144	Newcastle (Tyne & Wear Metro)
+9145	Kirkcaldy
+9149	Ladybank
+9156	Lochgelly
+9160	Markinch
+9175	Springfield
+9183	Sandy Bus
+9184	Biggleswade Bus
+9185	Cowdenbeath
+9186	Dunfermline Town
+9187	Dunfermline Queen Margaret
+9188	Leuchars
+9189	North Queensferry
+9190	Rosyth
+9199	Aberdeen Gnersst
+9200	Shrewsbury Wb0ts
+9217	Kingsknowe
+9218	Curriehill
+9219	Trainline E2.9
+9225	Zone S1a
+9226	Zone S1b
+9227	Zone S1c
+9229	Zone S1e
+9230	Kirknewton
+9231	Wester Hailes
+9232	Zone S1f
+9233	Zone S2a
+9234	Zone S2b
+9235	Zone S2c
+9236	Slateford
+9237	Zone S2d
+9238	Zone S2e
+9239	Zone S2f
+9240	Zone S3a
+9241	Zone S3b
+9242	Zone S3c
+9243	Zone S3d
+9244	Zone S3e
+9245	Fauldhouse
+9246	Hartwood
+9250	West Calder
+9251	Breich
+9301	Glenrothes with Thornton
+9304	Musselburgh
+9310	Addiewell
+9311	Bathgate
+9314	Zone S3f
+9315	Zone S4a
+9316	Zone S4b
+9317	Drem
+9318	South Gyle
+9319	Zone S4c
+9320	Zone S4d
+9328	Edinburgh Waverley (city centre, main)
+9334	Zone S4e
+9337	Edinburgh Busstn
+9339	Zone S4f
+9341	Zone S5a
+9342	Zone S5b
+9343	Zone S5c
+9344	Zone S5d
+9345	Zone S5e
+9346	Zone S5f
+9347	Zone S6a
+9348	Zone S6b
+9350	Zone S6c
+9351	Zone S6d
+9352	Zone S6e
+9353	Zone S6f
+9354	Longniddry
+9356	Zone Sa
+9358	North Berwick
+9359	Zone Sab
+9360	Zone Sac
+9361	Zone Sad
+9362	Zone Sae
+9363	Zone Saf
+9364	Zone Sb
+9365	Wallyford
+9366	Prestonpans
+9367	Zone Sbc
+9368	Zone Sbd
+9369	Zone Sbe
+9370	Zone Sbf
+9371	Livingston North
+9372	Livingston South
+9373	Uphall
+9374	Zone Sc
+9375	Zone Scd
+9376	Zone Sce
+9379	Zone Scf
+9380	Zone Sd
+9381	Zone Sde
+9382	Zone Sdf
+9383	Zone Se
+9384	Zone Sef
+9385	Zone Sf
+9392	Waterloo Tc Tr
+9395	Edinburgh Park (business park, near M8)
+9397	Dunbar
+9398	Elstree Sst
+9401	Zone S16
+9402	Zone S15
+9403	Zone S14
+9404	Zone S13
+9406	Zone S12
+9407	Zone S1
+9408	Zone S26
+9409	Zone S25
+9410	Zone S24
+9411	Zone S23
+9412	Zone S2
+9413	Zone S36
+9414	Zone S35
+9415	Dalmeny
+9416	Zone S34
+9418	Zone S3
+9419	Haymarket (for Edinburgh West End)
+9420	Zone S46
+9421	Zone S45
+9422	Zone S4
+9423	Zone S56
+9424	Zone S5
+9425	Zone S6
+9438	Linlithgow
+9451	Annan
+9452	Fairlie
+9453	Ardrossan Harbour
+9455	Ardrossan Town
+9457	Auchinleck
+9463	Ayr
+9466	Barassie
+9467	Barrhill
+9483	Dalry
+9490	Dumfries
+9492	Dunlop
+9501	Girvan
+9503	Glengarnock
+9508	Irvine
+9512	Kilmarnock
+9516	Kilmaurs
+9517	Kilwinning
+9518	Kirkconnel
+9521	Largs
+9529	Maybole
+9533	New Cumnock
+9543	Prestwick Town
+9544	Prestwick International Airport
+9547	Saltcoats
+9549	Sanquhar
+9550	Stranraer West P
+9552	Shieldmuir
+9553	Stevenston
+9554	Stewarton
+9555	Stranraer
+9557	Stranraer Harbour
+9562	Troon
+9564	West Kilbride
+9569	Ardrossan South Beach
+9571	Newton-on-Ayr
+9587	Shepherd's Bush
+9608	Muirend
+9609	Nitshill
+9610	Gretna Green
+9614	Lockerbie
+9618	IBM Halt
+9620	Bishopton
+9622	Dumbreck
+9623	Pollokshields West
+9624	Cardonald
+9627	Corkerhill
+9628	Crookston
+9630	Hillington West
+9632	Mosspark
+9634	Hawkhead
+9635	Gourock
+9639	Woodhall
+9646	Inverkip
+9648	Johnstone (Strathclyde)
+9652	Langbank
+9655	Lochwinnoch
+9657	Paisley Canal
+9658	Milliken Park
+9664	Paisley St James
+9665	Whinhill
+9667	Port Glasgow
+9668	Bogston
+9669	Gourock Pier
+9673	Wemyss Bay
+9674	Barrhead
+9675	Fort Matilda
+9676	Hillington East
+9680	Cartsdyke
+9681	Greenock Central
+9682	Greenock West
+9683	Paisley Gilmour Street
+9691	Motherwell
+9694	Wishaw
+9695	Airbles
+9699	Llantwit Major
+9702	Carluke
+9704	Carstairs
+9705	Merryton
+9707	Chatelherault
+9709	Liverpool South Parkway
+9710	Lanark
+9714	Bellshill
+9716	Blantyre
+9718	Cleland
+9721	Cumbernauld
+9723	Gartcosh
+9725	Greenfaulds
+9726	Hamilton Central
+9727	Hamilton West
+9728	Larkhall
+9738	Holytown
+9739	Shotts
+9747	Coatbridge Central
+9752	Coatbridge Sunnyside
+9753	Whifflet
+9756	Bham Rp Av
+9757	Drumgelloch
+9759	Airdrie
+9760	Blairhill
+9762	Coatdyke
+9763	Baillieston
+9764	Bargeddie
+9766	Kirkwood
+9767	Burnside (Strathclyde)
+9768	Cambuslang
+9769	Carmyle
+9771	Kirkhill
+9773	Neilston
+9774	Newton (Lanarkshire)
+9775	Patterton
+9776	Uddingston
+9777	Whitecraigs
+9778	Croftfoot
+9779	Mount Vernon
+9781	Williamwood
+9785	Polmadie
+9787	Rutherglen
+9789	Bridgeton
+9790	Dalmarnock
+9791	Busby
+9792	Clarkston
+9793	East Kilbride
+9794	Giffnock
+9795	Cathcart
+9796	Crossmyloof
+9802	Maxwell Park
+9803	Stansted Air Bus
+9804	Pollokshaws West
+9808	Priesthill & Darnley
+9810	Hairmyres
+9812	Thornliebank
+9813	Glasgow Central
+9814	Crosshill
+9816	Kennishead
+9817	Kings Park
+9818	Langside
+9819	Mount Florida
+9820	Pollokshaws East
+9821	Pollokshields East
+9822	Queens Park (Glasgow)
+9823	Shawlands
+9825	Thorntonhall
+9828	Shenfield Ots
+9832	Scotrail Tele Tr
+9836	Teesside Airport
+9839	Robin Hood Airport
+9842	Stepps
+9845	Hyndland
+9846	Heathrow Airport Terminal 5 (Rail)
+9852	Lincoln Bus Stn
+9855	Clydebank
+9857	Hanley Bus Stn
+9858	Norton Brg Stndv
+9859	Stone Grnvle Sq
+9861	Alexandria
+9862	Balloch
+9863	Barlastan Orch Dv
+9864	Dalreoch
+9865	Wedgwood Old Rd
+9866	Dumbarton Central
+9867	Renton
+9868	Dumbarton East
+9869	Heathrow Airport Terminals 1, 2 and 3 (Bus)
+9870	Plymouth Rp Sp
+9871	Exeter Rp Sp
+9876	Larbert
+9877	Carfin
+9878	Camelon
+9880	Nre
+9882	Coleshill Parkway
+9883	Alloa
+9885	West Mids Ate
+9888	Stirling
+9889	Bridge of Allan
+9890	Bath Spa Rp
+9891	Exeter Ctl Rp
+9893	Swindon Rp
+9894	Easterhouse
+9895	Bellgrove
+9897	Carntyne
+9898	Peterbro Bus Stn
+9902	Crosskeys
+9903	Shettleston
+9904	Garrowhill
+9905	Alexandra Parade
+9906	Duke Street
+9909	High Street (Glasgow)
+9911	Charing Cross (Glasgow)
+9914	Exhibition Centre (Glasgow)
+9915	Ebbw Vale Parkway
+9916	Llanhilleth
+9917	Partick
+9919	Newbridge
+9920	Risca & Pontymister
+9921	Rogerstone
+9925	Llanharan
+9927	Troon Sst
+9928	Walthmstw Qr Sst
+9929	Set Telesales
+9930	Falkirk Grahamston
+9931	Falkirk High
+9932	Harry Weeks Tvl
+9934	Lndon Estar Civ
+9936	Polmont
+9938	Branchton
+9940	Bishopbriggs
+9943	Croy
+9950	Glasgow Queen Street
+9953	Ashfield
+9955	Lenzie
+9956	Gilshochill
+9957	Maryhill
+9958	Possilpark & Parkhouse
+9959	Summerston
+9960	Kilpatrick
+9961	Argyle Street
+9962	Ardlui
+9963	Arrochar & Tarbet
+9965	Anderston
+9966	Bearsden
+9967	Drumfrochar
+9968	Bowling
+9969	Cardross
+9970	Craigendoran
+9971	Garelochhead
+9972	Anniesland
+9973	Barnhill
+9979	Garscadden
+9981	Helensburgh Central
+9982	Helensburgh Upper
+9983	Hillfoot
+9985	Milngavie
+9988	Singer
+9990	Yoker
+9992	Dalmuir
+9993	Drumry
+9994	Drumchapel
+9995	Jordanhill
+9996	Scotstounhill
+9997	Springburn
+9998	Westerton
+A637	Dawson & Sandson
+AN61    Fcm Travel Solu
+AP66    Global Travel
+B002	American Express
+B336	Britannic Tq3
+B435	United Counties
+BP94    Inside Track
+BW07    Wgt Sport Ltd
+BY68    Telford Trvlink
+C544	Ben Lawries Trvl
+C786	Horncastle Exec
+D993	Amex Europe
+D996	American Express
+D997	American Express
+DW90    Galileo Intl
+EM71    Britannic Tq3
+EV27    Carlson Wagonlit
+EW86    Salsbry Tourist
+F995	City Travel Uk
+FL02    Hatch Ferguson
+G001	Four Oaks Wmbus
+G003	Selly Oak Wmbus
+G004	Shirley Wmbus
+G005	Anglia Meal Vchr
+G007	Stourb Jct Wmbus
+G009	Stourb Tow Wmbus
+G010	Nxec Catering
+G013	Sutton Col Wmbus
+G014	Tame Bridg Wmbus
+G016	University Wmbus
+G019	The Hawtho Wmbus
+G023	Salford Quays (Metrolink)
+G025	Tyne & W Day Rvr
+G039	Trav Mstr Sth Yk
+G041	Metro Zone A
+G043	Metro Zone B
+G044	Metro Zone C
+G045	Metro Zone D
+G046	Metro Zone E
+G047	Metro Zone F
+G048	Pickering Nymr
+G053	Keighley & Wvrly
+G075	Ipswich Buses
+G085	Ingoldmells
+G086	Chapel St Leonds
+G087	Sutton On Sea
+G101	Network Term Ext
+G102	One Wk All  Zone
+G103	Four Wk Allzone
+G104	Annual All Zones
+G105	Daytripper Famly
+G106	Two Wk Off  Peak
+G107	Daytripper
+G110	Thirtwk Allzone
+G113	Chester Rd Wmbus
+G116	Dudley Por Wmbus
+G200	Bury (Metrolink)
+G201	Radcliffe (Metrolink)
+G202	Whitefield (Metrolink)
+G203	Besses o'th' Barn (Metrolink)
+G204	Prestwich (Metrolink)
+G205	Heaton Park (Metrolink)
+G206	Bowker Vale (Metrolink)
+G207	Crumpsall (Metrolink)
+G208	Woodlands Road (Metrolink)
+G209	Trafford Bar (Metrolink)
+G210	Old Trafford (Metrolink)
+G211	Stretford (Metrolink)
+G212	Dane Road (Metrolink)
+G213	Sale (Metrolink)
+G214	Brooklands (Metrolink)
+G215	Timperley (Metrolink)
+G216	Navigation Road (Metrolink)
+G217	Altrincham (Metrolink)
+G222	Mablethorpe
+G223	Bluewater
+G231	Metrolink Zone A
+G232	Metrolink Zone B
+G233	Metrolink Zone C
+G234	Metrolink City
+G235	Metrolink Zone E
+G236	Metrolink Zone F
+G237	Metrolink Zone G
+G238	Metrolink Zone H
+G249	All Zone Student
+G251	Zne 1+2 Student
+G255	Zone L3* Zone
+G256	Zone L4* Zone
+G257	Zone L5* Zone
+G258	Zone L6* Zone
+G260	Zone L23* Zones
+G261	Zone L34* Zones
+G262	Zone L45* Zones
+G263	Zone L56* Zones
+G264	Zone L123* Zones
+G265	Zone L234* Zones
+G266	Zone L345* Zones
+G267	Zone L456* Zones
+G268	Zone L2* Zone
+G269	Zone L2345*zones
+G270	Zone L3456*zones
+G271	Zone L1245*zones
+G272	Zone L2356*zones
+G281	Zone U6sa
+G282	Zone U56sa
+G283	Zone U46sa
+G284	Zone U36sa
+G286	Zone U26sa
+G287	Zone U16sa
+G295	Zone R6sf
+G296	Zone R56sf
+G297	Zone R46sf
+G298	Zone R36sf
+G299	Zone R26sf
+G300	Zone R16sf
+G301	Zone R6se
+G302	Zone R56se
+G303	Zone R46se
+G304	Zone R36se
+G305	Zone R26se
+G306	Zone R16se
+G307	Zone R6sd
+G308	Zone R56sd
+G309	Zone R46sd
+G311	Zone R36sd
+G316	Zone R26sd
+G317	Zone R16sd
+G318	Zone R6sc
+G319	Zone R56sc
+G320	Zone R46sc
+G321	Zone R36sc
+G322	Zone R26sc
+G323	Zone R16sc
+G324	Zone R6sb
+G325	Zone R56sb
+G326	Zone R46sb
+G328	Zone R36sb
+G329	Zone R26sb
+G330	Zone R16sb
+G332	Zone R6sa
+G337	Zone R56sa
+G338	Zone R46sa
+G339	Zone R36sa
+G340	Zone R26sa
+G341	Zone R16sa
+G342	Zone U6sf
+G344	Zone U56sf
+G345	Zone U45sf
+G346	Zone U36sf
+G347	Zone U26sf
+G349	Zone U16sf
+G350	Zone U6se
+G351	Zone U56se
+G358	Zone U46se
+G359	Zone U36se
+G360	Zone U26se
+G361	Zone U16se
+G362	Zone U6sd
+G363	Zone U56sd
+G365	Zone U46sd
+G366	Zone U36sd
+G367	Zone U26sd
+G368	Zone U16sd
+G370	Zone U6sc
+G371	Zone U56sc
+G372	Zone U46sc
+G374	Zone U36sc
+G377	Zone U26sc
+G386	Zone U16sc
+G387	Zone U6sb
+G388	Zone U56sb
+G389	Zone U46sb
+G391	Zone U36sb
+G392	Zone U26sb
+G393	Zone U16sb
+G400	Drby Wayfr Dayrg
+G401	Cornbrook (Metrolink)
+G402	Pomona (Metrolink)
+G403	Exchange Quay (Metrolink)
+G404	Anchorage (Metrolink)
+G405	Harbour City (Metrolink)
+G406	Broadway (Metrolink)
+G407	Langworthy (Metrolink)
+G408	Weaste (Metrolink)
+G409	Ladywell (Metrolink)
+G410	Eccles (Metrolink)
+G790	One Wk Zone 1*
+G791	One Wk Zone 12*
+G792	One Wk Zone 123*
+G793	One Wk Zone1234*
+G794	One Wk Zone*2345
+G795	Four Wk Zone 1*
+G796	Four Wk Zone 12*
+G797	Four Wk Zone123*
+G798	Four Wk Zone1234
+G799	Four Wkzone*2345
+G800	Thirtnwk Zone 1*
+G801	Thirtnwk Zone12*
+G802	Thirtnwk Zone123
+G803	Thirtnwkzone1234
+G804	Thirtnwkzone2345
+G805	Annual Zone 1*
+G806	Annual Zone 12*
+G807	Annual Zone 123*
+G808	Annual Zone1234
+G809	Annual Zone*2345
+G810	Centro One Day
+G998	Zone G123456
+H002	Althorp House
+H004	Daysaver Tb
+H005	Daysaver Tbm
+H010	Dublin Fypt I.f.
+H015	Cullompton Bus
+H017	Glastonbury Bus
+H018	Radstock Bus
+H019	Avebury Bus
+H020	Dunster Bus
+H021	Holsworthy Bus
+H022	Daysaver Tm
+H039	Witham Bus
+H040	Braintree Bus
+H043	Caerphilly Bus
+H044	Festival Of Sea
+H045	Raveng/esk Rlwy
+H047	Hatfield Bpk Bus
+H051	Tonbridge Bike
+H052	Leigh On Sea Bus
+H058	Bpool Nthbustram
+H059	Bpool Sthbustram
+H061	Shugbrgh Viazaks
+H064	Gardeners World
+H066	Anfield&goodison
+H068	Britannia & Bus
+H070	Five Shakes Prop
+H073	Chipngnorton Bus
+H074	Minff/pthmdg Fr
+H075	Blaenau Ffest Fr
+H077	Admission Thur
+H078	Admission Fri
+H085	Pontypridd+bus
+H091	Barnstaple+bus
+H099	Lincoln+bus
+H100	London Term D2d1
+H101	London Term D2d2
+H102	London Term D2d3
+H103	London Term D2d4
+H104	London Term D2d5
+H105	Admission Wed
+H107	Imperial Museum
+H108	Derby+bus
+H109	Bath+bus
+H110	Chippenham+bus
+H122	Clacton Bus Zone
+H126	Blickling Hall
+H127	Watchet Bus
+H129	Bournemouth+bus
+H130	Branksome+bus
+H131	Christchurch+bus
+H132	Poole+bus
+H133	Salisbury+bus
+H134	Luton+bus
+H135	Leagrave+bus
+H136	Luton Airport Parkway+bus
+H137	Southampton Central+bus
+H138	Southampton Airport Parkway+bus
+H139	Portsmouth Harbour+bus
+H140	Portsmouth & Southsea+bus
+H141	Alnmouth+bus
+H142	Hexham+bus
+H143	Evesham+bus
+H144	Leven Valley Bus
+H145	Network Dd Z1
+H146	Network Dd Z1-2
+H147	Network Dd Z1-3
+H148	Network Dd Z1-4
+H149	Network Dd Z2-5
+H150	Network Dd All Z
+H151	Caterham Bus
+H152	Llanwrtyd & Soup
+H154	Canterbury Pport
+H155	York Races Bus
+H156	Cwl Psspt To Fdm
+H160	Mugdock Bus Link
+H161	Pleasurewood
+H162	Pleasurewd Kids
+H163	Norwich Attrctns
+H164	Any One Station
+H166	York & Bus Tour
+H167	Ncastle &bustour
+H168	Lpool & Bus Tour
+H169	Manch & Bus Tour
+H172	Londn Motor Show
+H180	Motorshow Travel
+H193	Newmarket Races
+H194	Aldershot+bus
+H195	Motor Show Snr
+H196	Mansfield+bus
+H205	Alt Twrs Unchild
+H207	Shrewsbury+bus
+H208	Broxbourne+bus
+H209	Rye House+bus
+H211	Matlock + Tb Bus
+H212	Long Eaton Bus
+H213	Alfreton Bus
+H224	Chester Zoo
+H227	Douglas Iom
+H231	Colchester Bus 1
+H232	Colchester Bus 2
+H233	Colchester Bus 3
+H234	Prestwick Atrain
+H235	Cheshire Oaks
+H236	St Margarets (Hertfordshire)+bus
+H238	Rhondda Htg Park
+H239	Cheshunt+bus
+H240	Theobalds Grove+bus
+H241	Waltham Cross+bus
+H242	Sawbridgeworth+bus
+H243	Skiptondales Bus
+H244	Ilkleydales Bus
+H248	Paradise Park
+H249	Paradise Pk Chld
+H250	Ullapool
+H257	Christchurch Bus
+H258	Gmpte Traincard
+H259	Gmpte Countycard
+H263	Highland Rover
+H264	Cleeth Psure Isl
+H266	Cheltenham Fest
+H268	Robinhood Airbus
+H269	Plumpton Races
+H270	Cork Ringaskiddy
+H272	E Mids Air/derb
+H273	E Mids Air/nott
+H276	Brighton+bus
+H277	Hove+bus
+H278	Portslade+bus
+H279	Southwick+bus
+H280	Shoreham (Kent)+bus
+H281	Moulsecoomb+bus
+H282	Falmer+bus
+H283	Brightonlr+bus
+H284	Aldrington+bus
+H285	Preston Park+bus
+H286	Lichfield Trent Valley+bus
+H289	Poole Bus
+H298	Lichfield City+bus
+H299	Hull+bus
+H301	Ryde Hoverport
+H305	Starbeck+bus
+H307	Knaresborough+bus
+H308	Cs Windsor
+H312	Guidefdy Stratfd
+H315	Guidefdy Oxford
+H319	Nth Norfolk Rly
+H326	Blaenrhondda Bus
+H328	Hop Farm
+H333	Craignure
+H334	Armadale
+H335	Castlebay
+H336	Lochboisdale
+H337	Stornoway
+H340	Hawkhurst Bus
+H341	Sissinghurst Bus
+H342	Cranbrook Bus
+H343	Gill's Green Bus
+H344	Tredegar Bus
+H346	Rhymney Bdge Bus
+H361	Alloa Bus
+H362	Callander Bus
+H365	Corsham Bus
+H366	Melksham Bus
+H367	Midsomer Ntn Bus
+H371	Street Bus
+H372	Wells Bus
+H378	Coventry Airbus
+H379	Fyldecoastdayrgr
+H380	Wheelofbirminham
+H381	Deep Sea World
+H386	Great Yarmth Bus
+H387	Preston Car Z 78
+H389	Trent Buses
+H394	Dinner
+H403	Sidmouth Bus
+H404	Rayleigh Bus1
+H405	Rayleigh Bus2
+H408	Harlow Bus
+H409	Harlow Townrider
+H412	Alderney C I
+H413	Preston Car Z 1
+H415	Preston Car Z 2
+H416	Wycombe Bus
+H421	Chelmsford Bus 1
+H422	Chelmsford Bus 2
+H424	Preston Car Z 3
+H426	Calais
+H432	Preston Car Z 4
+H433	Oostende.
+H441	Sealife Bham
+H443	Any Dutchstation
+H445	Arnhem
+H451	Maerdy Bus
+H457	Preston Car Z 5
+H458	Preston Car Z 6
+H463	Cork City Bus
+H464	Sthsea Hoverline
+H469	Hastings Bus
+H472	Basildon Bus
+H476	Canvey Bus1
+H477	Benfleet Bus 2
+H478	Weekdays Swt
+H479	Weekends Swt
+H481	Ideal Home Wend
+H482	Ideal Home Wday
+H483	Bognor Regis Bus
+H484	Idl Hme Wday Snr
+H485	Camber Bus
+H487	Tenterden-ryebus
+H489	Edinb Air747 Bus
+H490	Maldon Bus Zone
+H493	Dedham Vale Bus
+H507	Llanybydder Bus
+H508	Lampeter Bus
+H509	Aberaeron Bus
+H510	Aberystwyth Bus
+H511	Machynlleth Bus
+H515	Nmidwales 4in8
+H519	Abingdon Did Bus
+H520	Wantage Bus
+H522	N Wales All Zner
+H524	Alfristn-sefdbus
+H528	Chatham Navy Day
+H532	Cambridge Bus Ca
+H534	Alfristn-pgtebus
+H538	Quarry Bank Day
+H544	Worthing Bus
+H545	Helston Bus
+H546	Perranporth Bus
+H547	Rhigos Bus
+H548	Tylorstown Bus
+H550	Fowey Bus
+H552	Wadebridge Bus
+H553	Padstow Bus
+H554	Callington Bus
+H555	Launceston Bus
+H556	Tavistock Bus
+H557	Dartmouth Bus
+H558	Kingsbridge Bus
+H559	Okehampton Bus
+H560	Bude Bus
+H563	Minehead Bus
+H564	Devizes Bus
+H568	Marlboro Swi Bus
+H569	Lyneham Bus
+H570	Wootton Bass Bus
+H571	Calne Bus
+H572	Tiverton Bus
+H573	Halstead Bus
+H574	Dunmow Bus
+H577	Trecynon Bus
+H578	Frome Town Bus
+H579	Sevenoaks Bus
+H584	Heathrow Rail
+H594	Tewkesbury Bus
+H596	Benfleet Bus 1
+H602	Camberley+bus
+H603	Glasgow Airport
+H605	Bracknell+bus
+H606	Grimsby Town+bus
+H614	London Boat Show
+H615	Dersingham Bus
+H616	Hunstanton Bus
+H617	Nene Valley Rly
+H619	Canvey Card
+H621	Nene Valley Fam
+H622	Holt (nnrly)
+H625	Chatsworth
+H630	Butlinspenychain
+H633	Camb Bike Hire
+H636	Eastbourne Bus
+H638	Metro Citycentre
+H641	New Romney Bus
+H642	Newcastle Airport (Tyne & Wear Metro)
+H654	Cherbourg
+H660	Tunbridge W Bus
+H665	Tyne&wear Metro
+H673	Tramlink
+H678	Motherwell Bus
+H680	Mach C.a.t.
+H681	Hcp Flower Show
+H684	New Lanarkdayout
+H687	Fishguard Tn Bus
+H688	Goodwick Bus
+H690	Wallingford Bus
+H694	Gw Booking Fee
+H695	Lough Town Bus
+H701	Cumbernauld Bus
+H705	Tonbridge Bus
+H706	Thanet Bus
+H707	Canterbury Bus
+H708	Ashford Bus
+H711	Mevagissey Bus
+H712	Bristol Air Bus
+H713	Lizard Bus
+H714	Mullion Bus
+H715	St Agnes Bus
+H717	Cardiff Air Bus
+H720	Limobike Zone1
+H721	Limobike Zone 2
+H722	Limobike Zone 3
+H723	Limobikeheathrow
+H724	Limobike Gatwick
+H725	Limobikestansted
+H726	Limobike Cityapt
+H729	Lough Univ Bus
+H730	Stanford L H Bus
+H731	Winchestr Sblbus
+H732	Southm C Sbl Bus
+H733	Southm A Sbl Bus
+H734	Eastleigh Sblbus
+H735	Doune Bus
+H736	Cowbridge Bus
+H738	Lingfield Races
+H740	Wivenhoe Bus
+H741	Sth Woodhm F Bus
+H743	Wales Pass 4in8
+H746	South Wales 4in8
+H747	Hardwick Nt Mbr
+H748	Hardwick
+H750	Luton Ap Bus Vgn
+H752	Cadbury World
+H755	Surrey Hills
+H759	Caernarfon Bus
+H761	Card Baycarbus
+H768	Weekends
+H769	Weekdays
+H770	Weekends Conc
+H771	Weekdays Conc
+H772	Grimsby Docks+bus
+H773	Cleethorpes+bus
+H774	Weymouth+bus
+H775	Upwey+bus
+H776	Falmouth Dock+bus
+H777	Penmere+bus
+H778	Penryn+bus
+H779	Fishersgate+bus
+H781	Advn Island Wagn
+H789	Glasgow Air Xbus
+H791	P Rabbit Pass
+H795	Showboat
+H796	Newquay Bus
+H797	Broads Boattrain
+H800	Royal Show
+H801	Royal Show Conc
+H802	Southwck B&h Bus
+H803	Moulscmb B&h Bus
+H804	Falmer B&h Bus
+H805	Seaford B&h Bus
+H806	Eastbrne B&h Bus
+H807	London Buses
+H811	London Bus Pass
+H812	Wellington (Shropshire)+bus
+H813	Aberdare+bus
+H814	Aberdeen+bus
+H815	Aberystwyth+bus
+H816	Bangor+bus
+H817	Bathgate+bus
+H818	Caerphilly+bus
+H819	Carmarthen+bus
+H820	Camborne+bus
+H821	Cowdenbeath+bus
+H822	Cwmbran+bus
+H823	Dunfermline+bus
+H824	Dundee+bus
+H825	Elgin+bus
+H826	Falkirk Grahamston+bus
+H827	Falkirk High+bus
+H828	Fort William+bus
+H829	Haverfordwest+bus
+H830	Kirkcaldy+bus
+H831	Larbert+bus
+H832	Linlithgow+bus
+H833	Livingston North+bus
+H834	Llandudno Junction+bus
+H835	Llanelli+bus
+H836	Merthyr+bus
+H837	Newquay+bus
+H838	Penzance+bus
+H839	Pontypool+bus
+H840	Redruth+bus
+H841	Rhyl+bus
+H842	Ruabon+bus
+H843	St Austell+bus
+H844	Stirling+bus
+H845	Tenby+bus
+H846	Truro+bus
+H847	Wrexham Central+bus
+H848	Wrexham General+bus
+H849	Mml Breakfast A
+H851	Andover + Bus
+H852	Basingstoke +bus
+H853	Exeter Central+bus
+H854	Exeter St Davids+bus
+H855	Glasgow Central+bus
+H856	Glasgow Queen Street+bus
+H857	Havant + Bus
+H858	Motherwell+Bus
+H859	Harwich Int Bus
+H860	Winchester + Bus
+H861	Any Swt Station
+H862	Harwich Town Bus
+H863	Dovercourt Bus
+H864	Nottingham Tram
+H866	Haydock Race Bus
+H867	Haydock Park Bus
+H869	Crufts Dog Show
+H870	Welwyn Garden City+bus
+H871	Welwyn North+bus
+H872	Hatfield+bus
+H873	Hertford+bus
+H874	Hitchin+bus
+H875	Baldock + Bus
+H876	Letchworth Garden City+bus
+H877	Potters Bar+bus
+H878	Brookmans Park+bus
+H879	Stevenage+bus
+H880	Knebworth+bus
+H881	Ware (Hertfordshire)+bus
+H882	Hemel Hempstead+bus
+H883	Apsley + Bus
+H884	Watford Junction+bus
+H885	Watford High Street+bus
+H886	Watford North+bus
+H887	Garston+bus
+H888	Bushey+bus
+H889	Carpenders Park+bus
+H890	Colwyn Bay + Bus
+H891	Flint+bus
+H892	Prestatyn+bus
+H893	St Albans+bus
+H894	Bishops Stortford+bus
+H895	Elstree & Borehamwood+bus
+H896	Harpenden+bus
+H897	Radlett + Bus
+H898	Nrm Railfest Yrk
+H919	Nth Norfolk Rly
+H920	Bure Valley Rly
+H921	Bicester Village
+H930	Carlisle + Bus
+H931	Lancaster+bus
+H932	Preston+bus
+H933	Darlington+bus
+H934	Chesterfield+bus
+H935	Banbury + Bus
+H936	Leamington Spa+ Bus
+H937	Nuneaton + Bus
+H938	Rugby + Bus
+H939	Cheltenham+bus
+H940	Gloucester+bus
+H943	Golflink Bus2005
+H944	Cressexpress Bus
+H945	Stoke-on-Trent+bus
+H946	Bodmin Parkway+bus
+H948	Falmouth Town+bus
+H949	Liskeard+bus
+H950	York+bus
+H951	Maidenhead+bus
+H952	Blackburn+bus
+H953	Darwen+bus
+H954	Windsor Central+bus
+H955	Windsor Riverside+bus
+H956	Wokingham+bus
+H957	Newbury+bus
+H958	Slough+bus
+H959	Burnley Central+ Bus
+H960	Burnley Manchester Road+ Bus
+H961	Burnley Barracks+bus
+H962	Chester+bus
+H963	Tvm Barnsley Zn
+H964	Tvm Doncaster Zn
+H965	Tvm Rotherham Zn
+H966	Tvm Sheffield Zn
+H968	St Albans Abbey+bus
+H969	Exe Estuary Circ
+H971	Bluewt Ensignbus
+H972	Atw Rugby Train
+H973	Glasgow Subway
+H975	Leeds + Bus
+H976	Bradford+bus
+H977	Halifax + Bus
+H978	Wakefield+bus
+H979	Dewsbury + Bus
+H980	Huddersfield+bus
+H981	Keighley+bus
+H982	Warrington Stations+ Bus
+H983	Ventnor Bus Z1
+H984	Ventnor Bus Z12
+H985	Ventnor Bus Z123
+H986	Weston-super-Mare+bus
+H989	Uxbrdge Slou Bus
+H990	Bromyard Bus
+H991	Witney Bus
+H992	Abingdon Oxf Bus
+H993	Lakeside Buslink
+H994	Art In The 60s
+H995	Brighton Races
+H996	Fontwell Races
+H998	Reigate Bus
+I004	Wembley Via Svg
+I005	Ontrn Wknd 1st A
+I006	Ontrn Wknd 1st B
+I010	Tw Child All Day
+I013	Bittern Rover
+I016	Chgble Seat Rsvn
+I017	Staff Travel
+I021	Cumbria Day Rgr
+I041	Thames Avon Trio
+I042	Edinbrh Citycab
+I043	Waverly Stn Cab
+I045	Staff Facilities
+I046	M Train Dayrover
+I057	Worthing Unizone
+I058	Brighton Unizone
+I061	Mrail Zone B1
+I062	Mrail Zone B2
+I064	Mrail Zone C1
+I065	Lancs Day Ranger
+I066	Thames Branches
+I073	Qf Car Park
+I074	Qf Car Park
+I077	Qfare Plat Tkt
+I078	Cherwll Ban-didt
+I079	Cherwll Ban-oxfd
+I080	Cherwll Ban-rdng
+I103	G M Rail Ranger
+I110	Firstbusrcard
+I113	Cst Pks 4-8 Rvr
+I115	E Mids Flex Rvr
+I116	Unaccmpniedchild
+I119	Tees Dayrider
+I120	Fonw 41n8day Rvr
+I122	Ht Eng Rvr 3in7
+I124	Gmpte Acmp Child
+I126	Flexi 4dys In 1m
+I127	Flexi 4dys In 2m
+I128	Flexi 8dys In 1m
+I129	Flexi 8dys In 2m
+I130	Flexi 15dy In 2m
+I131	Flexi 15dy In 1m
+I132	Flexi 3dys In 1m
+I142	Days Out 2 In 8
+I152	North East Rnd R
+I158	Chelt Races 05
+I161	Dartmoor Sun Rvr
+I163	Glamzone
+I164	Cardiff Zone
+I165	East Mids Dayrgr
+I166	Cambrian Eve Rgr
+I167	E Mids Fam Rngr
+I176	And R1 Zone
+I191	Mrail Zone C2
+I192	Mrail Zone C3
+I193	Daytripper Exch
+I194	Dytripper Add-on
+I195	Daytripper Plus
+I196	Spt Exchange
+I202	Mrail Zone D1
+I203	Mrail Zone D2
+I204	Mrail Zone E
+I205	Mrail Zone F
+I206	Mrail Zone G1
+I207	Mrail Zone G2
+I218	Net 1 Wk Add-on
+I219	Net 4 Wk Add-on
+I220	Net 52 Wk Add-on
+I221	Net 2 Wk Add-on
+I222	Net Term Add-on
+I223	Mrail Zone A1
+I224	Mrail Zone A2
+I225	Roundabout
+I226	Mrail Zone A3
+I236	Mrail Area A
+I237	Mrail Area B
+I238	Mrail Area C
+I239	Mrail Area D
+I240	Mrail Area G
+I259	Mrail All Areas
+I274	West Mids Dayrgr
+I278	Mrail Area A/c1
+I279	Mrail Area B/c1
+I280	Mrail Area B/g1
+I281	Mrail Area C/a2
+I282	Mrail Area C/b1
+I283	Mrail Area C/d2
+I284	Mrail Area C/f
+I285	Mrail Area D/c3
+I286	Mrail Area G/b2
+I287	Mrail Area A2/c2
+I288	Mrail Area B1/c1
+I289	Mrail Area B2/g1
+I290	Mrail Area C3/d2
+I291	Mrail Area C3/f
+I292	Cambrian Cst Exp
+I293	St Ives Shrt Hop
+I294	St Ives Line Day
+I298	Cent Scot Rover
+I299	Hadrians W Cntry
+I326	Unizone
+I327	Setseason
+I351	Cheshire Day Rgr
+I353	Netw 1stpl Z 1-4
+I354	Netw 1stpl Z 1-5
+I355	West Wales Dyrgr
+I356	Briteng2dayin2m
+I357	Briteng3dayin2m
+I358	Nth Downs Dy Rgr
+I359	Net Stude Add-on
+I360	Brit Eng 2 Days
+I361	Brit Eng 3 Days
+I362	Brit Eng 6 Days
+I363	Net Mth Dd Addon
+I365	Cumbria Rnd Rbn
+I366	Cumbrian Cst Rgr
+I367	Thames Rover
+I368	Mills&marketsrgr
+I371	Val Night Rider
+I373	Mid Cheshire Z1
+I374	Mid Cheshire Z2
+I375	Northwirrallines
+I376	Fgw Staff Promo
+I377	Fishguard 100
+I379	Dales Promo
+I381	Moorslink Family
+I383	Lincs Day Ranger
+I384	Devon Evning Rgr
+I389	W Midszone 12***
+I390	W Midszone 123**
+I391	W Midszone 1234*
+I392	W Midszone *2345
+I395	Cambrian Coaster
+I397	Ler Launch Day
+I400	Rainford Zonetkt
+I401	Garswood Zonetkt
+I402	Hough Gn Zonetkt
+I403	Allerton Zonetkt
+I421	W Mids All Zones
+I427	Premier Zone 1
+I428	Premier Zone 2
+I429	Prem Weekend 1st
+I430	Premier Season
+I431	Kent Rover
+I432	Oxfd Day Rgr
+I436	Anglia Plus-atp
+I437	Wherrylineranger
+I441	Eurovoyager Supp
+I442	Air Exp Promo
+I444	Any Southn Train
+I445	Go As You Please
+I448	Swt Logic Pass
+I450	Go Staff Pass
+I452	Weekendrover
+I453	Disc Staff Berth
+I454	Comm Rail Fest
+I455	E Yorks R Robin
+I458	Sleeperexecutive
+I459	One Day Explorer
+I461	Severnbch Dayrgr
+I463	Flexpas 2din1mth
+I464	Oxford Eve Out
+I465	Nthwst Rnd Robin
+I466	South Pennies Dr
+I467	W Midszone 1****
+I472	Foscl Flexi Rvr
+I481	Calsleeper Flexi
+I482	Caledonian Solo
+I484	All Wagn Service
+I493	Howcirc Day Rgr
+I494	Valley Explorer
+I497	Ntheast Rndrobin
+I525	Tamar Valley Rgr
+I532	Frdm Tvlpass A
+I572	Frdm Tvlpass Abc
+I591	Frdm Tvlpass Ab
+I596	Conwy V Dy Rngr
+I599	N Devon Day Rngr
+I609	St Ives Pk&rde05
+I613	Cotwold Line Crd
+I621	Fosw Rover 8in15
+I650	Fodc Rover 3in7
+I659	Fodc Rover8in15
+I661	Frm Of Brit 7dy
+I662	Frm Of Brit.14dy
+I664	Ht Of England 7d
+I668	Britrail Pass
+I669	Britrail Dup Pas
+I697	Euro Voygr Jpfee
+I733	Sett-carl Ranger
+I743	Fone Flexi Rvr
+I744	N Cntry Flexirvr
+I747	Mersey Pte Chmax
+I756	Nxec Exec C/park
+I772	Fonw 7 Day Rvr
+I775	E Midlands 7 Day
+I780	Any Tlink Stn
+I782	Shakespeare Exp
+I783	Shakspre Exp Snr
+I784	Kennet Day Rgr
+I785	Moorslink
+I786	Gate Pass
+I803	Fone 7 Day Rvr
+I831	Anglia Exchange
+I842	Cambrian Day Trp
+I846	Hants+drst C Rvr
+I847	Berks+hnts+w.s.r
+I849	Flexi 2dys In 2m
+I850	Flexi 3dys In 2m
+I851	Chiltern Rover
+I852	Looe Valley Exp
+I854	Dartmoor Sun Rvr
+I855	Fosw Rover 3in7
+I856	Cornish Ranger
+I857	Devon Ranger
+I858	Ht Of Wsx Ranger
+I861	Days Out 4 In 8
+I862	Foss Rover 8in15
+I863	Foss Rover 3 In7
+I869	Days Out 7 In 15
+I875	Tyne & Tees
+I898	Island Line Rvr
+I907	Comp Tea Coffee
+I970	Car Parking
+IA00,Briteng4dayin2m
+IA01,Briteng8dayin2m
+IA02,Briteng15dayin2m
+IA03,Brit Eng 4 Days
+IA04,Brit Eng 8 Days
+IA05,Brit Eng 15 Days
+IA06,Brit Eng 22 Days
+IA07,Brit Eng 1 Month
+IA09,Season Exchange
+IN91,River Boat Pier
+J001	Maidenbower Bus
+J002	Threecountiesshw
+J005	Colchesterzoo676
+J007	Cardiff Bus
+J008	Cosford Air Fam
+J009	Iw Bus Train Rvr
+J010	Larne Harbour Ni
+J012	Rdjet+svdayrover
+J013	Leevalley Cruise
+J014	Chauff Punt Camb
+J017	Eisteddfod 2008
+J018	Eisteddfod06 Sun
+J019	Cartmel Races
+J024	Thinktank+aliens
+J025	London Zoo
+J027	Stroud (Gloucestershire)+bus
+J028	Stonehouse+bus
+J029	Nottingham+bus
+J030	Beeston+bus
+J031	Bulwell+bus
+J032	Netherfield+bus
+J033	Carlton+bus
+J034	M Of Flght/sbird
+J036	Mml Breakfast C
+J037	Mml Breakfast D
+J038	Busmaster
+J039	World Rowing Bus
+J040	Jacobite Steam
+J041	Eden T10 Bus
+J042	Blackp & Bustour
+J044	Dundee 4
+J045	Leuchars 4
+J046	Cupar 4
+J047	Markinch 4
+J048	Knghrn/cwdnbth 4
+J049	Perth 4
+J051	Gleneagles 4
+J052	Dunblane 4
+J053	Brdge Of Allan 3
+J054	Larbert 3
+J055	Dunfermline Qm 3
+J056	Aberdour/rsyth 3
+J057	Shotts 3
+J058	North Berwick 3
+J059	Dunbar 3
+J061	Longniddry 2
+J062	Fauldhouse 2
+J063	Kirknwtn/uphll 2
+J064	W Calder/bgate 2
+J065	Edinburgh Zone 1
+J068	Big Bus
+J069	Camb Citybustour
+J071	Bishops Lyrd Wsr
+J095	Fareham+bus
+J096	Cambridge+bus
+J097	Flitwick+bus
+J098	Harlington (Bedfordshire)+bus
+J099	Liverpool Lime Street+bus
+J100	Liverpool South Parkway+bus
+J101	Grand Design 07
+J102	Oyster Deposit
+J103	Oyster Prepay
+J110	Eilean Donan
+J112	Bbc Good Food
+J115	Romford Dogs M&w
+J116	Romford Dogs F&s
+J117	S Y Day Tripper
+J118	Ridecornwall
+J119	Kangaroo
+J122	Audley End House
+J123	Outdoors Show 07
+J124	East Ang Rw Muse
+J125	Southend Sealife
+J126	Mountfit Castle
+J127	Gainsborough Hse
+J128	Windermere+bus
+J129	Prudhoe+bus
+J130	Stafford+bus
+J131	Crawley+bus
+J132	Gatwick Airport+bus
+J133	Three Bridges+bus
+J134	Horley+bus
+J135	Ifield+bus
+J136	Redhill+bus
+J137	Reigate+bus
+J138	Haywards Heath+bus
+J139	Tonbridge+bus
+J140	Guildford+bus
+J141	Tunbridge Wells+bus
+J142	Ashford (Kent)+bus
+J143	Wye +bus
+J144	Folkestone Central+bus
+J145	Folkestone West+bus
+J147	Dover Priory+bus
+J149	Kearsney (Kent)+bus
+J150	Birchington+bus
+J151	Westgate-on-Sea+bus
+J152	Margate+bus
+J153	Broadstairs+bus
+J154	Dumpton Park+bus
+J155	Ramsgate+bus
+J156	Minster+bus
+J157	Canterbury East+bus
+J158	Canterbury West+bus
+J159	Sturry+bus
+J160	Whitstable+bus
+J161	Chestfield & Swalecliffe+bus
+J162	Herne Bay+bus
+J163	Walmer+bus
+J164	Deal+bus
+J165	Sandwich+bus
+J166	Ore +bus
+J167	Hastings+bus
+J168	Bexhill+bus
+J169	St Leonards+bus
+J170	Fdm Of Scot 8-15
+J171	West St Leonards+bus
+J172	Collington+bus
+J173	Cooden Beach+bus
+J174	Rye (East Sussex)+bus
+J175	Scarborough+bus
+J176	Fdm Of Scot 4-8
+J179	Harlow+bus
+J180	High Wycombe+bus
+J183	Portsmth Hst Dck
+J184	Braehead Ctr Bus
+J185	New Forest Bus
+J197	Yorkairbus
+J198	Whipsnade Zoo
+J200	Kirkwall
+J201	Lerwick
+J202	Summer Fest T/f
+J203	Summer Fest S/s
+J204	Essex Ccc 2for1
+J206	Stromness
+J207	Kirkwl V Scrbstr
+J211	Ingatestone Hall
+J212	Hartlepool+bus
+J214	Middlesbrough+bus
+J216	Stockton+bus
+J217	Thornaby+bus
+J218	Burton+bus
+J219	Tamworth+bus
+J220	Gravesend+bus
+J221	South Woodham Ferrers+bus
+J222	Peterborough+bus
+J223	Bedford+bus
+J224	Bedford St Johns+bus
+J225	Kettering+bus
+J226	Wellingborough+bus
+J227	Eastbourne+bus
+J230	Gla Airbus V Ptk
+J231	Ikea Glasgow Bus
+J232	Renfrew X Bus
+J233	Southern Gen Bus
+J234	Any Scr Station
+J235	Any Gne Station
+J236	Any Nthn E Stn
+J237	Any Nthn W Stn
+J238	Any Merseyr Stn
+J239	Any Wcml Stn
+J240	Any Lm Station
+J241	Any Arriva Xcstn
+J242	Any Emt Station
+J243	Any Fgw Station
+J244	Any Atw Station
+J245	Any Hull Tr Stn
+J246	Any Chiltrn Stn
+J247	Any Ldn Ovgd Stn
+J248	Any Fcc Station
+J249	Any C2c Station
+J250	Any Se Station
+J251	Any Gat Exp Stn
+J252	Any Southrn Stn
+J253	Any Islnd L Stn
+J254	Any Tpe Station
+J255	Any Grand C Stn
+J256	Thfc Season
+J257	Itfc Portman Rd
+J258	Ncfc Carrow Road
+J259	Whufc Season
+J260	L Orient Season
+J261	Ctfc Season
+J262	Sufc Season
+J263	Quainton Road
+J264	Coles Bus Necbia
+J265	Petersfield Bus
+J266	Aylesbury+bus
+J267	Crewe+bus
+J268	Chatham+bus
+J269	Rochester+bus
+J270	Portree
+J271	Strood (Kent)+bus
+J272	Gillingham (Kent)+bus
+J273	Rainham (Kent)+bus
+J274	Maidstoneast+bus
+J278	Maidstone West+bus
+J280	Ebbwv Link Bus
+J281	Llanhth Link Bus
+J282	Rogstne Link Bus
+J284	Maidston East+bus
+J286	Dengiebus Swfer
+J287	Dengiebus Nfambr
+J288	Dengiebus Althrn
+J289	Dengiebus B-on-c
+J291	Dengiebus Sthmst
+J293	Ffest Roundrobin
+J294	Woking+bus
+J295	Runcorn+bus
+J296	Runcorn East+bus
+J297	Widnes+bus
+J298	Hough Green+bus
+J301	Inwardwales 4in8
+J319	Chess Woa Adult
+J320	Chess Woa Child
+J321	Chess Woa Senior
+J322	Thorpe Park
+J323	Doncaster Races
+J326	Londoneye Fastrk
+J328	Colne+bus
+J329	Eastleigh+bus
+J330	Nelson+bus
+J331	Scunthorpe+bus
+J332	Yeovil Junction+bus
+J333	Yeovil Pen Mill+bus
+J334	Accrington+bus
+J335	Farnborough+bus
+J336	Warwick+bus
+J337	Warwick Parkway+bus
+J338	Col Castle Admit
+J340	Prthmdog Steam08
+J341	Pwllheli Steam08
+J342	Yarmouthplsr Bch
+J343	Vintage Trains
+J345	Bournmth Air Bus
+J346	Blandford Bus
+J347	Wimborne Bus
+J348	Swanage Bus
+J349	Tidworth Bus
+J350	Arlesey+bus
+J351	Barry+bus
+J353	Brodick Castle
+J355	Mount Stuart Hse
+J359	Althorp Via Mkc
+J361	Tenterdn V Hcorn
+J362	Biddenden Bus
+J363	Vt Courtesy Car
+J366	Shenfield Bus2
+J367	Flitwick Bus
+J373	Brentwood Bus 2
+J380	Cambridge Busrvr
+J381	Ely Bus
+J382	St Ives Camb Bus
+J383	St Neots Bus
+J384	Huntingdon Bus
+J385	Barry Docks+bus
+J386	Biggleswade+bus
+J387	Bognor Regis+bus
+J388	Burnham+bus
+J389	Cannock+bus
+J390	Gainsborough Lea Road+bus
+J391	Huntingdon+bus
+J392	Kendal+bus
+J393	Leighton Buzzard+bus
+J394	Leigh-on-Sea+bus
+J395	Newark Castle+bus
+J396	Newark North Gate+bus
+J397	Oxenholme+bus
+J398	Retford+bus
+J399	Sandy+bus
+J403	St Helens Central+bus
+J407	Brodick
+J409	Dunoon
+J411	Rothesay
+J414	St Neots+bus
+J417	Southport+bus
+J418	Tring+bus
+J419	Galashiels V Car
+J420	Selkirk.
+J421	Hawick.
+J422	Langholm
+J423	Galashiels V Bwk
+J424	Melrose
+J425	Earlston
+J426	Duns
+J427	Galashiels V Edb
+J428	Hawick V Edb
+J429	Peebles V Edb
+J430	Selkirk V Edb
+J431	Worksop+bus
+J432	Worthing+bus
+J433	Nth Wales Zne A
+J434	Nth Wales Zne G
+J435	Nth Wales Zne C
+J436	Nth Wales Zne D
+J437	Nth Wales Zne F
+J438	Nth Wales Zne M
+J439	Nth Wales Zne W
+J440	Nth Wales Zne X
+J441	E Lancs Day Rngr
+J442	E Lancs Fam Rngr
+J443	Yrk Cst Day Rngr
+J444	Yrk Cst Fam Rngr
+J449	Stnstd A9 Coach
+J450	Centralscotrover
+J452	Medway Bus 1
+J453	Medway Bus 2
+J457	Benmore Bot Gdns
+J462	Heysham Bus Link
+J468	Bluewater Staff
+J470	East M Air/lboro
+J471	Bridport Bus31
+J472	Lyme Regis Bus31
+J477	Sheffield Bus
+J490	Caithness Towns
+J500	The Grand Tour
+J506	Cockermouth Bus
+J507	Keswick Bus
+J509	Bedford Bus Mk
+J510	Bicester Bus Mk
+J511	Buckngham Bus Mk
+J512	Cambridge Bus Mk
+J514	St Neots Bus Mk
+J515	Aviemore Trip
+J523	Workington Bus
+J524	Southport Bus
+J530	Gosport Ferry
+J531	Shrewflower Show
+J532	Ceriogyvalleybus
+J533	Highld Grnd Tour
+J534	Skye And Portree
+J537	Isle Of Rhum
+J539	Loch Nevis
+J540	Potton Bus Sandy
+J543	Gosport Cycle
+J544	Shrewflower Snr
+J545	Felbrigg Hall
+J548	Sp Flower Show
+J550	Cirencester Bus
+J551	Tetbury Bus
+J552	Pewsey Wigglybus
+J553	Lands End Bus
+J556	Airshow 2008
+J557	Ap Airshow 2008
+J558	Mad T Cham Cr
+J559	Mad T Cham Crcon
+J564	Bristol Zoo J564
+J565	Addenbrookes Bus
+J567	Waddington Air
+J568	Eastmids Airport
+J570	Soton Boat Show
+J572	Coltishall Bus
+J573	Pershore Bus
+J578	Potton Bus Biggl
+J579	Hadleigh Bus Rbz
+J580	Hadleigh Bus
+J581	E Bergolt Bus
+J582	Martlesham Bus
+J583	Kesgrave Bus
+J584	Ipswich Bus Zone
+J585	Felixstowe Bus
+J586	Woodbridge Bus
+J587	Melton Bus
+J588	Wickham Mkt Bus
+J589	Saxmundham Bus
+J590	Stowmarket Bus
+J591	Elmswell Bus
+J592	Bury St Buszone
+J593	Stowupland Bus
+J594	Thetford Bus
+J595	Haverhill Bus
+J596	Watton Bus
+J597	Swaffham Bus Nor
+J598	Dereham Bus Norw
+J599	Fakenham Bus Nor
+J600	Aylsham Bus
+J601	Poringland Bus
+J602	Bungay Bus
+J603	Beccles Bus Norw
+J604	Lowestoft Bus
+J605	Somerleyton Bus
+J606	Reedham Bus
+J607	Yarmouth Buszone
+J608	Cromer Bus
+J609	Sheringham Bus
+J610	N Walsham Busfec
+J611	Hoveton & Wroxham+Bus
+J612	Norwich Bus Zone
+J613	Diss Bus
+J614	Caister Bus
+J615	Gorleston Bus
+J616	Southwold Bus
+J617	Aldeburgh Bus
+J618	Leiston Bus
+J619	Framlingham Bus
+J620	Halesworth Bus
+J621	Beccles Bus
+J622	Newmarket Bus
+J623	Marlboro Bdw Bus
+J624	Metro Zone 56/57
+J625	Think Tank Imax
+J626	Thinktnkimax Con
+J631	Herts Uni Forum
+J639	Madjeski Stadium
+J641	Mdjski Stdm Conc
+J642	Motorcycle Show
+J643	Buckfastleigh
+J644	Staverton
+J645	Northleach Bus
+J646	Bourton Otw Bus
+J647	Stow On Wold Bus
+J650	Atbristol 1 &bus
+J653	Prenton Park Bus
+J654	Refreshmnt 2.50
+J658	Risca Bus
+J659	Aberbeeg Bus
+J660	Brynmawr Bus
+J661	Ebbw V Bus Nwp
+J662	Blackwood Bus
+J663	Tredegar Bus Nwp
+J664	Penhow Bus
+J665	Caerwent Bus
+J666	Penalty Warning
+J667	Bampton Bus
+J668	South Molton Bus
+J669	Dulverton Bus
+J675	Carnforth Bus
+J684	Lpool Airprt Bus
+J689	Camelford Bdmbus
+J697	Imp War Museum
+J700	Kedleston Nt Mbr
+J701	Bicester Taxibus
+J702	Bicester Bus Zn2
+J714	Advnt Isle Big
+J715	Advnt Isle Junr
+J717	Original Tour
+J719	Great Central Rw
+J721	Llanhilleth Bus
+J723	Abercarn Bus
+J725	Abertillery Bus
+J729	Tredegar Bus Cdf
+J730	Ebbw V Bus Cdf
+J740	Windsor Castle
+J743	Warwick Csl Conc
+J748	Jazz Boat
+J764	Rosythsfast Bus
+J766	Uig Bus
+J767	Portree Bus
+J768	Mull Experience
+J770	Blackwood Ysmbus
+J773	Debenham Busycle
+J777	Penalty Payment
+J780	Cairngorm
+J788	Althorp Hse Snr
+J790	Wcrc Scarbro Spa
+J791	Pontypridd Bus
+J792	Fairford Air
+J793	Royal Welsh 2008
+J794	Royal Welsh Snr
+J795	Porthtowan Bus
+J807	Barnsley+bus
+J808	Birmi Intl+buswm
+J809	Birmi Stns+buswm
+J810	Blackpool North+bus
+J811	Blackpool South+bus
+J812	Bolton+bus
+J813	Coventry+buswm
+J814	Cradley H+buswm
+J815	Doncaster+bus
+J816	Durham+bus
+J817	Edinburgh+bus
+J818	Harrogate+bus
+J819	Manchester Stations+bus
+J820	Newport (South Wales)+bus
+J821	Oldham+bus
+J822	Perth+bus
+J823	Reading+bus
+J824	Rochdale+bus
+J825	Rotherham+bus
+J826	Sandw & Du+buswm
+J827	Sheffield+bus
+J828	Solihull+buswm
+J829	Stalybridge+bus
+J830	Stockport+bus
+J831	Sunderland+bus
+J832	Telford+bus
+J833	Walsall+buswm
+J834	Wigan+bus
+J835	Wolverhamp+buswm
+J839	Harwell Ibc Bus
+J841	Swindon Steam
+J842	Swindon Steam Sr
+J845	Balloon Fiesta
+J846	Bristol Empire
+J847	Bristol Empire C
+J853	Bath Tour
+J854	Bath Tour Redctn
+J855	Bath Tour Family
+J856	Cumbria Bus Xplr
+J857	Newbury Rc+race
+J858	Mml Breakfast B
+J859	Aberaeron Aywbus
+J860	New Quay Ayw Bus
+J884	Metromax
+J885	Kings Hill Bus
+J886	Sherlock Holmes
+J889	Ifield Bus
+J895	Ayr +bus
+J896	Basildon+bus
+J897	Benfleet+bus
+J898	Billericay+bus
+J900	Bletchley+bus
+J901	Braintree+bus
+J902	Brentwood+bus
+J903	Bridgend+bus
+J904	Bristol Parkway+bus
+J905	Bristol Temple Meads+bus
+J906	Bury St Edmunds+bus
+J907	Cardiff+bus
+J908	Chelmsford+bus
+J909	Clacton-on-Sea+bus
+J910	Colchtr Stations+bus
+J911	Dovercourt+bus
+J912	Dumfries+bus
+J915	Great Yarmouth+bus
+J916	Harwich Town+bus
+J917	Harwich International+bus
+J918	Inverness+bus
+J919	Ipswich+bus
+J920	Kings Lynn+bus
+J921	Kilmarnock+bus
+J922	Leicester+bus
+J923	Lowestoft+bus
+J924	Meadowhall+bus
+J925	Milton Keynes Central+bus
+J926	Neath+bus
+J927	Newcastle+bus
+J928	Newton Abbot+bus
+J929	Norwich+bus
+J930	Northampton+bus
+J931	Oxford+bus
+J932	Paignton+bus
+J933	Plymouth+bus
+J934	Port Talbot+bus
+J936	Prittlewell+bus
+J937	Rayleigh+bus
+J938	Shenfield+bus
+J939	Southend Central+bus
+J940	Southend East+bus
+J941	Southend Victoria+bus
+J942	Stanford-le-Hope+bus
+J943	Swansea+bus
+J944	Swindon+bus
+J945	Taunton+bus
+J946	Torquay+bus
+J947	Totnes+bus
+J948	Westcliff+bus
+J949	Wickford+bus
+J950	Witham+bus
+J951	Wivenhoe+bus
+J952	Wolverton+bus
+J955	Alton Towers Sta
+J959	Brockhurst Drbus
+J961	Edinburghdungeon
+J976	Sudbury Hall
+J977	Barrow+bus
+J978	Bridgwater+bus
+J979	Bromsgrove+bus
+J980	Chorley+bus
+J981	Droitwich Spa+bus
+J982	Great Malvern+bus
+J983	Hereford+bus
+J984	Kidderminster+bus
+J986	Redditch+bus
+J987	Worcester Stations+bus
+J988	Malvern Link+bus
+J989	Saints Bus
+J990	Scillonian Ferry
+J991	Clitheroe Bus
+J992	Windermere Bus
+J993	Heybridge Bus
+J994	Dover Castle
+J995	Firstbusrailcard
+J996	Passport To Ely
+J997	Sealife Centre
+J999	City Sights Camb
+K001	Berlin Stadtbahn
+K002	Bonn
+K003	Bremen
+K004	Dortmund
+K005	Duisberg
+K006	Dusseldorf
+K007	Essen
+K008	Frankfurt Main
+K009	Hamburg
+K010	Hannover
+K011	Koblenz
+K012	Koln
+K013	Mainz
+K014	Minden Westf
+K015	Monchengladbach
+K016	Munster
+K017	Osnabruck
+K023	Yarmouth Iow
+K024	Battle Abbey
+K026	Chinnor Bus
+K027	Adlt Gfood Wkdy
+K028	Adlt Gfood Wknd
+K033	Idl Hme Wend Snr
+K034	Weekends
+K036	Luton Bus Mk
+K042	Luton Airbus Mk
+K044	Hythe Wtrsde Bus
+K045	Deeside Bus
+K048	Iow Steam Dy Rvr
+K051	Hove B&h Bus
+K052	Portslade B&hbus
+K053	Shoreham B&h Bus
+K054	Newhaven B&h Bus
+K065	Cotswoldbus Eve1
+K070	Cotswoldbus Mim1
+K085	Cotswoldbus Eve3
+K089	Milton Keyns Bus
+K091	Northampton Bus
+K092	Holywell Bus
+K093	Oap Chd Gfd Wdy
+K094	Oap Chd Gfd Wnd
+K095	Cotswoldbus Mim3
+K097	Mold/buckley Bus
+K101	Acocks Gre Wmbus
+K102	Adderley P Wmbus
+K103	Aston Wmbus
+K104	Berkswell Wmbus
+K105	Legoland Windsor
+K107	Bescot Sta Wmbus
+K108	Blake St Wmbus
+K109	Bloxwich Wmbus
+K111	Bordesley Wmbus
+K112	Bournville Wmbus
+K113	Butlers La Wmbus
+K114	Canley Wmbus
+K116	Coseley Wmbus
+K117	Dorridge Wmbus
+K118	Duddeston Wmbus
+K119	Earlswood Wmbus
+K121	Erdington Wmbus
+K122	Five Ways Wmbus
+K123	Gravelly H Wmbus
+K124	Hall Green Wmbus
+K126	Hampton In Wmbus
+K127	Hamstead Wmbus
+K128	Jeweller Q Wmbus
+K129	Kings Nort Wmbus
+K130	Langley Gr Wmbus
+K131	Lea Hall Wmbus
+K132	Longbridge Wmbus
+K133	Lye Wmbus
+K134	Marston Gr Wmbus
+K135	Northfield Wmbus
+K136	Old Hill Wmbus
+K137	Olton Wmbus
+K138	Perry Barr Wmbus
+K139	Rowley Reg Wmbus
+K140	Small Heat Wmbus
+K141	Smeth Ga B Wmbus
+K142	Smeth Ro S Wmbus
+K143	Spring Rd Wmbus
+K144	Stechford Wmbus
+K145	Tile Hill Wmbus
+K146	Tipton Wmbus
+K147	Tyseley Wmbus
+K148	Whitlock E Wmbus
+K149	Widney Man Wmbus
+K151	Bluebell Railway
+K153	Wylde Gree Wmbus
+K154	Wythall Wmbus
+K155	Yardley Wo Wmbus
+K156	Bloxwich N Wmbus
+K157	Witton Wmbus
+K158	Day Validity
+K159	Period Validity
+K162	Horsham Bus
+K175	Britopen Golf Ch
+K177	Railmastr Sth Yk
+K178	Stonehenge Tour
+K181	Catterick G Bus
+K182	Richmond Yks Bus
+K183	Corby Pboro Bus
+K184	Kettering Pb Bus
+K185	Oundle Pb Bus
+K186	Market Hb Bus
+K190	Llangollen Bus
+K196	City Cruise Peak
+K197	City Cruise O-p
+K198	Sports Picnic
+K202	Leeds Bus
+K203	Barnsley Bus
+K204	Goldthorpe Bus
+K205	Darfield Bus
+K206	Nb Seabird Ctr
+K208	St Andrews Bus
+K214	Oakwood Park
+K215	Stockley Bus 1
+K216	Stockley Bus 2
+K226	Farn Trade Bus
+K227	Farn 2008 Entry
+K228	Steam Single C2c
+K229	Snowdon Bus
+K230	Steam Return C2c
+K231	Hadrians W Bus
+K243	Ystradgnlais Bus
+K247	St Just Bus
+K248	St Mawes Bus
+K249	Buckfastlgh Bus
+K252	Lydford Bus
+K256	Mundesley Bus
+K258	Fleetwood Bus
+K259	Scilly Isles
+K260	Scilly I Merlin
+K263	Dornoch Bus
+K264	Blairgowrie Bus
+K265	Crieff Bus
+K266	Ystalyfera Bus
+K268	Daventry Bus
+K269	Vgnt10 Zoneu1ldn
+K270	Stroud Urban Bus
+K274	Scientriffic
+K275	Cardiff Cap Crd
+K276	Mold Bus
+K277	Onley Bus
+K278	Warwick Pway Bus
+K279	Cowes West Rdjet
+K280	Cowes East Rfshp
+K282	Norwich Bus
+K283	Thornton Bus
+K284	Dynamic Earth
+K285	Anglia Plus
+K291	Castle Howard Bu
+K292	Eden Camp Bus
+K293	Whitby Bus
+K294	Pickering Bus
+K295	Flamingoland Bus
+K299	Emid Park&ride
+K300	Glyndebourne
+K301	Newent Bus
+K302	Ross On Wye Bus
+K303	Lon Vic Cs A6
+K304	Golders Green A6
+K305	Finchley Road A6
+K306	St Johns Wood A6
+K307	Baker Street A6
+K308	Marble Arch A6
+K309	Buck P Road A6
+K310	Warwick Castle
+K315	Lincoln Bus Z 1
+K316	Lincoln Bus Z 2
+K317	Lon Viccs A6 20%
+K318	Glders Grna6 20%
+K319	Fnchly Rd A6 20%
+K320	Stjohns Wda6 20%
+K321	Baker St A6 20%
+K328	Aberdare Bus
+K330	Instow Bus
+K331	Bideford Bus
+K332	Appledore Bus
+K333	Westward Ho Bus
+K334	Ilfracombe Bus
+K335	Combe Martin Bus
+K337	Clovelly Bus
+K338	Mc Glen Ashfd
+K341	Brecon Bus
+K342	Oswestry Bus
+K343	Cottesmore Pete
+K344	Cottesmore Oak
+K345	Faringdon Bus
+K346	Cricklade Bus
+K347	Behind Thescenes
+K348	Eden Project
+K349	Eden Senior
+K353	Hampton Crt Pal
+K358	N Walsham Bus Bb
+K364	Marblearcha6 20%
+K365	Buck P Rd A6 20%
+K366	Lon Viccs A6 St
+K367	Glders Grn A6 St
+K368	Fnchly Rd A6 St
+K369	Stjohns Wd A6 St
+K370	Baker St A6 St
+K371	Marblearch A6 St
+K372	Buck P Rd A6 St
+K373	Lon Viccs A6 50%
+K374	Glders Grna6 50%
+K375	Fnchly Rd A6 50%
+K376	Stjohns Wda6 50%
+K377	Baker St A6 50%
+K378	Marblearcha6 50%
+K379	Buck P Rd A6 50%
+K380	Chandlers Ford+bus
+K381	Chichester+bus
+K382	Corby+bus
+K383	East Grinstead+bus
+K384	Loughborough+bus
+K385	Skegness+bus
+K400	Crosskeys Tonbge
+K512	Gt Yarm Sea Life
+K550	Cnm Meals V Eves
+K587	Cheltenham Races
+K588	Cnm Meals V Cnm
+K593	Lossiemouth Bus
+K594	Kirriemuir Bus
+K595	Forfar Bus
+K596	Braemar Bus
+K597	Ballater Bus
+K598	Aboyne Bus
+K599	Banchory Bus
+K600	Peterhead Bus
+K601	Fraserburgh Bus
+K608	Middlesboro Bus
+K614	Teesside Air Bus
+K621	Sandal Abg Bus
+K624	Bury St Eds Bus
+K650	Leeds Brd Airbus
+K671	Edinb Airpt Bus
+K673	Good Homes Show
+K700	Family Dayrover
+K701	Dayrover W Yorks
+K800	Wypte Bus
+K801	Wypte Zones 1&2
+K802	Wypte Zones 12&3
+K803	Wypte Zns 123&4
+K804	Wypte Zns1234&5
+K805	Wypte Zns 234&5
+K806	Wypte Student
+K808	Wy Bus Dayrover
+K905	St Clears Bus
+K906	Laugharne Bus
+K907	Pendine Bus
+K909	Luton Airbus Ht
+K910	Southend Vic Bus
+K911	Prittlewell Bus
+L010	Knole
+L030	Cosford Air Show
+L040	Knole Nt Member
+L044	Dublin V Stenaie
+L060	Thorney Via Bus
+L061	Wisbech (coach)
+L062	Kings Lynn Coach
+L063	Swaffham (coach)
+L064	Dereham (coach)
+L100	Bodmin Wenfd Rly
+L125	Bristol Buslink
+L204	Filton Bus Link
+L221	Caerau Bus Link
+L223	Tonyrefail (bus)
+L265	Corby Bus Link
+L302	St Marys Scilly
+L401	Lakes Day Ranger
+L402	Lakes Fam Dayrgr
+L830	Bridgnorth Svr
+M010	Adelaide Ni
+M018	Dublinport Stena
+M020	Antrim (Northern Ireland)
+M030	Arklow (CIE)
+M040	Athenry (CIE)
+M050	Athlone (CIE)
+M060	Athy (CIE)
+M070	Ballina (CIE)
+M080	Ballinasloe (CIE)
+M090	Ballinderry Ni
+M100	Ballyhaunis (CIE)
+M110	Ballycarry Ni
+M120	Ballymena (Northern Ireland)
+M130	Ballymoney Ni
+M140	Ballymote (CIE)
+M150	Balmoral Ni
+M160	Bangor Ni
+M170	Bangor West Ni
+M180	Bellarena Ni
+M190	Belfast Ni
+M200	Botanic Ni
+M220	Boyle (CIE)
+M230	Cahir (CIE)
+M240	Campile     (cie
+M250	Carlow (CIE)
+M270	Carrickfergus Ni
+M280	Carrck-shnn (cie
+M290	Carrck-suir (cie
+M300	Castlebar   (cie
+M310	Castlerea   (cie
+M320	Castlerock Ni
+M330	Claremorris (cie
+M340	Clara       (cie
+M350	Clonmel     (cie
+M360	Cobh        (cie
+M370	Coleraine Ni
+M390	Cork City   (cie
+M400	Cloughjordn (cie
+M420	Collooney   (cie
+M450	Droichd Nua (cie
+M460	Dromod      (cie
+M480	Drogheda    (cie
+M490	Dublin City (cie
+M493	Dublin Prse (cie
+M495	Dublin Heus (cie
+M499	Dublin Conn (cie
+M500	Dundalk     (cie
+M510	Dun Laoire  (cie
+M520	Derriaghy     Ni
+M530	Dunmurry Ni
+M540	Dhu Varren Ni
+M550	Downshire Ni
+M560	Finaghy Ni
+M569	Ennis       (cie
+M570	Enniscorthy (cie
+M580	Farranfore  (cie
+M590	Fota        (cie
+M600	Galway      (cie
+M630	Gorey       (cie
+M640	Greystones  (cie
+M650	Helens Bay Ni
+M660	Hilden Ni
+M670	Holywood Ni
+M700	Kilkenny    (cie
+M720	Killarney   (cie
+M770	Larne Town Ni
+M780	Limerick    (cie
+M790	Limerick Jn (cie
+M800	Lisburn Ni
+M810	Londonderry Ni
+M820	Longford    (cie
+M830	Lurgan Ni
+M840	Lambeg Ni
+M860	Mallow      (cie
+M870	Magheramorne Ni
+M880	Marino Ni
+M890	Moira Ni
+M900	Mosney      (cie
+M910	Mostrim     (cie
+M920	Mullingar   (cie
+M930	Nenagh      (cie
+M940	Portadown Ni
+M950	Portlaoise  (cie
+M960	Portrush Ni
+M970	Charleville (cie
+M980	Roscommon   (cie
+M990	Roscrea     (cie
+N010	Rosslare Hr (cie
+N020	Rosslare Sd (cie
+N030	Sligo       (cie
+N040	Sutton Hwth (cie
+N050	Thurles     (cie
+N060	Tipperary   (cie
+N070	Tralee      (cie
+N080	Templemore  (cie
+N090	Thomastown  (cie
+N100	Tullamore   (cie
+N110	Wellngtn Bg (cie
+N120	Waterford   (cie
+N130	Westport    (cie
+N140	Wexford     (cie
+N150	Whiteabbey Ni
+N160	Whitehead Ni
+N170	Wicklow     (cie
+N180	Woodlawn    (cie
+N230	Kildare     (cie
+N250	Attymon Junction (CIE)
+N260	Balbriggan  (cie
+N270	Ballybrophy (CIE)
+N280	Ballycullane(cie
+N290	Banteer (CIE)
+N310	Birdhill (CIE)
+N330	Bray (CIE)
+N340	Bridgetown  (cie
+N370	Clipperstown Ni
+N400	Crumlin   Ni
+N410	Cullybackey Ni
+N420	Cultra Ni
+N430	Glenavy Ni
+N440	Greenisland Ni
+N450	Glynn Ni
+N470	Jordanstown Ni
+N480	Knockmore Ni
+N520	Malahide    (cie
+N530	Maynooth    (cie
+N540	Millstreet  (cie
+N570	Muine Bheag (cie
+N580	Newry Ni
+N590	Portarlngtn (cie
+N610	Poyntzpass Ni
+N630	Rathdrum    (cie
+N640	Rathmore    (cie
+N700	Scarva       Ni
+N710	Seahill      Ni
+N730	Skerries    (cie
+N740	Sydenham Ni
+N760	Trooperslane Ni
+N770	University Ni
+Q632	Londn Ctl Fcc-c1
+R050	Dartford -s1
+SSC4    Fcc E Sussex S1
+SSC5    Fcc Sussxdwns S1
