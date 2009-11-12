@@ -99,11 +99,6 @@
 
   <!-- Runs the unit tests. -->
   <target name="test" depends="clean, jar" description="Run unit tests.">
-    <!-- Don't run FEST tests in a headless environment (they will fail) -->
-    <condition property="tests.file" value="testng-headless.xml" else="testng.xml">
-      <isset property="headless" />
-    </condition>
-
     <mkdir dir="${temp.dir}/originals" />
 
     <path id="test.path">
@@ -132,8 +127,7 @@
             haltonfailure="false"
             useDefaultListeners="false"
             listeners="org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter">
-      <xmlfileset dir="." includes="${tests.file}"/>
-      <sysproperty key="java.awt.headless" value="${headless}" />
+      <xmlfileset dir="." includes="testng.xml"/>
       <sysproperty key="net.sourceforge.cobertura.datafile" file="${temp.dir}/cobertura.ser" />
       <sysproperty key="org.uncommons.reportng.title" value="SDCI+ Reader Unit Test Report" />
       <sysproperty key="org.uncommons.reportng.coverage-report" value="../../coverage/index.html" />
