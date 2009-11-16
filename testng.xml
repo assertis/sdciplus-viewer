@@ -2,6 +2,12 @@
 
 <suite name="Unit Tests" verbose="1" >
 
+  <test name="SDCI+" >
+    <packages>
+      <package name="net.assertis.sdciplus" />
+    </packages>
+  </test>
+
   <test name="Utilities" >
     <packages>
       <package name="net.assertis.util" />

@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 public class SoftwareVersionRecord extends SDCIPlusRecord
 {
     // Reverse date format is used for software version records.
-    private static final DateFormat VERSION_RECORD_DATE_FORMAT = new SimpleDateFormat("yyyyMMdd");
+    private static final DateFormat VERSION_RECORD_DATE_FORMAT = new SimpleDateFormat("yyyyMMddHHmm");
 
     public SoftwareVersionRecord(String rawRecord) throws ParseException
     {
