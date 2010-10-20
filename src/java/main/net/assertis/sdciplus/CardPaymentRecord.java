@@ -19,6 +19,7 @@ public class CardPaymentRecord extends SDCIPlusRecord
         addField("Debit/Credit", rawRecord.charAt(61) == '1' ? 'D' : 'C'); // Change from 1/2 to D/C to be consistent with other records.
         addField("Date", EXTENDED_DATE_TIME_FORMAT.parse(rawRecord.substring(62, 76)));
         addField("Owning Transaction Header Number", rawRecord.substring(76, 81));
+        addField("Customer Instruction Field", rawRecord.substring(49,50));
         addField("Business Code", rawRecord.substring(81, 83));
         addField("Origin NLC", rawRecord.substring(83, 90));
         addField("Destination NLC", rawRecord.substring(90, 97));
