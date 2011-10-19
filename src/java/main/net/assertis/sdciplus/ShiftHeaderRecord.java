@@ -19,8 +19,8 @@ public class ShiftHeaderRecord extends SDCIPlusRecord
         addField("Business Group", rawRecord.substring(29, 32));
         // Ignore next 2 chars (always 03 for WebTIS).
         addField("User", rawRecord.substring(34, 42));
-        addField("Cummulative Total Debit Amount", formatCurrencyField(rawRecord.substring(42, 54)));
-        addField("Cummulative Total Credit Amount", formatCurrencyField(rawRecord.substring(54, 66)));
+        addField("Cumulative Total Debit Amount", formatCurrencyField(rawRecord.substring(42, 54)));
+        addField("Cumulative Total Credit Amount", formatCurrencyField(rawRecord.substring(54, 66)));
         addField("Transaction Number", rawRecord.substring(66, 71));
         addField("Last Sundry Transaction Number", rawRecord.substring(71, 76));
         addField("Next Payment Transaction Number", rawRecord.substring(76, 81));

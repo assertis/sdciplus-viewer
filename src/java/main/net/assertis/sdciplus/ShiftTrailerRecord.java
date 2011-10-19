@@ -10,8 +10,8 @@ public class ShiftTrailerRecord extends SDCIPlusRecord
     public ShiftTrailerRecord(String rawRecord) throws ParseException
     {
         addField("Date", DATE_TIME_FORMAT.parse(rawRecord.substring(0, 12)));
-        addField("Cummulative Total Debit Amount", formatCurrencyField(rawRecord.substring(12, 24)));
-        addField("Cummulative Total Credit Amount", formatCurrencyField(rawRecord.substring(24, 36)));
+        addField("Cumulative Total Debit Amount", formatCurrencyField(rawRecord.substring(12, 24)));
+        addField("Cumulative Total Credit Amount", formatCurrencyField(rawRecord.substring(24, 36)));
         // Skip currency (1 char), always Sterling.
         addField("Machine Type", rawRecord.substring(37, 39));
         addField("Machine Number", rawRecord.substring(39, 43));
