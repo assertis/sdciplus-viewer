@@ -53,7 +53,8 @@
            source="1.5"
            target="1.5"
            srcdir="${java.dir}/main"
-           classpathref="base.path">
+           classpathref="base.path"
+           includeantruntime="false">
       <compilerarg value="-Xlint:unchecked" />
     </javac>
     <!-- Test classes. -->
@@ -64,7 +65,8 @@
            optimize="on"
            source="1.5"
            target="1.5"
-           srcdir="${java.dir}/test">
+           srcdir="${java.dir}/test"
+           includeantruntime="false">
       <classpath>
         <path refid="base.path" />
         <path location="${classes.dir}/main" />
