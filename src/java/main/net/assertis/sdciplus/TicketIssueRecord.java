@@ -35,6 +35,6 @@ public class TicketIssueRecord extends SDCIPlusRecord
     @Override
     public String toString()
     {
-        return "Ticket #" + getFields().get("Transaction Number") + " (" + getFields().get("Fare Amount") + ')';
+        return "Ticket #" + getFields().get("Transaction Number") + " (" + getFields().get("Fare Amount") + ")";
     }
 }

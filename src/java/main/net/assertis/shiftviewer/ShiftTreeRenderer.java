@@ -1,11 +1,14 @@
 package net.assertis.shiftviewer;
 
+import java.awt.Color;
 import java.awt.Component;
 import java.awt.Font;
 import javax.swing.JLabel;
 import javax.swing.JTree;
 import javax.swing.UIManager;
 import javax.swing.tree.DefaultTreeCellRenderer;
+import javax.swing.tree.DefaultMutableTreeNode;
+import net.assertis.sdciplus.Transaction;
 
 /**
  * Renderer for nodes in the {@link ShiftViewer} tree.
@@ -33,6 +36,18 @@ public class ShiftTreeRenderer extends DefaultTreeCellRenderer
                                                                        row,
                                                                        false); // Don't paint focus.
         component.setFont(leaf ? NORMAL_FONT : BOLD_FONT);
+        DefaultMutableTreeNode node = (DefaultMutableTreeNode) value;
+        component.setForeground(getColor(node.getUserObject()));
         return component;
+    }
+
+
+    private Color getColor(Object item)
+    {
+        if (item instanceof Transaction && ((Transaction) item).isInvalid())
+        {
+            return Color.RED;
+        }
+        return UIManager.getDefaults().getColor("Label.foreground");
     }
 }

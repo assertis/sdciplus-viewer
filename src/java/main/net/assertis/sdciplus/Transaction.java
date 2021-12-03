@@ -12,6 +12,9 @@ public class Transaction
     private final TransactionHeaderRecord headerRecord;
     private final List<SDCIPlusRecord> records;
 
+    // Flag this transaction as somehow incorrect.
+    private boolean invalid = false;
+
 
     public Transaction(TransactionHeaderRecord headerRecord,
                        List<SDCIPlusRecord> records)
@@ -33,9 +36,41 @@ public class Transaction
     }
 
 
+    public String getTransactionHeaderNumber()
+    {
+        return headerRecord.getFields().get("Transaction Header Number").toString();
+    }
+
+
+    public String getPreviousTransactionHeaderNumber()
+    {
+        String current = getTransactionHeaderNumber();
+        if (current.equals("00000"))
+        {
+            return "99999";
+        }
+        else
+        {
+            return String.format("%05d", Integer.parseInt(current) - 1);
+        }
+    }
+
+
     @Override
     public String toString()
     {
-        return "Transaction #" + headerRecord.getFields().get("Transaction Header Number");
+        return "Transaction #" + getTransactionHeaderNumber();
+    }
+
+
+    public void setInvalid(boolean invalid)
+    {
+        this.invalid = invalid;
+    }
+
+
+    public boolean isInvalid()
+    {
+        return this.invalid;
     }
 }

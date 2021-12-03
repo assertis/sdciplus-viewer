@@ -50,8 +50,8 @@
            debug="on"
            deprecation="on"
            optimize="on"
-           source="1.5"
-           target="1.5"
+           source="1.7"
+           target="1.7"
            srcdir="${java.dir}/main"
            classpathref="base.path"
            includeantruntime="false">
@@ -63,8 +63,8 @@
            debug="on"
            deprecation="on"
            optimize="on"
-           source="1.5"
-           target="1.5"
+           source="1.7"
+           target="1.7"
            srcdir="${java.dir}/test"
            includeantruntime="false">
       <classpath>
@@ -94,7 +94,7 @@
     <!-- Deploy all application JARs, libraries and config files. -->
     <copy todir="${dist.dir}" flatten="true">
       <fileset dir="${build.dir}" includes="**/*.jar" />
-      <fileset dir="${lib.dir}/runtime" includes="**/*.jar,**/*.dll,**/*.so" />
+      <fileset dir="${lib.dir}/runtime" includes="**/*.jar,**/*.dll,**/*.so" erroronmissingdir="false"/>
     </copy>
   </target>
 

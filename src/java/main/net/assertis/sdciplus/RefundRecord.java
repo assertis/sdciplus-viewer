@@ -38,6 +38,6 @@ public class RefundRecord extends SDCIPlusRecord
     @Override
     public String toString()
     {
-        return "Refund";
+        return "Refund #" + getFields().get("Refund Transaction Number") + " (" + getFields().get("Refund Amount") + ")";
     }
 }

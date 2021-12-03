@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
+import java.util.Enumeration;
 import java.util.List;
 import java.util.Map;
 import javax.swing.JFileChooser;
@@ -22,6 +23,7 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.MutableTreeNode;
 import javax.swing.tree.TreeNode;
+import javax.swing.tree.TreePath;
 import net.assertis.sdciplus.SDCIPlusReader;
 import net.assertis.sdciplus.SDCIPlusRecord;
 import net.assertis.sdciplus.Shift;
@@ -52,7 +54,14 @@ public class ShiftViewer extends JFrame
     private JMenuBar createMenuBar()
     {
         JMenuBar menuBar = new JMenuBar();
+        menuBar.add(createFileMenu());
+        menuBar.add(createViewMenu());
+        return menuBar;
+    }
 
+
+    private JMenu createFileMenu()
+    {
         JMenu fileMenu = new JMenu("File");
         JMenuItem openItem = new JMenuItem("Open\u2026");
         openItem.addActionListener(new ActionListener()
@@ -89,9 +98,59 @@ public class ShiftViewer extends JFrame
         fileMenu.add(openItem);
         fileMenu.addSeparator();
         fileMenu.add(exitItem);
+        return fileMenu;
+    }
 
-        menuBar.add(fileMenu);            
-        return menuBar;
+
+    private JMenu createViewMenu()
+    {
+        JMenu viewMenu = new JMenu("View");
+        JMenuItem expandItem = new JMenuItem("Expand all");
+        expandItem.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent ev)
+            {
+                expandAll(new TreePath((TreeNode) tree.getModel().getRoot()));
+            }
+        });
+        JMenuItem collapseItem = new JMenuItem("Collapse all");
+        collapseItem.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent ev)
+            {
+                collapseAll(new TreePath((TreeNode) tree.getModel().getRoot()));
+            }
+        });
+        viewMenu.add(expandItem);
+        viewMenu.add(collapseItem);
+        return viewMenu;
+    }
+
+
+    private void expandAll(TreePath parent)
+    {
+        TreeNode node = (TreeNode) parent.getLastPathComponent();
+        for (Enumeration e = node.children(); e.hasMoreElements();)
+        {
+            TreeNode child = (TreeNode) e.nextElement();
+            expandAll(parent.pathByAddingChild(child));
+        }
+        tree.expandPath(parent);
+    }
+
+
+    private void collapseAll(TreePath parent)
+    {
+        TreeNode node = (TreeNode) parent.getLastPathComponent();
+        for (Enumeration e = node.children(); e.hasMoreElements();)
+        {
+            TreeNode child = (TreeNode) e.nextElement();
+            collapseAll(parent.pathByAddingChild(child));
+        }
+        if (node != tree.getModel().getRoot())
+        {
+            tree.collapsePath(parent);
+        }
     }
 
 
@@ -106,8 +165,10 @@ public class ShiftViewer extends JFrame
             DefaultMutableTreeNode shiftNode = new DefaultMutableTreeNode(shift);
             shiftNode.add(createRecordNode(shift.getHeaderRecord()));
             shiftNode.add(createRecordNode(shift.getVersionRecord()));
+            String previous = null;
             for (Transaction transaction : shift.getTransactions())
             {
+                transaction.setInvalid(previous != null && !transaction.getPreviousTransactionHeaderNumber().equals(previous));
                 DefaultMutableTreeNode transactionNode = new DefaultMutableTreeNode(transaction);
                 transactionNode.add(createRecordNode(transaction.getHeaderRecord()));
                 for (SDCIPlusRecord record : transaction.getRecords())
@@ -115,6 +176,7 @@ public class ShiftViewer extends JFrame
                     transactionNode.add(createRecordNode(record));
                 }
                 shiftNode.add(transactionNode);
+                previous = transaction.getTransactionHeaderNumber();
             }
             shiftNode.add(createRecordNode(shift.getTrailerRecord()));
             root.add(shiftNode);
@@ -122,7 +184,7 @@ public class ShiftViewer extends JFrame
         return root;
     }
 
-    
+
     private MutableTreeNode createRecordNode(SDCIPlusRecord record)
     {
         DefaultMutableTreeNode recordNode = new DefaultMutableTreeNode(record);
