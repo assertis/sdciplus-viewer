@@ -5,7 +5,7 @@ import java.text.ParseException;
 /**
  * @author Daniel Dyer
  */
-public class TransactionHeaderRecord extends SDCIPlusRecord
+public class TransactionHeaderRecord extends TransactionHeader
 {
     public TransactionHeaderRecord(String rawRecord) throws ParseException
     {

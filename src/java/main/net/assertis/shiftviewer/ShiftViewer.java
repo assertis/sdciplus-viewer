@@ -16,14 +16,20 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
+import javax.swing.JSplitPane;
+import javax.swing.JTable;
 import javax.swing.JTree;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.DefaultTreeSelectionModel;
 import javax.swing.tree.MutableTreeNode;
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
+import javax.swing.tree.TreeSelectionModel;
 import net.assertis.sdciplus.SDCIPlusReader;
 import net.assertis.sdciplus.SDCIPlusRecord;
 import net.assertis.sdciplus.Shift;
@@ -37,6 +43,11 @@ public class ShiftViewer extends JFrame
 {
     private final JFileChooser fileChooser = new JFileChooser();
     private final JTree tree = new JTree();
+    private final SDCIPlusRecordTableModel tableModel = new SDCIPlusRecordTableModel();
+    private final JTable table = new JTable(tableModel);
+    private final JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
+                                                        new JScrollPane(tree),
+                                                        new JScrollPane(table));
 
     public ShiftViewer(List<Shift> shifts)
     {
@@ -44,9 +55,29 @@ public class ShiftViewer extends JFrame
         tree.setModel(new DefaultTreeModel(createTreeStructure(shifts)));
         tree.setRootVisible(false);
         tree.setShowsRootHandles(true);
+        DefaultTreeSelectionModel selectionModel = new DefaultTreeSelectionModel();
+        selectionModel.setSelectionMode(TreeSelectionModel.SINGLE_TREE_SELECTION);
+        tree.setSelectionModel(selectionModel);
         tree.setCellRenderer(new ShiftTreeRenderer());
+        tree.addTreeSelectionListener(new TreeSelectionListener()
+        {
+            public void valueChanged(TreeSelectionEvent ev)
+            {
+                TreePath path = ev.getNewLeadSelectionPath();
+                Object value = path == null ? null : ((DefaultMutableTreeNode) path.getLastPathComponent()).getUserObject();
+                if (value != null && value instanceof SDCIPlusRecord)
+                {
+                    tableModel.setRecord((SDCIPlusRecord) value);
+                }
+                else
+                {
+                    tableModel.setRecord(null);
+                }
+            }
+        });
+        add(splitPane, BorderLayout.CENTER);
+
         setJMenuBar(createMenuBar());
-        add(new JScrollPane(tree), BorderLayout.CENTER);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
@@ -68,23 +99,7 @@ public class ShiftViewer extends JFrame
         {
             public void actionPerformed(ActionEvent ev)
             {
-                int result = fileChooser.showOpenDialog(ShiftViewer.this);
-                if (result == JFileChooser.APPROVE_OPTION)
-                {
-                    try
-                    {
-                        File file = fileChooser.getSelectedFile();
-                        List<Shift> shifts = SDCIPlusReader.parseFile(file);
-                        tree.setModel(new DefaultTreeModel(createTreeStructure(shifts)));
-                    }
-                    catch (IOException ex)
-                    {
-                        JOptionPane.showMessageDialog(ShiftViewer.this,
-                                                      ex.getMessage(),
-                                                      "Error",
-                                                      JOptionPane.ERROR_MESSAGE);
-                    }
-                }
+                showFileOpenDialog();
             }
         });
         JMenuItem exitItem = new JMenuItem("Exit");
@@ -154,6 +169,33 @@ public class ShiftViewer extends JFrame
     }
 
 
+    private void showFileOpenDialog()
+    {
+        int result = fileChooser.showOpenDialog(ShiftViewer.this);
+        if (result == JFileChooser.APPROVE_OPTION)
+        {
+            openFile(fileChooser.getSelectedFile());
+        }
+    }
+
+
+    private void openFile(File file)
+    {
+        try
+        {
+            List<Shift> shifts = SDCIPlusReader.parseFile(file);
+            tree.setModel(new DefaultTreeModel(createTreeStructure(shifts)));
+        }
+        catch (Exception ex)
+        {
+            JOptionPane.showMessageDialog(ShiftViewer.this,
+                                          ex.getMessage(),
+                                          "Error",
+                                          JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+
     /**
      * Convert a list of shifts into a tree of nodes that can be displayed in a JTree.
      */
@@ -163,36 +205,25 @@ public class ShiftViewer extends JFrame
         for (Shift shift : shifts)
         {
             DefaultMutableTreeNode shiftNode = new DefaultMutableTreeNode(shift);
-            shiftNode.add(createRecordNode(shift.getHeaderRecord()));
-            shiftNode.add(createRecordNode(shift.getVersionRecord()));
+            shiftNode.add(new DefaultMutableTreeNode(shift.getHeaderRecord()));
+            shiftNode.add(new DefaultMutableTreeNode(shift.getVersionRecord()));
             String previous = null;
             for (Transaction transaction : shift.getTransactions())
             {
                 transaction.setInvalid(previous != null && !transaction.getPreviousTransactionHeaderNumber().equals(previous));
                 DefaultMutableTreeNode transactionNode = new DefaultMutableTreeNode(transaction);
-                transactionNode.add(createRecordNode(transaction.getHeaderRecord()));
+                transactionNode.add(new DefaultMutableTreeNode(transaction.getHeaderRecord()));
                 for (SDCIPlusRecord record : transaction.getRecords())
                 {
-                    transactionNode.add(createRecordNode(record));
+                    transactionNode.add(new DefaultMutableTreeNode(record));
                 }
                 shiftNode.add(transactionNode);
                 previous = transaction.getTransactionHeaderNumber();
             }
-            shiftNode.add(createRecordNode(shift.getTrailerRecord()));
+            shiftNode.add(new DefaultMutableTreeNode(shift.getTrailerRecord()));
             root.add(shiftNode);
         }
         return root;
-    }
-
-
-    private MutableTreeNode createRecordNode(SDCIPlusRecord record)
-    {
-        DefaultMutableTreeNode recordNode = new DefaultMutableTreeNode(record);
-        for (Map.Entry<String, Object> entry : record.getFields().entrySet())
-        {
-            recordNode.add(new DefaultMutableTreeNode(entry.getKey() + "=" + entry.getValue().toString(), false));
-        }
-        return recordNode;
     }
 
 
@@ -208,8 +239,14 @@ public class ShiftViewer extends JFrame
                              ? SDCIPlusReader.parseFile(new File(args[0]))
                              : Collections.<Shift>emptyList();
         ShiftViewer viewer = new ShiftViewer(shifts);
-        viewer.setSize(400, 600);
+        viewer.setSize(800, 600);
         viewer.validate();
         viewer.setVisible(true);
+        viewer.splitPane.setDividerLocation(0.5);
+        // If no file is specified on the command line, prompt to open one.
+        if (args.length == 0)
+        {
+            viewer.showFileOpenDialog();
+        }
     }
 }

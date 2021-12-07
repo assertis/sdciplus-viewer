@@ -30,6 +30,7 @@ public class SDCIPlusReader
         RECORD_CLASSES.put("BS", RefundRecord.class);
         RECORD_CLASSES.put("C1", CardPaymentRecord.class);
         RECORD_CLASSES.put("CF", TransactionHeaderRecord.class);
+        RECORD_CLASSES.put("CG", TransactionGroupRecord.class);
         RECORD_CLASSES.put("DB", ShiftHeaderRecord.class);
         RECORD_CLASSES.put("DD", ShiftTrailerRecord.class);
     }
@@ -48,25 +49,26 @@ public class SDCIPlusReader
         return extractShifts(records);
     }
 
-    
+
     private static List<SDCIPlusRecord> extractRecords(String fileContent)
     {
         // Eliminate new lines and split records by record separator char (ASCII 30).
         String[] recordLines = fileContent.replaceAll("\n", "").split("\u001E");
 
         List<SDCIPlusRecord> records = new ArrayList<SDCIPlusRecord>();
-        for (String record : recordLines)
+        for (String recordString : recordLines)
         {
-            if (record.length() != 0)
+            if (recordString.length() != 0)
             {
-                String recordCode = record.substring(0, 2);
-                String recordBody = record.substring(2);
+                String recordCode = recordString.substring(0, 2);
+                String recordBody = recordString.substring(2);
                 Class<? extends SDCIPlusRecord> recordClass = RECORD_CLASSES.get(recordCode);
                 if (recordClass != null)
                 {
                     Constructor<? extends SDCIPlusRecord> constructor = ReflectionUtils.findKnownConstructor(recordClass,
                                                                                                              String.class);
-                    records.add(ReflectionUtils.invokeUnchecked(constructor, recordBody));
+                    SDCIPlusRecord record = ReflectionUtils.invokeUnchecked(constructor, recordBody);
+                    records.add(record);
                 }
             }
         }
@@ -107,23 +109,23 @@ public class SDCIPlusReader
     {
         List<Transaction> transactions = new ArrayList<Transaction>();
 
-        TransactionHeaderRecord headerRecord = null;
+        TransactionHeader headerRecord = null;
         List<SDCIPlusRecord> transactionRecords = null;
         for (int i = 0; i < records.size(); i++)
         {
             SDCIPlusRecord record = records.get(i);
-            if (record instanceof TransactionHeaderRecord)
+            if (record instanceof TransactionHeader)
             {
                 if (transactionRecords != null) // Finish any previous transaction.
                 {
                     transactions.add(new Transaction(headerRecord, transactionRecords));
                 }
-                headerRecord = (TransactionHeaderRecord) record;
+                headerRecord = (TransactionHeader) record;
                 transactionRecords = new ArrayList<SDCIPlusRecord>();
             }
             else
             {
-                transactionRecords.add(record);               
+                transactionRecords.add(record);
                 if (i == records.size() - 1) // If this is the last record, it must be the end of the transaction.
                 {
                     transactions.add(new Transaction(headerRecord, transactionRecords));

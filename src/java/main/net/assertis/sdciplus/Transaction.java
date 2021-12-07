@@ -9,14 +9,14 @@ import java.util.Collections;
  */
 public class Transaction
 {
-    private final TransactionHeaderRecord headerRecord;
+    private final TransactionHeader headerRecord;
     private final List<SDCIPlusRecord> records;
 
     // Flag this transaction as somehow incorrect.
     private boolean invalid = false;
 
 
-    public Transaction(TransactionHeaderRecord headerRecord,
+    public Transaction(TransactionHeader headerRecord,
                        List<SDCIPlusRecord> records)
     {
         this.headerRecord = headerRecord;
@@ -24,7 +24,7 @@ public class Transaction
     }
 
 
-    public TransactionHeaderRecord getHeaderRecord()
+    public TransactionHeader getHeaderRecord()
     {
         return headerRecord;
     }
@@ -38,7 +38,7 @@ public class Transaction
 
     public String getTransactionHeaderNumber()
     {
-        return headerRecord.getFields().get("Transaction Header Number").toString();
+        return getHeaderRecord().getTransactionHeaderNumber();
     }
 
 
