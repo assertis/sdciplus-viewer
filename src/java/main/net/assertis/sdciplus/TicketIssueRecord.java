@@ -11,7 +11,7 @@ public class TicketIssueRecord extends SDCIPlusRecord
     {
         addField("LENNON Type of Ticket", rawRecord.substring(0, 3));
         addField("Fare Method", rawRecord.substring(3, 4));
-        addField("Via London", rawRecord.charAt(4) == '1');
+        addField("Via London", "" + rawRecord.charAt(4));
         addField("Fare Amount", formatCurrencyField(rawRecord.substring(5, 15)));
         // Ignore next 4 chars, currency and method of payment are always the same.
         addField("Transaction Number", rawRecord.substring(19, 24));
