@@ -31,6 +31,7 @@ public class SDCIPlusReader
         RECORD_CLASSES.put("C1", CardPaymentRecord.class);
         RECORD_CLASSES.put("CF", TransactionHeaderRecord.class);
         RECORD_CLASSES.put("CG", TransactionGroupRecord.class);
+        RECORD_CLASSES.put("CW", WarrantPaymentRecord.class);
         RECORD_CLASSES.put("DB", ShiftHeaderRecord.class);
         RECORD_CLASSES.put("DD", ShiftTrailerRecord.class);
     }
