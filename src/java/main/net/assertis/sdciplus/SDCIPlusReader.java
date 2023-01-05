@@ -32,6 +32,7 @@ public class SDCIPlusReader
         RECORD_CLASSES.put("CF", TransactionHeaderRecord.class);
         RECORD_CLASSES.put("CG", TransactionGroupRecord.class);
         RECORD_CLASSES.put("CW", WarrantPaymentRecord.class);
+        RECORD_CLASSES.put("DA", NullShiftRecord.class);
         RECORD_CLASSES.put("DB", ShiftHeaderRecord.class);
         RECORD_CLASSES.put("DD", ShiftTrailerRecord.class);
     }
@@ -88,7 +89,11 @@ public class SDCIPlusReader
         for (int i = 0; i < records.size(); i++)
         {
             SDCIPlusRecord record = records.get(i);
-            if (record instanceof ShiftTrailerRecord)
+            if (record instanceof NullShiftRecord)
+            {
+                shifts.add(new Shift((NullShiftRecord) record));
+            }
+            else if (record instanceof ShiftTrailerRecord)
             {
                 shifts.add(new Shift((ShiftHeaderRecord) records.get(start),
                                      (SoftwareVersionRecord) records.get(start + 1),

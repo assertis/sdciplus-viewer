@@ -205,22 +205,29 @@ public class ShiftViewer extends JFrame
         for (Shift shift : shifts)
         {
             DefaultMutableTreeNode shiftNode = new DefaultMutableTreeNode(shift);
-            shiftNode.add(new DefaultMutableTreeNode(shift.getHeaderRecord()));
-            shiftNode.add(new DefaultMutableTreeNode(shift.getVersionRecord()));
-            String previous = null;
-            for (Transaction transaction : shift.getTransactions())
+            if (shift.isNullShift())
             {
-                transaction.setInvalid(previous != null && !transaction.getPreviousTransactionHeaderNumber().equals(previous));
-                DefaultMutableTreeNode transactionNode = new DefaultMutableTreeNode(transaction);
-                transactionNode.add(new DefaultMutableTreeNode(transaction.getHeaderRecord()));
-                for (SDCIPlusRecord record : transaction.getRecords())
-                {
-                    transactionNode.add(new DefaultMutableTreeNode(record));
-                }
-                shiftNode.add(transactionNode);
-                previous = transaction.getTransactionHeaderNumber();
+                shiftNode.add(new DefaultMutableTreeNode(shift.getNullShiftRecord()));
             }
-            shiftNode.add(new DefaultMutableTreeNode(shift.getTrailerRecord()));
+            else
+            {
+                shiftNode.add(new DefaultMutableTreeNode(shift.getHeaderRecord()));
+                shiftNode.add(new DefaultMutableTreeNode(shift.getVersionRecord()));
+                String previous = null;
+                for (Transaction transaction : shift.getTransactions())
+                {
+                    transaction.setInvalid(previous != null && !transaction.getPreviousTransactionHeaderNumber().equals(previous));
+                    DefaultMutableTreeNode transactionNode = new DefaultMutableTreeNode(transaction);
+                    transactionNode.add(new DefaultMutableTreeNode(transaction.getHeaderRecord()));
+                    for (SDCIPlusRecord record : transaction.getRecords())
+                    {
+                        transactionNode.add(new DefaultMutableTreeNode(record));
+                    }
+                    shiftNode.add(transactionNode);
+                    previous = transaction.getTransactionHeaderNumber();
+                }
+                shiftNode.add(new DefaultMutableTreeNode(shift.getTrailerRecord()));
+            }
             root.add(shiftNode);
         }
         return root;
